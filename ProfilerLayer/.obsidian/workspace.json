@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "8d4b86d767f357b5",
     "type": "split",
     "children": [
       {
-        "id": "779a14f9b07fca91",
+        "id": "706647dc8e547d55",
         "type": "tabs",
         "children": [
           {
-            "id": "27e36b9436cb1498",
+            "id": "d35262fd9987d428",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "渲染/GPU/移动端GPU的TB(D)R架构.md",
-                "bFile": "渲染/GPU/移动端GPU的TB(D)R架构.md",
-                "aRef": ""
+                "file": "新.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 移动端GPU的TB(D)R架构"
+              "icon": "lucide-file",
+              "title": "新"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4e08fe728a644aa8",
+    "id": "a4a1102fef312e81",
     "type": "split",
     "children": [
       {
-        "id": "da94e257db17b877",
+        "id": "dcf29513db9c5c4b",
         "type": "tabs",
         "children": [
           {
-            "id": "1e04809209be0b0c",
+            "id": "73cf30b50dd3cc67",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "fad8ea2326ba204c",
+            "id": "82de234647bff66a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,35 +65,46 @@
             }
           },
           {
-            "id": "d1943939537acd67",
+            "id": "e62862def614d7d6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 394.5
   },
   "right": {
-    "id": "7783969f6871f549",
+    "id": "cd8b00b39eb63f07",
     "type": "split",
     "children": [
       {
-        "id": "6088593fc8d2a47f",
+        "id": "ee24fa4156bf0a0d",
         "type": "tabs",
         "children": [
           {
-            "id": "2f913c1b521b00a4",
+            "id": "3705d0c30624c460",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "2d33dff96b31806a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +114,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
-            "id": "011814ab4af119e9",
+            "id": "bd86e5fe58aba820",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "未命名 的出链列表"
             }
           },
           {
-            "id": "b47c437f9aebe833",
+            "id": "edf117d7f65e497b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,22 +147,22 @@
             }
           },
           {
-            "id": "5147ba689f315e32",
+            "id": "7acdadbe4899c188",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "First/Home.md",
+                "file": "新.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "新 的大纲"
             }
           },
           {
-            "id": "1e95bb80541b2942",
+            "id": "8bf7ad0cff42cfe4",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -160,7 +172,7 @@
             }
           },
           {
-            "id": "7e47e6e8b5812e2c",
+            "id": "f23c81cb1ae72c96",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -170,11 +182,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 373.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,48 +197,39 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
       "obsidian-kanban:创建新看板": false,
-      "obsidian-projects:打开项目": false
+      "obsidian-projects:打开项目": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27e36b9436cb1498",
+  "active": "f23c81cb1ae72c96",
   "lastOpenFiles": [
-    "First/未命名看板.md",
-    "First/未命名/12345.md",
-    "First/未命名.canvas",
-    "First/图形汇总.md",
-    "First/attachments/Pasted image 20250218155956.png",
-    "First/attachments",
-    "First/SurfaceFlinger.md",
-    "First/ProfilerLayer方案.md",
-    "First/Home.md",
-    "First/GPU架构.md",
-    "conflict-files-obsidian-git.md",
-    "网址收藏.md",
-    "渲染/vulkan/图形API基础.md",
-    "渲染/GPU/移动端GPU的TB(D)R架构.md",
-    "渲染/GPU/GPU渲染架构与优化技术.md",
-    "渲染/渲染.md",
-    "渲染/vulkan",
-    "渲染/GPU架构.md",
-    "渲染/GPU",
-    "渲染",
-    "未命名.md",
-    "ProfilerLayer/attachments/Pasted image 20250218155956.png",
-    "ProfilerLayer/图形汇总.md",
-    "ProfilerLayer/attachments",
-    "ProfilerLayer/ProfilerLayer方案.md",
-    "ProfilerLayer/Home.md",
-    "ProfilerLayer",
-    "Android系统/图形Graphics/SurfaceFlinger.md",
-    "Android系统/图形Graphics",
-    "Android系统",
+    "obsidian-vault",
+    "未命名/12345.md",
+    "新.md",
     "未命名看板.md",
-    "First/未命名/456.md",
-    "First/未命名/test.md",
-    "First/新.md",
-    "2025-02-21.md"
+    "未命名.canvas",
+    "未命名",
+    "Home.md",
+    "图形汇总.md",
+    "GPU架构.md",
+    "ProfilerLayer方案.md",
+    "SurfaceFlinger.md",
+    "attachments/Pasted image 20250218155956.png",
+    "attachments/Pasted image 20250218155950.png",
+    "Pasted image 20250218155825.png",
+    "attachments",
+    "Pasted image 20250218155758.png",
+    "Excalidraw/Drawing 2025-02-14 14.32.08.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw.md",
+    "Welcome.md",
+    "Render.md",
+    "RenderEngine.md",
+    "Untitled.canvas",
+    "Untitled",
+    "Untitled.md",
+    "Untitled 1.md"
   ]
 }
