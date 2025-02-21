@@ -11,10 +11,12 @@
             "id": "3499fc89fbf09b32",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "excalidraw",
+              "state": {
+                "file": "ProfilerLayer/ProfilerLayer方案.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ProfilerLayer方案"
             }
           }
         ]
@@ -136,12 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ProfilerLayer/ProfilerLayer方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "ProfilerLayer方案 的大纲"
             }
           },
           {
