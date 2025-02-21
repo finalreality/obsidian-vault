@@ -4,34 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "779a14f9b07fca91",
+        "id": "4079a465c2af32b5",
         "type": "tabs",
         "children": [
           {
-            "id": "27e36b9436cb1498",
+            "id": "8bff7321e3adb780",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "渲染/GPU/移动端GPU的TB(D)R架构.md",
-                "bFile": "渲染/GPU/移动端GPU的TB(D)R架构.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 移动端GPU的TB(D)R架构"
-        "id": "90b92efd46241838",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b04e86e265ef69a1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ProfilerLayer方案"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -153,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md",
+                "file": "First/Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ProfilerLayer方案 的大纲"
+              "title": "Home 的大纲"
             }
           },
           {
@@ -173,7 +156,7 @@
             }
           },
           {
-            "id": "4dd17d889249f69e",
+            "id": "7e47e6e8b5812e2c",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -187,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,9 +187,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-<<<<<<< HEAD
-  "active": "27e36b9436cb1498",
+  "active": "8bff7321e3adb780",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "First/未命名看板.md",
     "First/未命名/12345.md",
     "First/未命名.canvas",
@@ -217,7 +200,6 @@
     "First/ProfilerLayer方案.md",
     "First/Home.md",
     "First/GPU架构.md",
-    "conflict-files-obsidian-git.md",
     "网址收藏.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/GPU/移动端GPU的TB(D)R架构.md",
@@ -241,30 +223,6 @@
     "First/未命名/456.md",
     "First/未命名/test.md",
     "First/新.md",
-=======
-  "active": "b04e86e265ef69a1",
-  "lastOpenFiles": [
-    "未命名.md",
-    "ProfilerLayer/ProfilerLayer方案.md",
-    "ProfilerLayer/Home.md",
-    "ProfilerLayer/图形汇总.md",
-    "Android系统/图形Graphics/SurfaceFlinger.md",
-    "渲染/GPU架构.md",
-    "网址收藏.md",
-    "渲染/GPU/GPU渲染架构与优化技术.md",
-    "渲染/GPU",
-    "Android系统/图形Graphics",
-    "ProfilerLayer/新.md",
-    "Android系统",
-    "ProfilerLayer/未命名.canvas",
-    "First/未命名看板.md",
-    "渲染/vulkan/图形API基础.md",
-    "渲染/GPU/移动端GPU的TB(D)R架构.md",
-    "渲染/渲染.md",
-    "渲染/vulkan",
-    "渲染",
-    "First/未命名/12345.md",
->>>>>>> 45fd89eecba868514cd63b121f9d074273673116
     "2025-02-21.md"
   ]
 }
