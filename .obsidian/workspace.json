@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "56fbe7f3d963b0d7",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "3499fc89fbf09b32",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ProfilerLayer方案"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -138,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ProfilerLayer方案 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -189,8 +186,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3499fc89fbf09b32",
   "lastOpenFiles": [
+    "ProfilerLayer/Home.md",
+    "ProfilerLayer/ProfilerLayer方案.md",
     "ProfilerLayer/图形汇总.md",
     "Android系统/图形Graphics/SurfaceFlinger.md",
     "渲染/GPU架构.md",
@@ -207,8 +206,6 @@
     "渲染/渲染.md",
     "渲染/vulkan",
     "渲染",
-    "ProfilerLayer/ProfilerLayer方案.md",
-    "ProfilerLayer/Home.md",
     "First/未命名/12345.md",
     "2025-02-21.md"
   ]
