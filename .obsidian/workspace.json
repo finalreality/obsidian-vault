@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4079a465c2af32b5",
+        "id": "90b92efd46241838",
         "type": "tabs",
         "children": [
           {
-            "id": "8bff7321e3adb780",
+            "id": "b04e86e265ef69a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "ProfilerLayer/ProfilerLayer方案.md"
               },
-              "icon": "lucide-file",
-              "title": "Home"
+              "icon": "excalidraw-icon",
+              "title": "ProfilerLayer方案"
             }
           }
         ]
@@ -140,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First/Home.md",
+                "file": "ProfilerLayer/ProfilerLayer方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "ProfilerLayer方案 的大纲"
             }
           },
           {
@@ -160,7 +158,7 @@
             }
           },
           {
-            "id": "7e47e6e8b5812e2c",
+            "id": "4dd17d889249f69e",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -174,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,42 +189,29 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1e04809209be0b0c",
+  "active": "b04e86e265ef69a1",
   "lastOpenFiles": [
-    "ProfilerLayer/ProfilerLayer方案.md",
-    "网址收藏.md",
+    "Home.md",
     "未命名.md",
-    "First/未命名/456.md",
-    "First/未命名/test.md",
-    "conflict-files-obsidian-git.md",
+    "ProfilerLayer/ProfilerLayer方案.md",
+    "ProfilerLayer/Home.md",
+    "ProfilerLayer/图形汇总.md",
+    "Android系统/图形Graphics/SurfaceFlinger.md",
+    "渲染/GPU架构.md",
+    "网址收藏.md",
+    "渲染/GPU/GPU渲染架构与优化技术.md",
+    "渲染/GPU",
+    "Android系统/图形Graphics",
+    "ProfilerLayer/新.md",
+    "Android系统",
+    "ProfilerLayer/未命名.canvas",
     "First/未命名看板.md",
-    "First/未命名/12345.md",
-    "First/未命名.canvas",
-    "First/图形汇总.md",
-    "First/attachments/Pasted image 20250218155956.png",
-    "First/attachments",
-    "First/SurfaceFlinger.md",
-    "First/ProfilerLayer方案.md",
-    "First/Home.md",
-    "First/GPU架构.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/GPU/移动端GPU的TB(D)R架构.md",
-    "渲染/GPU/GPU渲染架构与优化技术.md",
     "渲染/渲染.md",
     "渲染/vulkan",
-    "渲染/GPU架构.md",
-    "渲染/GPU",
     "渲染",
-    "ProfilerLayer/attachments/Pasted image 20250218155956.png",
-    "ProfilerLayer/图形汇总.md",
-    "ProfilerLayer/attachments",
-    "Home.md",
-    "ProfilerLayer",
-    "Android系统/图形Graphics/SurfaceFlinger.md",
-    "Android系统/图形Graphics",
-    "Android系统",
-    "未命名看板.md",
-    "First/新.md",
+    "First/未命名/12345.md",
     "2025-02-21.md"
   ]
 }
