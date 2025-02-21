@@ -6,12 +6,12 @@
       "defaultName": "",
       "templates": [],
       "excludedNotes": [],
-      "isDefault": false,
+      "isDefault": true,
       "dataSource": {
         "kind": "folder",
         "config": {
           "path": "",
-          "recursive": false
+          "recursive": true
         }
       },
       "newNotesFolder": "",
