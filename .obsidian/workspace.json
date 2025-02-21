@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "First/ProfilerLayer方案.md"
+                "file": "渲染/vulkan/图形API基础.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ProfilerLayer方案"
+              "icon": "lucide-file",
+              "title": "图形API基础"
             }
           }
         ]
@@ -138,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First/ProfilerLayer方案.md",
+                "file": "渲染/vulkan/图形API基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ProfilerLayer方案 的大纲"
+              "title": "图形API基础 的大纲"
             }
           },
           {
@@ -191,12 +193,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "渲染/渲染.md",
+    "渲染/vulkan/图形API基础.md",
+    "渲染/vulkan",
+    "渲染",
+    "First/ProfilerLayer方案.md",
     "First/SurfaceFlinger.md",
     "First/Home.md",
     "First/未命名看板.md",
     "First/图形汇总.md",
     "First/未命名/12345.md",
-    "First/ProfilerLayer方案.md",
     "First/未命名.canvas",
     "First/GPU架构.md",
     "First/新.md",
