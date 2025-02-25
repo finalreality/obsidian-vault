@@ -4,7 +4,7 @@ mindmap-plugin: basic
 
 ---
 
-# Enhancing Mind map777
+# Enhancing Mind map
 
 ## Links
 - <https://github.com/MarkMindLtd/obsidian-enhancing-mindmap>
