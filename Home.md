@@ -1,10 +1,10 @@
-
-```mindmap
 ---
 
 mindmap-plugin: basic
 
 ---
+
+
 
 # Enhancing Mind map
 
@@ -23,4 +23,3 @@ mindmap-plugin: basic
    text
 - `inline code`
 - Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
