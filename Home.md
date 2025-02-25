@@ -4,9 +4,7 @@ mindmap-plugin: basic
 
 ---
 
-
-
-# Enhancing Mind map
+# Enhancing Mind map777
 
 ## Links
 - <https://github.com/MarkMindLtd/obsidian-enhancing-mindmap>
@@ -20,6 +18,6 @@ mindmap-plugin: basic
 - links
 - **inline** ~~text~~ *styles*
 - multiline
-   text
+text
 - `inline code`
 - Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
