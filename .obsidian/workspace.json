@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
-                "mode": "source",
+                "file": "Android系统/Input/未命名.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "如何使用Linux系统下的输入设备进行应用编程"
+              "title": "未命名"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
+                "file": "Android系统/Input/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "如何使用Linux系统下的输入设备进行应用编程 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -193,8 +193,9 @@
   },
   "active": "0de97d48e72dc750",
   "lastOpenFiles": [
-    "ProfilerLayer/未命名.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
+    "Android系统/Input/未命名.md",
+    "ProfilerLayer/未命名.md",
     "Android系统/Input",
     "Android系统/图形Graphics/SurfaceFlinger.md",
     "Home.md",
