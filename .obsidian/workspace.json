@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+                "file": "ProfilerLayer/图形汇总.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "读取节点数据并生成TouchEvent"
+              "title": "图形汇总"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+                "file": "ProfilerLayer/图形汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "读取节点数据并生成TouchEvent 的反向链接列表"
+              "title": "图形汇总 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+                "file": "ProfilerLayer/图形汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "读取节点数据并生成TouchEvent 的出链列表"
+              "title": "图形汇总 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+                "file": "ProfilerLayer/图形汇总.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "读取节点数据并生成TouchEvent 的大纲"
+              "title": "图形汇总 的大纲"
             }
           },
           {
@@ -194,6 +194,7 @@
   },
   "active": "6759f26f1b921026",
   "lastOpenFiles": [
+    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "ProfilerLayer/ProfilerLayer方案.md",
     "ProfilerLayer/图形汇总.md",
     "Home.md",
@@ -212,7 +213,6 @@
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
     "Android系统/Input/Input事件处理.md",
-    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "Android系统/图形Graphics/SurfaceFlinger.md",
     "Drawing 2025-02-25 17.48.03.excalidraw.md",
     "渲染/vulkan/图形API基础.md",
