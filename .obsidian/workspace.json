@@ -11,12 +11,14 @@
             "id": "6759f26f1b921026",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "读取节点数据并生成TouchEvent"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Home 的反向链接列表"
+              "title": "读取节点数据并生成TouchEvent 的反向链接列表"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Home 的出链列表"
+              "title": "读取节点数据并生成TouchEvent 的出链列表"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "读取节点数据并生成TouchEvent 的大纲"
             }
           },
           {
@@ -192,6 +194,9 @@
   },
   "active": "6759f26f1b921026",
   "lastOpenFiles": [
+    "ProfilerLayer/ProfilerLayer方案.md",
+    "ProfilerLayer/图形汇总.md",
+    "Home.md",
     "渲染/引擎/filament/未命名.md",
     "Android系统/Android工具/Android.mk和Android.bp.pdf",
     "Android系统/Android工具/Android.bp语法和使用方法.pdf",
@@ -207,15 +212,12 @@
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
     "Android系统/Input/Input事件处理.md",
-    "ProfilerLayer/未命名.md",
+    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "Android系统/图形Graphics/SurfaceFlinger.md",
-    "Home.md",
     "Drawing 2025-02-25 17.48.03.excalidraw.md",
-    "ProfilerLayer/图形汇总.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/渲染.md",
     "渲染/GPU架构.md",
-    "ProfilerLayer/ProfilerLayer方案.md",
     "未命名.md",
     "ProfilerLayer/Home.md",
     "网址收藏.md",
