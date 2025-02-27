@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d677f81abd5053f5",
+        "id": "da1598db5ff37d96",
         "type": "tabs",
         "children": [
           {
-            "id": "96fb77c26f2bc7d0",
+            "id": "6759f26f1b921026",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "渲染/引擎/filament/未命名.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md"
               },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -94,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Home 的反向链接列表"
             }
           },
           {
@@ -112,11 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Home 的出链列表"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "渲染/引擎/filament/未命名.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "Home 的大纲"
             }
           },
           {
@@ -169,8 +169,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,8 +190,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1e04809209be0b0c",
+  "active": "6759f26f1b921026",
   "lastOpenFiles": [
+    "渲染/引擎/filament/未命名.md",
     "Android系统/Android工具/Android.mk和Android.bp.pdf",
     "Android系统/Android工具/Android.bp语法和使用方法.pdf",
     "Android系统/Android工具/Android.bp语法-genrule和gensrcs.pdf",
@@ -201,10 +201,8 @@
     "渲染/引擎/filament/Material编译过程及目标文件格式.pdf",
     "渲染/引擎/filament/Filament源码结构（Android）.pdf",
     "渲染/引擎/filament/Filament内部模块关系.pdf",
-    "渲染/引擎/filament/未命名.md",
     "渲染/引擎/filament/Filament内部模块划分.pdf",
     "渲染/引擎/filament/Filament Texture资源释放机制.pdf",
-    "渲染/引擎/filament/Filament Allocator.pdf",
     "渲染/引擎/filament/test-quad例程.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
