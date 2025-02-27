@@ -171,7 +171,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -192,7 +193,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "6759f26f1b921026",
+  "active": "1e04809209be0b0c",
   "lastOpenFiles": [
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "ProfilerLayer/ProfilerLayer方案.md",
