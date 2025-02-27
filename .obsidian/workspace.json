@@ -191,10 +191,15 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1e04809209be0b0c",
+  "active": "96fb77c26f2bc7d0",
   "lastOpenFiles": [
-    "渲染/引擎/filament/7. CommandStream指令创建过程.pdf",
+    "渲染/引擎/filament/Filament Texture资源释放机制.pdf",
+    "渲染/引擎/filament/Filament Allocator.pdf",
+    "渲染/引擎/filament/test-quad例程.pdf",
+    "渲染/引擎/filament/DriverAPI.inc的使用.pdf",
     "渲染/引擎/filament/未命名.md",
+    "渲染/引擎/filament/test-quad例程.md",
+    "渲染/引擎/filament/CommandStream指令创建过程.pdf",
     "未命名",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "渲染/引擎/filament",
@@ -218,12 +223,9 @@
     "渲染/GPU",
     "Android系统/图形Graphics",
     "ProfilerLayer/新.md",
-    "Android系统",
     "ProfilerLayer/未命名.canvas",
     "First/未命名看板.md",
     "渲染/GPU/移动端GPU的TB(D)R架构.md",
-    "渲染/vulkan",
-    "渲染",
     "First/未命名/12345.md",
     "2025-02-21.md"
   ]
