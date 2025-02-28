@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "网址收藏.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "网址收藏"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "网址收藏.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Home 的反向链接列表"
+              "title": "网址收藏 的反向链接列表"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "网址收藏.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Home 的出链列表"
+              "title": "网址收藏 的出链列表"
             }
           },
           {
@@ -193,6 +195,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250301002926.png",
+    "attachments",
+    "Home.md",
+    "Pasted image 20250301002831.png",
+    "网址收藏.md",
     "渲染/引擎/filament/未命名.md",
     "渲染/引擎/filament/test-quad例程.pdf",
     "渲染/引擎/filament/test-monkey例程.pdf",
@@ -203,16 +210,13 @@
     "渲染/引擎/filament/Filament Texture资源释放机制.pdf",
     "渲染/引擎/filament/Filament Allocator.pdf",
     "渲染/引擎/filament/DriverAPI.inc的使用.pdf",
-    "渲染/引擎/filament/CommandStream指令创建过程.pdf",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "Android系统/未命名/未命名.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
     "Android系统/Input/Input事件处理.md",
-    "Home.md",
     "ProfilerLayer/未命名.md",
     "ProfilerLayer/ProfilerLayer方案.md",
-    "网址收藏.md",
     "未命名.md",
     "First/未命名/456.md",
     "First/未命名/test.md",
@@ -230,7 +234,6 @@
     "渲染/GPU/移动端GPU的TB(D)R架构.md",
     "渲染/GPU/GPU渲染架构与优化技术.md",
     "渲染/渲染.md",
-    "渲染/GPU架构.md",
     "ProfilerLayer/attachments/Pasted image 20250218155956.png"
   ]
 }
