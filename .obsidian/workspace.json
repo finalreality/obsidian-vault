@@ -11,12 +11,14 @@
             "id": "6759f26f1b921026",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md"
+                "file": "Android系统/未命名/未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ProfilerLayer方案"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md",
+                "file": "Android系统/未命名/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ProfilerLayer方案 的反向链接列表"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md",
+                "file": "Android系统/未命名/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ProfilerLayer方案 的出链列表"
+              "title": "未命名 的出链列表"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md",
+                "file": "Android系统/未命名/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ProfilerLayer方案 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -193,13 +195,15 @@
   },
   "active": "6759f26f1b921026",
   "lastOpenFiles": [
+    "Android系统/Android工具/Android.bp语法和使用方法.pdf",
+    "Android系统/未命名/未命名.md",
+    "ProfilerLayer/ProfilerLayer方案.md",
+    "Android系统/未命名",
     "ProfilerLayer/图形汇总.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-    "ProfilerLayer/ProfilerLayer方案.md",
     "Home.md",
     "渲染/引擎/filament/未命名.md",
     "Android系统/Android工具/Android.mk和Android.bp.pdf",
-    "Android系统/Android工具/Android.bp语法和使用方法.pdf",
     "Android系统/Android工具/Android.bp语法-genrule和gensrcs.pdf",
     "Android系统/Android工具",
     "渲染/引擎/filament/test-monkey例程.pdf",
@@ -207,7 +211,6 @@
     "渲染/引擎/filament/Filament源码结构（Android）.pdf",
     "渲染/引擎/filament/Filament内部模块关系.pdf",
     "渲染/引擎/filament/Filament内部模块划分.pdf",
-    "渲染/引擎/filament/Filament Texture资源释放机制.pdf",
     "渲染/引擎/filament/test-quad例程.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
