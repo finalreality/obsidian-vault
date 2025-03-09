@@ -11,17 +11,28 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "网址收藏.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md"
               },
-              "icon": "lucide-file",
-              "title": "网址收藏"
+              "icon": "blocks",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "01deb104aec0604d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,13 +204,13 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1e04809209be0b0c",
+  "active": "01deb104aec0604d",
   "lastOpenFiles": [
+    "Home.md",
+    "网址收藏.md",
     "attachments/Pasted image 20250301002926.png",
     "attachments",
-    "Home.md",
     "Pasted image 20250301002831.png",
-    "网址收藏.md",
     "渲染/引擎/filament/未命名.md",
     "渲染/引擎/filament/test-quad例程.pdf",
     "渲染/引擎/filament/test-monkey例程.pdf",
