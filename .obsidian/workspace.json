@@ -18,21 +18,8 @@
               "icon": "blocks",
               "title": "Home"
             }
-          },
-          {
-            "id": "01deb104aec0604d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +191,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "01deb104aec0604d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "C++/标签分派.md",
     "C++",
