@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d4b52a8e1a63f7c2",
+        "id": "3dc6a2fa148ee3da",
         "type": "tabs",
         "children": [
           {
-            "id": "759345b49fe8b9f2",
+            "id": "03125508cfb05755",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "C++/标签分派.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "icon": "lucide-file",
+              "title": "标签分派"
             }
           }
         ]
@@ -193,7 +193,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "759345b49fe8b9f2",
+  "active": "03125508cfb05755",
   "lastOpenFiles": [
     "C++/标签分派.md",
     "conflict-files-obsidian-git.md",
