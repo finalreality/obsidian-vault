@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d303944f89071521",
+        "id": "2888fe83f416525a",
         "type": "tabs",
         "children": [
           {
-            "id": "4be63f2792841d88",
+            "id": "d3ca8c61c1c1789d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -192,7 +188,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "4be63f2792841d88",
+  "active": "d3ca8c61c1c1789d",
   "lastOpenFiles": [
     "Android系统/未命名/未命名.md",
     "Lvim配置文件.md",
