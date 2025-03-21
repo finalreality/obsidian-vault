@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "c2891cc117cc7152",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "7ad8a645b5c6ac62",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "split-diff-view",
               "state": {
-                "file": "Home.md"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -191,8 +194,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "7ad8a645b5c6ac62",
   "lastOpenFiles": [
+    "Lvim配置文件.md",
     "Home.md",
     "C++/标签分派.md",
     "C++",
@@ -216,7 +220,6 @@
     "Android系统/Input/Input事件处理.md",
     "ProfilerLayer/未命名.md",
     "ProfilerLayer/ProfilerLayer方案.md",
-    "未命名.md",
     "First/未命名/456.md",
     "First/未命名/test.md",
     "conflict-files-obsidian-git.md",
