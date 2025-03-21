@@ -334,6 +334,12 @@ vim.keymap.set('n', 'gh', '<cmd>Lspsaga finder<CR>')
 lvim.lsp.buffer_mappings.normal_mode['gr'] = nil
 vim.keymap.set('n', 'gr', '<cmd>Lspsaga rename<CR>')
 
+lvim.lsp.buffer_mappings.normal_mode['gb'] = nil
+vim.keymap.set('n', 'gb', '<cmd>Lspsaga supertypes<CR>')
+
+lvim.lsp.buffer_mappings.normal_mode['gi'] = nil
+vim.keymap.set('n', 'gi', '<cmd>Lspsaga subtypes<CR>')
+
 vim.keymap.set('n', '<leader>lo', '<cmd>Lspsaga outline<CR>')
 
 vim.api.nvim_set_var("lspsaga_definition_preview_quit", "<ESC>") -- 可选：设置退出预览的快捷键
@@ -382,6 +388,4 @@ local glow = require('glow').setup({
 	style = "dark",
 	width = 120
 })
-
-
 ```
