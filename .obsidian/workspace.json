@@ -4,19 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c2891cc117cc7152",
+        "id": "d303944f89071521",
         "type": "tabs",
         "children": [
           {
-            "id": "7ad8a645b5c6ac62",
+            "id": "4be63f2792841d88",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
                 "aFile": ".obsidian/workspace.json",
                 "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aRef": ""
               },
               "icon": "diff",
               "title": "Diff: workspace.json"
@@ -143,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First/Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -194,8 +192,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7ad8a645b5c6ac62",
+  "active": "4be63f2792841d88",
   "lastOpenFiles": [
+    "Android系统/未命名/未命名.md",
     "Lvim配置文件.md",
     "Home.md",
     "C++/标签分派.md",
@@ -214,7 +213,6 @@
     "渲染/引擎/filament/Filament Texture资源释放机制.pdf",
     "渲染/引擎/filament/Filament Allocator.pdf",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-    "Android系统/未命名/未命名.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
     "Android系统/Input/Input事件处理.md",
