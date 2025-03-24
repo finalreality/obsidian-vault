@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2888fe83f416525a",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d3ca8c61c1c1789d",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "Lvim配置文件.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md"
               },
-              "icon": "lucide-file",
-              "title": "Lvim配置文件"
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lvim配置文件.md",
+                "file": "First/Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lvim配置文件 的大纲"
+              "title": "Home 的大纲"
             }
           },
           {
@@ -193,9 +191,8 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "d3ca8c61c1c1789d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Android系统/未命名/未命名.md",
     "Lvim配置文件.md",
     "Home.md",
     "C++/标签分派.md",
@@ -214,11 +211,13 @@
     "渲染/引擎/filament/Filament Texture资源释放机制.pdf",
     "渲染/引擎/filament/Filament Allocator.pdf",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+    "Android系统/未命名/未命名.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
     "Android系统/Input/Input事件处理.md",
     "ProfilerLayer/未命名.md",
     "ProfilerLayer/ProfilerLayer方案.md",
+    "未命名.md",
     "First/未命名/456.md",
     "First/未命名/test.md",
     "conflict-files-obsidian-git.md",
@@ -234,7 +233,6 @@
     "渲染/vulkan/图形API基础.md",
     "渲染/GPU/移动端GPU的TB(D)R架构.md",
     "渲染/GPU/GPU渲染架构与优化技术.md",
-    "渲染/渲染.md",
     "ProfilerLayer/attachments/Pasted image 20250218155956.png"
   ]
 }
