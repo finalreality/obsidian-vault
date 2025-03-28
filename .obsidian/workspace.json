@@ -15,7 +15,7 @@
               "state": {
                 "file": "Android系统/未命名/VIM命令.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "VIM命令"
@@ -195,8 +195,16 @@
   },
   "active": "17430ffb0dbe9b7a",
   "lastOpenFiles": [
-    "Android系统/Android工具/Android.bp语法-genrule和gensrcs.pdf",
+    "Android系统/未命名/attachments/VIM命令-4.gif",
+    "Android系统/未命名/attachments/VIM命令-4.gif.crdownload",
+    "Android系统/未命名/attachments/VIM命令-3.gif",
+    "Android系统/未命名/attachments/VIM命令-3.gif.crdownload",
+    "Android系统/未命名/attachments/VIM命令-2.gif",
+    "Android系统/未命名/attachments/VIM命令-2.gif.crdownload",
+    "Android系统/未命名/attachments/VIM命令-1.gif",
     "Android系统/未命名/VIM命令.md",
+    "Android系统/未命名/attachments/VIM命令-1.gif.crdownload",
+    "Android系统/Android工具/Android.bp语法-genrule和gensrcs.pdf",
     "Android系统/未命名/vim命令.md",
     "Android系统/未命名/attachments/vim命令-1.png",
     "Android系统/未命名/attachments/vim命令-12.png",
@@ -205,9 +213,6 @@
     "Android系统/未命名/attachments/vim命令-9.png",
     "Android系统/未命名/attachments/vim命令-8.png",
     "Android系统/未命名/attachments/vim命令-7.png",
-    "Android系统/未命名/attachments/vim命令-6.png",
-    "Android系统/未命名/attachments/vim命令-5.png",
-    "Android系统/未命名/attachments/vim命令-4.png",
     "Android系统/未命名/attachments",
     "Lvim配置文件.md",
     "Home.md",
@@ -218,11 +223,6 @@
     "渲染/引擎/filament/未命名.md",
     "渲染/引擎/filament/test-quad例程.pdf",
     "渲染/引擎/filament/test-monkey例程.pdf",
-    "渲染/引擎/filament/Material编译过程及目标文件格式.pdf",
-    "渲染/引擎/filament/Filament源码结构（Android）.pdf",
-    "渲染/引擎/filament/Filament内部模块划分.pdf",
-    "渲染/引擎/filament/Filament内部模块关系.pdf",
-    "渲染/引擎/filament/Filament Texture资源释放机制.pdf",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
