@@ -8,8 +8,6 @@ description: "本文是Android视图层源码分析系列第二篇文章，通�
 tags:
   - "clippings"
 ---
-![](https://p26-piu.byteimg.com/tos-cn-i-8jisjyls3a/ef2acfa660674ce49383c973812608ef~tplv-8jisjyls3a-image.image)
-
 本文是 [Android视图层源码分析](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FSusionSuc%2FAdvancedAndroid%2Fblob%2Fmaster%2FAndroidFramework%25E6%25BA%2590%25E7%25A0%2581%25E5%2588%2586%25E6%259E%2590%2FAndroid%25E8%25A7%2586%25E5%259B%25BE%25E5%25B1%2582%25E6%25BA%2590%25E7%25A0%2581%25E5%2588%2586%25E6%259E%2590%2FREADME.md "https://github.com/SusionSuc/AdvancedAndroid/blob/master/AndroidFramework%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/Android%E8%A7%86%E5%9B%BE%E5%B1%82%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/README.md") 系列第二篇文章，通过上一篇文章 [深入剖析Window组成](https://juejin.cn/post/6844903753150103560 "https://juejin.cn/post/6844903753150103560") 已经了解到 `WindowManager.addView(contentView)` 最终会交给 `WindowManagerService` 处理， `WindowManagerService` 会创建这个 `contentView` 相关的UI载体 `Surface`,本文的目的就是理清 `Surface` 的创建过程，以及它与 `SurfaceFlinger` 的关系。
 
 **文章比较长，但希望你可以坚持看完，相信会有一定收获的**
