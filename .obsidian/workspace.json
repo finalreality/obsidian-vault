@@ -11,10 +11,14 @@
             "id": "45eb591b567a364a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Android系统/Android的UI显示原理之Surface的创建.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Android的UI显示原理之Surface的创建"
             }
           }
         ]
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIM/Lvim配置文件.md",
+                "file": "Android系统/Android的UI显示原理之Surface的创建.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lvim配置文件 的大纲"
+              "title": "Android的UI显示原理之Surface的创建 的大纲"
             }
           },
           {
@@ -189,8 +193,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7e47e6e8b5812e2c",
+  "active": "45eb591b567a364a",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250301002926.png",
+    "Android系统/Android的UI显示原理之Surface的创建.md",
+    "VIM/Lvim配置文件.md",
     "VIM/VIM命令.md",
     "VIM/attachments/VIM命令-10.gif",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
@@ -213,7 +220,6 @@
     "VIM/attachments/VIM命令-1.gif",
     "Android系统/未命名/attachments/VIM命令-1.gif.crdownload",
     "Android系统/未命名/vim命令.md",
-    "VIM/Lvim配置文件.md",
     "Home.md",
     "C++/标签分派.md",
     "网址收藏.md",
@@ -235,7 +241,6 @@
     "First/ProfilerLayer方案.md",
     "First/Home.md",
     "First/GPU架构.md",
-    "渲染/vulkan/图形API基础.md",
-    "渲染/GPU/移动端GPU的TB(D)R架构.md"
+    "渲染/vulkan/图形API基础.md"
   ]
 }
