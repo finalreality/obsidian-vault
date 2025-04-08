@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu添加程序启动图标和其它配置修改.md",
+                "file": "2025-04-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ubuntu添加程序启动图标和其它配置修改"
+              "title": "2025-04-08"
             }
           }
         ]
@@ -195,9 +195,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "attachments/Ubuntu添加程序启动图标和其它配置修改-1.png",
     "Home.md",
+    "2025-04-08.md",
     "Ubuntu添加程序启动图标和其它配置修改.md",
+    "attachments/Ubuntu添加程序启动图标和其它配置修改-1.png",
     "渲染/未命名.md",
     "渲染/attachments/未命名-12.png",
     "渲染/attachments/未命名-11.png",
@@ -208,7 +209,6 @@
     "渲染/attachments/未命名-6.png",
     "渲染/attachments/未命名-5.png",
     "渲染/attachments/未命名-4.png",
-    "渲染/attachments/未命名-3.png",
     "渲染/attachments",
     "Android系统/Android的UI显示原理之Surface的创建.md",
     "VIM/Lvim配置文件.md",
