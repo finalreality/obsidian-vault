@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "31df975375ca00ce",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "45eb591b567a364a",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "渲染/未命名.md",
+                "file": "Ubuntu添加程序启动图标和其它配置修改.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Ubuntu添加程序启动图标和其它配置修改"
             }
           }
         ]
@@ -193,8 +193,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "45eb591b567a364a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
+    "Ubuntu添加程序启动图标和其它配置修改.md",
+    "渲染/未命名.md",
     "渲染/attachments/未命名-12.png",
     "渲染/attachments/未命名-11.png",
     "渲染/attachments/未命名-10.png",
@@ -205,10 +208,8 @@
     "渲染/attachments/未命名-5.png",
     "渲染/attachments/未命名-4.png",
     "渲染/attachments/未命名-3.png",
-    "渲染/attachments/未命名-2.png",
     "渲染/attachments",
     "Android系统/Android的UI显示原理之Surface的创建.md",
-    "渲染/未命名.md",
     "VIM/Lvim配置文件.md",
     "VIM/VIM命令.md",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
@@ -221,7 +222,6 @@
     "Android系统/未命名/attachments/VIM命令-3.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-2.gif.crdownload",
     "Android系统/未命名/vim命令.md",
-    "Home.md",
     "C++/标签分派.md",
     "网址收藏.md",
     "渲染/引擎/filament/未命名.md",
