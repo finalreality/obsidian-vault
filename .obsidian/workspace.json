@@ -195,6 +195,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "attachments/Ubuntu添加程序启动图标和其它配置修改-1.png",
     "Home.md",
     "Ubuntu添加程序启动图标和其它配置修改.md",
     "渲染/未命名.md",
@@ -240,7 +241,6 @@
     "First/图形汇总.md",
     "First/SurfaceFlinger.md",
     "First/ProfilerLayer方案.md",
-    "First/Home.md",
-    "First/GPU架构.md"
+    "First/Home.md"
   ]
 }

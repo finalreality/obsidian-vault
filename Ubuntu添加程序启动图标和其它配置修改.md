@@ -16,4 +16,8 @@ Categories=Utility;
 ~/.local/share/applications
 ```
 
-## 
+## 用户目录
+```bash
+~/.config/gtk-3.0/bookmarks
+```
+![[Ubuntu添加程序启动图标和其它配置修改-1.png]]
