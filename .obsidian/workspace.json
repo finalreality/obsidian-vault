@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android系统/Android的UI显示原理之Surface的创建.md",
+                "file": "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android的UI显示原理之Surface的创建"
+              "title": "最简单的SurfaceFlinger应用程序"
             }
           }
         ]
@@ -195,6 +195,7 @@
   },
   "active": "0ef5f892b9de1ca8",
   "lastOpenFiles": [
+    "Android系统/Android的UI显示原理之Surface的创建.md",
     "Android系统/图形Graphics/SurfaceFlinger.md",
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
     "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
@@ -218,7 +219,6 @@
     "渲染/attachments/未命名-7.png",
     "渲染/attachments/未命名-6.png",
     "渲染/attachments",
-    "Android系统/Android的UI显示原理之Surface的创建.md",
     "VIM/Lvim配置文件.md",
     "VIM/VIM命令.md",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
