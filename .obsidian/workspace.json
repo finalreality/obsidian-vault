@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备忘.md",
+                "file": "Android系统/图形Graphics/SurfaceFlinger.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "备忘"
+              "title": "SurfaceFlinger"
             }
           }
         ]
@@ -195,13 +195,14 @@
   },
   "active": "0ef5f892b9de1ca8",
   "lastOpenFiles": [
+    "渲染/引擎/filament/未命名.md",
+    "备忘.md",
     "渲染/GPU/GPU渲染架构与优化技术.md",
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
     "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-1.gif",
     "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-1.png",
     "Android系统/图形Graphics/attachments",
     "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
-    "备忘.md",
     "Home.md",
     "2025-04-08.md",
     "未命名看板.md",
@@ -230,7 +231,6 @@
     "Android系统/未命名/vim命令.md",
     "C++/标签分派.md",
     "网址收藏.md",
-    "渲染/引擎/filament/未命名.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
