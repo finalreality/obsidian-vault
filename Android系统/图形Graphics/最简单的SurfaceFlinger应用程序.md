@@ -27,6 +27,7 @@
 
 #include <system/window.h>
 #include <utils/RefBase.h>
+
 using namespace android;
 
 void fillRGBA8Buffer(uint8_t* img, int width, int height, int stride, int r, int g, int b) {
