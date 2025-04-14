@@ -70,6 +70,15 @@ int main()
 ```
 ## 结果呈现：
 ![[Android图形-合成与显示-SurfaceTestDemo-1.gif]]
+通过：
+```shell
+adb shell dumpsys SurfaceFlinger
+```
+对比程序执行前后合成的图层信息：
+![[Android图形-合成与显示-SurfaceTestDemo-2.png]]
+
+![[Android图形-合成与显示-SurfaceTestDemo-3.png]]
+可以看到，最后多了一个bbq-wrapper图层。
 小结：
 1、基于线程池的方式，创建一个客户端，并与服务端SurfaceFlinger进行connect，这就有了通信和交互的基础渠道
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
+                "file": "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "最简单的SurfaceFlinger应用程序"
+              "title": "Android图形-合成与显示-SurfaceTestDemo"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "cad37a83876123ca",
   "lastOpenFiles": [
-    "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
+    "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-3.png",
+    "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-2.png",
     "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
+    "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
     "VIM/Lvim配置文件.md",
     "VIM/VIM命令.md",
     "C++/标签分派.md",
@@ -222,7 +224,6 @@
     "渲染/attachments/未命名-9.png",
     "渲染/attachments/未命名-8.png",
     "渲染/attachments/未命名-7.png",
-    "渲染/attachments/未命名-6.png",
     "渲染/attachments",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-9.gif.crdownload",
@@ -240,7 +241,6 @@
     "Android系统/Input/Input事件处理.md",
     "ProfilerLayer/未命名.md",
     "ProfilerLayer/ProfilerLayer方案.md",
-    "First/未命名/456.md",
     "First/未命名.canvas"
   ]
 }
