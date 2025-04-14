@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
+                "file": "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android图形-合成与显示-SurfaceTestDemo"
+              "title": "最简单的SurfaceFlinger应用程序"
             }
           }
         ]
@@ -195,8 +195,8 @@
   },
   "active": "cad37a83876123ca",
   "lastOpenFiles": [
-    "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
+    "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
     "VIM/Lvim配置文件.md",
     "VIM/VIM命令.md",
     "C++/标签分派.md",
