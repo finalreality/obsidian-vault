@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备忘.md",
+                "file": "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "备忘"
+              "title": "最简单的SurfaceFlinger应用程序"
             }
           }
         ]
@@ -195,8 +195,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
+    "Android系统/Input/Input事件处理2.md",
+    "Android系统/Android的UI显示原理之Surface的创建.md",
     "Android系统/Input/十分钟了解Android触摸事件原理（InputManagerService）.md",
+    "Android系统/Input/Input事件处理.md",
+    "备忘.md",
+    "Home.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/attachments/未命名-1.webp",
     "Android系统/Input/attachments/十分钟了解Android触摸事件原理（InputManagerService）-1.webp",
@@ -209,7 +213,6 @@
     "Android系统/Input/attachments/未命名-6.webp",
     "Android系统/Input/attachments/未命名-5.webp",
     "Android系统/Input/attachments",
-    "备忘.md",
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
     "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
@@ -219,7 +222,6 @@
     "渲染/vulkan/Vulkan学习笔记.md",
     "渲染/QCom GPU Arch.md",
     "conflict-files-obsidian-git.md",
-    "Android系统/Android的UI显示原理之Surface的创建.md",
     "Android系统/图形Graphics/SurfaceFlinger.md",
     "渲染/引擎/filament/未命名.md",
     "渲染/GPU/GPU渲染架构与优化技术.md",
@@ -237,8 +239,6 @@
     "Android系统/未命名/attachments/VIM命令-4.gif.crdownload",
     "Android系统/未命名/vim命令.md",
     "网址收藏.md",
-    "Android系统/Input/Input事件处理2.md",
-    "Android系统/Input/Input事件处理.md",
     "ProfilerLayer/未命名.md",
     "First/未命名.canvas"
   ]
