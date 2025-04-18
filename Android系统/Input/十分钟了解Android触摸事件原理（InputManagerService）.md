@@ -297,7 +297,7 @@ fd打开通信信道.png
 
 信息到来，Looper根据fd找到对应的监听器：NativeInputEventReceiver，并调用handleEvent处理对应事件
 
-```
+```cpp
 int NativeInputEventReceiver::handleEvent(int receiveFd, int events, void* data) {
   ...
    if (events & ALOOPER_EVENT_INPUT) {
@@ -311,7 +311,7 @@ int NativeInputEventReceiver::handleEvent(int receiveFd, int events, void* data)
 
 之后会进一步读取事件，并封装成Java层对象，传递给Java层，进行相应的回调处理：
 
-```
+```cpp
 status_t NativeInputEventReceiver::consumeEvents(JNIEnv* env,  
       bool consumeBatches, nsecs_t frameTime, bool* outConsumedBatch) {  
       ...
