@@ -8,21 +8,18 @@ description:
 tags:
   - "clippings"
 ---
-[百度首页](https://www.baidu.com/)
 
 从手指接触屏幕到MotionEvent被传送到Activity或者View，中间究竟经历了什么？Android中触摸事件到底是怎么来的呢？源头是哪呢？本文就直观的描述一个整个流程，不求甚解，只求了解。
 
 ### Android触摸事件模型
 
 触摸事件肯定要先捕获才能传给窗口，因此，首先应该有一个线程在不断的监听屏幕，一旦有触摸事件，就将事件捕获；其次，还应该存在某种手段可以找到目标窗口，因为可能有多个APP的多个界面为用户可见，必须确定这个事件究竟通知那个窗口；最后才是目标窗口如何消费事件的问题。
-
-![](https://pics4.baidu.com/feed/a50f4bfbfbedab645f8ffc78f8faaaca7b311ed9.jpeg@f_auto?token=bfd57b0da65800162d6ea9b119a3d90f)
-
+![[未命名-12.webp]]
 触摸事件模型.jpg
 
 InputManagerService是Android为了处理各种用户操作而抽象的一个服务，自身可以看作是一个Binder服务实体，在SystemServer进程启动的时候实例化，并注册到ServiceManager中去，不过这个服务对外主要是用来提供一些输入设备的信息的作用，作为Binder服务的作用比较小：
 
-```
+```java
 private void startOtherServices() {
       ...
        inputManager = new InputManagerService(context);
@@ -41,7 +38,7 @@ InputManagerService跟WindowManagerService几乎同时被添加，从一定程�
 
 InputManagerService会单独开一个线程专门用来读取触摸事件，
 
-```
+```c++
 NativeInputManager::NativeInputManager(jobject contextObj,
        jobject serviceObj, const sp<Looper>& looper) :
        mLooper(looper), mInteractive(true) {
@@ -53,17 +50,15 @@ NativeInputManager::NativeInputManager(jobject contextObj,
 
 这里有个EventHub，它主要是利用Linux的inotify和epoll机制，监听设备事件：包括设备插拔及各种触摸、按钮事件等，可以看作是一个不同设备的集线器，主要面向的是/dev/input目录下的设备节点，比如说/dev/input/event0上的事件就是输入事件，通过EventHub的getEvents就可以监听并获取该事件：
 
-![](https://pics7.baidu.com/feed/622762d0f703918fe00dd2e45ef1239e58eec411.jpeg@f_auto?token=8674536281e9bf02fa35d18dfa085ac3)
-
+![[未命名-11.webp]]
 EventHub模型.jpg
 
 在new InputManager时候，会新建一个InputReader对象及InputReaderThread Loop线程，这个loop线程的主要作用就是通过EventHub的getEvents获取Input事件
 
-![](https://pics5.baidu.com/feed/78310a55b319ebc4534247848deacaf51f1716cd.jpeg@f_auto?token=c9200d79d50da9df101cb41bcb860a36)
-
+![[未命名-10.webp]]
 InputRead线程启动流程
 
-```
+```cpp
 InputManager::InputManager(
       const sp<EventHubInterface>& eventHub,
       const sp<InputReaderPolicyInterface>& readerPolicy,
@@ -107,13 +102,12 @@ void InputReader::loopOnce() {
 
 在新建InputManager的时候，不仅仅创建了一个事件读取线程，还创建了一个事件派发线程，虽然也可以直接在读取线程中派发，但是这样肯定会增加耗时，不利于事件的及时读取，因此，事件读取完毕后，直接向派发线程发个通知，请派发线程去处理，这样读取线程就可以更加敏捷，防止事件丢失，因此InputManager的模型就是如下样式：
 
-![](https://pics4.baidu.com/feed/9345d688d43f8794d7ca342cddd70bfd1ad53acb.jpeg@f_auto?token=e3f078637d86779d4345dd9b07c733c0)
-
+![[未命名-9.webp]]
 InputManager模型.jpg
 
 InputReader的mQueuedListener其实就是InputDispatcher对象，所以mQueuedListener->flush()就是通知InputDispatcher事件读取完毕，可以派发事件了, InputDispatcherThread是一个典型Looper线程，基于native的Looper实现了Hanlder消息处理模型，如果有Input事件到来就被唤醒处理事件，处理完毕后继续睡眠等待，简化代码如下：
 
-```
+```cpp
 bool InputDispatcherThread::threadLoop() {
   mDispatcher->dispatchOnce();
 
@@ -137,7 +131,7 @@ void InputDispatcher::dispatchOnce() {
 
 以上就是派发线程的模型，dispatchOnceInnerLocked是具体的派发处理逻辑，这里看其中一个分支，触摸事件：
 
-```
+```cpp
 void InputDispatcher::dispatchOnceInnerLocked(nsecs_t* nextWakeupTime) {
       ...
    case EventEntry::TYPE_MOTION: {
@@ -175,13 +169,12 @@ bool InputDispatcher::dispatchMotionLocked(
 
 Android系统能够同时支持多块屏幕，每块屏幕被抽象成一个DisplayContent对象，内部维护一个WindowList列表对象，用来记录当前屏幕中的所有窗口，包括状态栏、导航栏、应用窗口、子窗口等。对于触摸事件，我们比较关心可见窗口，用adb shell dumpsys SurfaceFlinger看一下可见窗口的组织形式：
 
-![](https://pics7.baidu.com/feed/50da81cb39dbb6fd0e2ebb5b06e8ae11962b37ae.jpeg@f_auto?token=1ecc26ec3a4b2f3fcc0b542b9f70d5df)
-
+![[未命名-7.webp]]
 焦点窗口
 
 那么，如何找到触摸事件对应的窗口呢，是状态栏、导航栏还是应用窗口呢，这个时候DisplayContent的WindowList就发挥作用了，DisplayContent握着所有窗口的信息，因此，可以 **根据触摸事件的位置及窗口的属性来确定将事件发送到哪个窗口** ，当然其中的细节比一句话复杂的多，跟窗口的状态、透明、分屏等信息都有关系，下面简单瞅一眼，达到主观理解的流程就可以了，
 
-```
+```cpp
 int32_t InputDispatcher::(nsecs_t currentTime,
        const MotionEntry* entry, Vector<InputTarget>& inputTargets, nsecs_t* nextWakeupTime,
        bool* outConflictingPointerActions) {
@@ -212,7 +205,7 @@ int32_t InputDispatcher::(nsecs_t currentTime,
 
 mWindowHandles代表着所有窗口，findTouchedWindowTargetsLocked的就是从mWindowHandles中找到目标窗口，规则太复杂，总之就是根据点击位置更窗口Z order之类的特性去确定，有兴趣可以自行分析。不过这里需要关心的是mWindowHandles，它就是是怎么来的，另外窗口增删的时候如何保持最新的呢？这里就牵扯到跟WindowManagerService交互的问题了，mWindowHandles的值是在InputDispatcher::setInputWindows中设置的，
 
-```
+```cpp
 void InputDispatcher::setInputWindows(const Vector<sp<InputWindowHandle> >& inputWindowHandles) {
       ...
        mWindowHandles = inputWindowHandles;
@@ -221,8 +214,7 @@ void InputDispatcher::setInputWindows(const Vector<sp<InputWindowHandle> >& inpu
 
 谁会调用这个函数呢？ 真正的入口是WindowManagerService中的InputMonitor会简介调用InputDispatcher::setInputWindows，这个时机主要是跟窗口增改删除等逻辑相关，以addWindow为例：
 
-![](https://pics5.baidu.com/feed/79f0f736afc379314f442a3afd08b24c42a911cd.jpeg@f_auto?token=d5309857cdfd4424a18fc69ae743458f)
-
+![[未命名-6.webp]]
 更新窗口逻辑.png
 
 从上面流程可以理解为什么说WindowManagerService跟InputManagerService是相辅相成的了，到这里，如何找到目标窗口已经解决了，下面就是如何将事件发送到目标窗口的问题了。
@@ -231,7 +223,7 @@ void InputDispatcher::setInputWindows(const Vector<sp<InputWindowHandle> >& inpu
 
 找到了目标窗口，同时也将事件封装好了，剩下的就是通知目标窗口，可是有个最明显的问题就是，目前所有的逻辑都是在SystemServer进程，而要通知的窗口位于APP端的用户进程，那么如何通知呢？下意识的可能会想到Binder通信，毕竟Binder在Android中是使用最多的IPC手段了，不过Input事件处理这采用的却不是Binder： **高版本的采用的都是Socket的通信方式，而比较旧的版本采用的是Pipe管道的方式** 。
 
-```
+```cpp
 void InputDispatcher::dispatchEventLocked(nsecs_t currentTime,
        EventEntry* eventEntry, const Vector<InputTarget>& inputTargets) {
    pokeUserActivityLocked(eventEntry);
@@ -249,15 +241,14 @@ void InputDispatcher::dispatchEventLocked(nsecs_t currentTime,
 
 代码逐层往下看会发现最后会调用到InputChannel的sendMessage函数，最会通过socket发送到APP端（Socket怎么来的接下来会分析），
 
-![](https://pics0.baidu.com/feed/242dd42a2834349b0cd56a7dc62610c734d3be4f.jpeg@f_auto?token=99c2e2ca60c92acf2a376948dfb7aee4)
-
+![[未命名-5.webp]]
 send流程.png
 
 这个Socket是怎么来的呢？或者说两端通信的一对Socket是怎么来的呢？其实还是要牵扯到WindowManagerService，在APP端向WMS请求添加窗口的时候，会伴随着Input通道的创建，窗口的添加一定会调用ViewRootImpl的setView函数：
 
 > ViewRootImpl
 
-```
+```java
 public void setView(View view, WindowManager.LayoutParams attrs, View panelParentView) {
               ...
           requestLayout();
@@ -291,20 +282,17 @@ public void setView(View view, WindowManager.LayoutParams attrs, View panelParen
 
 WMS首先创建socketpair作为全双工通道，并分别填充到Client与Server的InputChannel中去；之后让InputManager将Input通信信道与当前的窗口ID绑定，这样就能知道哪个窗口用哪个信道通信了；最后通过Binder将outInputChannel回传到APP端，下面是SocketPair的创建代码：
 
-```
+```cpp
 status_t InputChannel::openInputChannelPair(const String8& name,        sp<InputChannel>& outServerChannel, sp<InputChannel>& outClientChannel) {    int sockets[2];    if (socketpair(AF_UNIX, SOCK_SEQPACKET, 0, sockets)) {        status_t result = -errno;        ...        return result;    }    int bufferSize = SOCKET_BUFFER_SIZE;    setsockopt(sockets[0], SOL_SOCKET, SO_SNDBUF, &bufferSize, sizeof(bufferSize));    setsockopt(sockets[0], SOL_SOCKET, SO_RCVBUF, &bufferSize, sizeof(bufferSize));    setsockopt(sockets[1], SOL_SOCKET, SO_SNDBUF, &bufferSize, sizeof(bufferSize));    setsockopt(sockets[1], SOL_SOCKET, SO_RCVBUF, &bufferSize, sizeof(bufferSize));    <!--填充到server inputchannel-->    String8 serverChannelName = name;    serverChannelName.append(" (server)");    outServerChannel = new InputChannel(serverChannelName, sockets[0]);     <!--填充到client inputchannel-->    String8 clientChannelName = name;    clientChannelName.append(" (client)");    outClientChannel = new InputChannel(clientChannelName, sockets[1]);    return OK;}
 ```
 
 这里socketpair的创建与访问其实是还是借助文件描述符， **WMS需要借助Binder通信向APP端回传文件描述符fd** ，这部分只是可以参考Binder知识，主要是在内核层面实现两个进程fd的转换，窗口添加成功后，socketpair被创建，被传递到了APP端，但是信道并未完全建立，因为还需要一个主动的监听，毕竟消息到来是需要通知的，先看一下信道模型
 
-![](https://pics4.baidu.com/feed/b7003af33a87e9501d35e6b001f4564afaf2b424.jpeg@f_auto?token=5df17e42704298debb73b4c2d632a504)
-
+![[未命名-4.webp]]
 InputChannl信道.jpg
 
 **APP端的监听消息的手段是：将socket添加到Looper线程的epoll数组中去** ，一有消息到来Looper线程就会被唤醒，并获取事件内容，从代码上来看，通信信道的打开是伴随WindowInputEventReceiver的创建来完成的。
-
-![](https://pics4.baidu.com/feed/d62a6059252dd42ae08843470df75ebccbeab8aa.jpeg@f_auto?token=f0e783bfdad3ef31a23014835207b634)
-
+![[未命名-3.webp]]
 fd打开通信信道.png
 
 信息到来，Looper根据fd找到对应的监听器：NativeInputEventReceiver，并调用handleEvent处理对应事件
@@ -356,9 +344,7 @@ status_t NativeInputEventReceiver::consumeEvents(JNIEnv* env,
 ### 目标窗口中的事件处理
 
 最后简单看一下事件的处理流程，Activity或者Dialog等是如何获得Touch事件的呢？如何处理的呢？直白的说就是将监听事件交给ViewRootImpl中的rootView，让它自己去负责完成事件的消费，究竟最后被哪个View消费了要看具体实现了，而对于Activity与Dialog中的DecorView重写了View的事件分配函数dispatchTouchEvent，将事件处理交给了CallBack对象处理，至于View及ViewGroup的消费，算View自身的逻辑了。
-
-![](https://pics0.baidu.com/feed/1b4c510fd9f9d72a6d480bd4dbe62d3d359bbb1b.jpeg@f_auto?token=f8fbf02d3d35aa9585d13e4fa90bba61)
-
+![[未命名-2.webp]]
 APP端事件处理流程
 
 ### 总结
@@ -371,7 +357,5 @@ APP端事件处理流程
 - 通过Socket将事件发送到目标窗口
 - APP端被唤醒
 - 找到目标窗口处理事件
-
-![](https://pics5.baidu.com/feed/9a504fc2d5628535266e57129f2373cfa6ef6348.jpeg@f_auto?token=9d90f7feb0eb0bab79bfbee7559c6111)
-
+![[未命名-1.webp]]
 InputManager完整模型.jpg

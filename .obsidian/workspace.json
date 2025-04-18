@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android系统/Input/未命名.md",
+                "file": "Android系统/Input/十分钟了解Android触摸事件原理（InputManagerService）.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "十分钟了解Android触摸事件原理（InputManagerService）"
             }
           }
         ]
@@ -195,13 +195,23 @@
   },
   "active": "cad37a83876123ca",
   "lastOpenFiles": [
+    "Android系统/Input/attachments/未命名-12.webp",
+    "Android系统/Input/attachments/未命名-11.webp",
+    "Android系统/Input/attachments/未命名-10.webp",
+    "Android系统/Input/attachments/未命名-9.webp",
+    "Android系统/Input/attachments/未命名-8.webp",
+    "Android系统/Input/attachments/未命名-7.webp",
+    "Android系统/Input/attachments/未命名-6.webp",
+    "Android系统/Input/attachments/未命名-5.webp",
+    "Android系统/Input/attachments/未命名-4.webp",
+    "Android系统/Input/attachments/未命名-3.webp",
+    "Android系统/Input/attachments/未命名-1.png",
+    "Android系统/Input/十分钟了解Android触摸事件原理（InputManagerService）.md",
+    "Android系统/Input/attachments",
     "备忘.md",
-    "Android系统/Input/未命名.md",
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
     "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-    "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-3.png",
-    "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-2.png",
     "VIM/Lvim配置文件.md",
     "VIM/VIM命令.md",
     "C++/标签分派.md",
@@ -212,19 +222,11 @@
     "Android系统/图形Graphics/SurfaceFlinger.md",
     "渲染/引擎/filament/未命名.md",
     "渲染/GPU/GPU渲染架构与优化技术.md",
-    "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-1.gif",
-    "Android系统/图形Graphics/attachments/Android图形-合成与显示-SurfaceTestDemo-1.png",
     "Android系统/图形Graphics/attachments",
     "Home.md",
     "2025-04-08.md",
     "未命名看板.md",
     "Ubuntu添加程序启动图标和其它配置修改.md",
-    "attachments/Ubuntu添加程序启动图标和其它配置修改-1.png",
-    "渲染/attachments/未命名-12.png",
-    "渲染/attachments/未命名-11.png",
-    "渲染/attachments/未命名-10.png",
-    "渲染/attachments/未命名-9.png",
-    "渲染/attachments/未命名-8.png",
     "渲染/attachments",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-9.gif.crdownload",
@@ -233,14 +235,12 @@
     "Android系统/未命名/attachments/VIM命令-6.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-5.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-4.gif.crdownload",
-    "Android系统/未命名/attachments/VIM命令-3.gif.crdownload",
     "Android系统/未命名/vim命令.md",
     "网址收藏.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/Input事件处理2.md",
     "Android系统/Input/Input事件处理.md",
     "ProfilerLayer/未命名.md",
-    "ProfilerLayer/ProfilerLayer方案.md",
     "First/未命名.canvas"
   ]
 }
