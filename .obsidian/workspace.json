@@ -13,10 +13,10 @@
             "state": {
               "type": "mindmapView",
               "state": {
-                "file": "ProfilerLayer/未命名.md"
+                "file": "ProfilerLayer/DebugLayer Hook Functions.md"
               },
               "icon": "blocks",
-              "title": "未命名"
+              "title": "DebugLayer Hook Functions"
             }
           }
         ]
@@ -193,7 +193,7 @@
   },
   "active": "9b78c03e49be75d8",
   "lastOpenFiles": [
-    "ProfilerLayer/未命名.md",
+    "ProfilerLayer/DebugLayer Hook Functions.md",
     "Home.md",
     "网址收藏.md",
     "VIM/Lvim配置文件.md",
