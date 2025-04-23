@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "4caa4af0f7c23b96",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "f4c7bb3416dd2cd4",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
-              "state": {
-                "file": "ProfilerLayer/未命名.md"
-              },
-              "icon": "blocks",
-              "title": "未命名"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -191,10 +189,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f4c7bb3416dd2cd4",
   "lastOpenFiles": [
-    "Home.md",
     "ProfilerLayer/未命名.md",
+    "Home.md",
     "网址收藏.md",
     "VIM/Lvim配置文件.md",
     "备忘.md",
