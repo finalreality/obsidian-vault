@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备忘.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "备忘"
+              "title": "Home"
             }
           }
         ]
@@ -193,15 +193,16 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1e04809209be0b0c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "2025-04-08.md",
-    "备忘.md",
     "网址收藏.md",
+    "ProfilerLayer/未命名.md",
+    "VIM/Lvim配置文件.md",
+    "备忘.md",
+    "2025-04-08.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
     "OS",
     "Home.md",
-    "ProfilerLayer/未命名.md",
     "Android系统/Input/Input事件处理2.md",
     "未命名看板.md",
     "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
@@ -222,7 +223,6 @@
     "Android系统/Input/attachments",
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-    "VIM/Lvim配置文件.md",
     "VIM/VIM命令.md",
     "C++/标签分派.md",
     "渲染/vulkan/Vulkan学习笔记.md",
