@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4caa4af0f7c23b96",
+        "id": "15be47ad18ac38bf",
         "type": "tabs",
         "children": [
           {
-            "id": "f4c7bb3416dd2cd4",
+            "id": "9b78c03e49be75d8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "mindmapView",
+              "state": {
+                "file": "ProfilerLayer/未命名.md"
+              },
+              "icon": "blocks",
+              "title": "未命名"
             }
           }
         ]
@@ -189,7 +191,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "f4c7bb3416dd2cd4",
+  "active": "9b78c03e49be75d8",
   "lastOpenFiles": [
     "ProfilerLayer/未命名.md",
     "Home.md",
