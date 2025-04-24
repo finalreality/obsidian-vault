@@ -4,21 +4,6 @@ mindmap-plugin: basic
 
 # Validation Layer
 
-## Instance
-- CreateInstance
-	- HookManager::OnCreateInstance
-- CreateDevice
-	- HookManager::GetHandleUnwrapperMemory
-	- VulkanDeviceUtil::EnableRequiredPhysicalDeviceFeatures
-	- InnnerCreateDevice
-		- OverlayManager::SetSupportTimeStampFlag
-		- HookManager::OnCreateDevice
-- DestroyInstance
-	- HookManager::OnDestroyInstance
-	- GetInstanceTable(instance)->DestroyInstance(instanceUnwrapped, pAllocator);
-	- DestroyWrappedHandle\<InstanceWrapper\>(instance);
-	- ProfileLayer::Destroy
-
 ## Device
 - UpdateDescriptorSetWithTemplate
 	- HookManager::GetDescriptorUpdateTemplateInfo
@@ -132,3 +117,37 @@ mindmap-plugin: basic
 	- HookManager::OnDestroyBuffer
 	- GetDeviceTable(device)->DestroyBuffer
 	- DestroyWrappedHandle\<BufferWrapper\>(buffer);
+- CmdBeginDebugUtilsLabelEXT
+	- GetDeviceTable(commandBuffer)->CmdBeginDebugUtilsLabelEXT
+- CmdEndDebugUtilsLabelEXT
+	- GetDeviceTable(commandBuffer)->CmdEndDebugUtilsLabelEXT
+- CmdInsertDebugUtilsLabelEXT
+	- GetDeviceTable(commandBuffer)->CmdInsertDebugUtilsLabelEXT
+- SetDebugUtilsObjectNameEXT
+	- **HookManager::OnDebugUtilSetObjectName**
+	- GetDeviceTable(device)->SetDebugUtilsObjectNameEXT
+- SetDebugUtilsObjectTagEXT
+	- **HookManager::OnDebugUtilSetObjectTag**
+	- GetDeviceTable(device)->SetDebugUtilsObjectTagEXT
+- CmdDebugMarkerBeginEXT
+	- GetDeviceTable(commandBuffer)->CmdDebugMarkerBeginEXT
+- CmdDebugMarkerEndEXT
+	- GetDeviceTable(commandBuffer)->CmdDebugMarkerEndEXT
+- CmdDebugMarkerInsertEXT
+	- GetDeviceTable(commandBuffer)->CmdDebugMarkerInsertEXT
+- 
+
+## Instance
+- CreateInstance
+	- HookManager::OnCreateInstance
+- CreateDevice
+	- HookManager::GetHandleUnwrapperMemory
+	- VulkanDeviceUtil::EnableRequiredPhysicalDeviceFeatures
+	- InnnerCreateDevice
+		- OverlayManager::SetSupportTimeStampFlag
+		- HookManager::OnCreateDevice
+- DestroyInstance
+	- HookManager::OnDestroyInstance
+	- GetInstanceTable(instance)->DestroyInstance(instanceUnwrapped, pAllocator);
+	- DestroyWrappedHandle\<InstanceWrapper\>(instance);
+	- ProfileLayer::Destroy
