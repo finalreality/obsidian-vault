@@ -197,6 +197,19 @@ mindmap-plugin: basic
 	- **HookManager::PreBeginCommandBuffer**
 	- GetDeviceTable(commandBuffer)->BeginCommandBuffer
 	- **HookManager::PostBeginCommandBuffer**
+- EndCommandBuffer
+	- **HookManager::PreEndCommandBuffer**
+	- GetDeviceTable(commandBuffer)->EndCommandBuffer
+	-  **HookManager::PostEndCommandBuffer**
+- CreateAccelerationStructureKHR
+	- GetDeviceTable(device)->CreateAccelerationStructureKHR
+- DestroyAccelerationStructureKHR
+	- GetDeviceTable(device)->DestroyAccelerationStructureKHR
+	- DestroyWrappedHandle\<AccelerationStructureKHRWrapper\>(accelerationStructure);
+- BuildAccelerationStructuresKHR
+	- GetDeviceTable(device)->BuildAccelerationStructuresKHR
+- CopyAccelerationStructureKHR
+	- GetDeviceTable(device)->CopyAccelerationStructureKHR
 
 
 	
