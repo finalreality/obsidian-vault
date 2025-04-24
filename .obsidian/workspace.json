@@ -11,12 +11,14 @@
             "id": "9b78c03e49be75d8",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "ProfilerLayer/DebugLayer Hook Functions.md"
+                "file": "备忘.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "DebugLayer Hook Functions"
+              "icon": "lucide-file",
+              "title": "备忘"
             }
           }
         ]
