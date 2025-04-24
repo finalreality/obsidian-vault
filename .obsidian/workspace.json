@@ -11,12 +11,14 @@
             "id": "9b78c03e49be75d8",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "ProfilerLayer/DebugLayer Hook Functions.md"
+                "file": "备忘.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "DebugLayer Hook Functions"
+              "icon": "lucide-file",
+              "title": "备忘"
             }
           }
         ]
@@ -193,10 +195,10 @@
   },
   "active": "9b78c03e49be75d8",
   "lastOpenFiles": [
-    "备忘.md",
-    "ProfilerLayer/DebugLayer Hook Functions.md",
-    "Home.md",
     "网址收藏.md",
+    "ProfilerLayer/DebugLayer Hook Functions.md",
+    "备忘.md",
+    "Home.md",
     "VIM/Lvim配置文件.md",
     "2025-04-08.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
