@@ -135,7 +135,36 @@ mindmap-plugin: basic
 	- GetDeviceTable(commandBuffer)->CmdDebugMarkerEndEXT
 - CmdDebugMarkerInsertEXT
 	- GetDeviceTable(commandBuffer)->CmdDebugMarkerInsertEXT
+- DebugMarkerSetObjectTagEXT
+	- **HookManager::OnDebugMarkerSetObjectTag**
+	- GetDeviceTable(device)->DebugMarkerSetObjectTagEXT
+- DebugMarkerSetObjectNameEXT
+	- **HookManager::OnDebugReportSetObjectName**
+	- GetDeviceTable(device)->DebugMarkerSetObjectNameEXT
+- CmdBeginRenderPass
+	- HookManager::PreBeginRenderPass
+	- GetDeviceTable(commandBuffer)->CmdBeginRenderPass
+	- HookManager::PostBeginRenderPass
+	- **HookManager::OnBeginRenderPass**
+- CmdEndRenderPass
+	- **HookManager::PreEndRenderPass**
+	- GetDeviceTable(commandBuffer)->CmdEndRenderPass
+	- **HookManager::PostEndRenderPass**
+	- **HookManager::OnEndRenderPass**
+- CmdBindPipeline
+	- **HookManager::PreCmdBindPipeline**
+	- GetDeviceTable(commandBuffer)->CmdBindPipeline
+	- **HookManager::PostCmdBindPipeline**
+- CmdCopyBufferToImage
+	- GetDeviceTable(commandBuffer)->CmdCopyBufferToImage
+- UpdateDescriptorSets
+	- GetDeviceTable(device)->UpdateDescriptorSets
+- CmdPipelineBarrier
+	- **HookManager::OnImageBarriers**
+	- GetDeviceTable(commandBuffer)->CmdPipelineBarrier
 - 
+	
+	
 
 ## Instance
 - CreateInstance
