@@ -162,7 +162,44 @@ mindmap-plugin: basic
 - CmdPipelineBarrier
 	- **HookManager::OnImageBarriers**
 	- GetDeviceTable(commandBuffer)->CmdPipelineBarrier
-- 
+- CreateImageView
+	- GetDeviceTable(device)->CreateImageView
+	- **ImageViewWrapper::Init**
+	- **HookManager::OnCreateImageView**
+- DestroyImageView
+	- **HookManager::OnDestroyImageView**
+	- **ImageViewWrapper->Destroy**
+	- GetDeviceTable(device)->DestroyImageView
+	- DestroyWrappedHandle\<ImageViewWrapper\>(imageView);
+- CreateFramebuffer
+	- GetDeviceTable(device)->CreateFramebuffer
+	- framebufferWrapper->mAttachments.push_back((pCreateInfo->pAttachments[i]));
+- DestroyFramebuffer
+	- GetDeviceTable(device)->DestroyFramebuffer
+	- DestroyWrappedHandle\<FramebufferWrapper\>(framebuffer);
+- createsampler
+	- GetDeviceTable(device)->CreateSampler
+	- **SamplerWrapper::Init**
+	- HookManager::OnCreateSampler
+- DestroySampler
+	- **HookManager::OnDestroySampler**
+	- samplerWrapper->Destroy
+	- GetDeviceTable(device)->DestroySampler
+	- DestroyWrappedHandle\<SamplerWrapper\>(sampler);
+- CreateShaderModule
+	- GetDeviceTable(device)->CreateShaderModule
+	- **HookManager::OnCreateShaderModule**
+- DestroyShaderModule
+	- **HookManager::OnDestroyShaderModule**
+	- GetDeviceTable(device)->DestroyShaderModule
+	- DestroyWrappedHandle\<ShaderModuleWrapper\>(shaderModule);
+- BeginCommandBuffer
+	- **HookManager::PreBeginCommandBuffer**
+	- GetDeviceTable(commandBuffer)->BeginCommandBuffer
+	- **HookManager::PostBeginCommandBuffer**
+
+
+	
 	
 	
 
