@@ -1,0 +1,134 @@
+---
+mindmap-plugin: basic
+---
+
+# Validation Layer
+
+## Instance
+- CreateInstance
+	- HookManager::OnCreateInstance
+- CreateDevice
+	- HookManager::GetHandleUnwrapperMemory
+	- VulkanDeviceUtil::EnableRequiredPhysicalDeviceFeatures
+	- InnnerCreateDevice
+		- OverlayManager::SetSupportTimeStampFlag
+		- HookManager::OnCreateDevice
+- DestroyInstance
+	- HookManager::OnDestroyInstance
+	- GetInstanceTable(instance)->DestroyInstance(instanceUnwrapped, pAllocator);
+	- DestroyWrappedHandle\<InstanceWrapper\>(instance);
+	- ProfileLayer::Destroy
+
+## Device
+- UpdateDescriptorSetWithTemplate
+	- HookManager::GetDescriptorUpdateTemplateInfo
+	- UnwrapDescriptorUpdateTemplateInfoHandles
+	- GetDeviceTable(device)->UpdateDescriptorSetWithTemplate
+- CmdPushDescriptorSetWithTemplateKHR
+	- HookManager::GetDescriptorUpdateTemplateInfo
+	- UnwrapDescriptorUpdateTemplateInfoHandles
+	- GetDeviceTable(commandBuffer)->CmdPushDescriptorSetWithTemplateKHR
+- UpdateDescriptorSetWithTemplateKHR
+	- HookManager::GetDescriptorUpdateTemplateInfo
+	- UnwrapDescriptorUpdateTemplateInfoHandles
+	- GetDeviceTable(device)->UpdateDescriptorSetWithTemplateKHR
+- CreateSwapchainKHR
+	- UnwrapStructPtrHandles
+	- GetDeviceTable(device)->CreateSwapchainKHR
+	- GetDeviceTable(device)->GetSwapchainImagesKHR
+	- HookManager::OnCreateSwapchain
+	- **hookManager->GetGraphicsQueue();**
+	- **OverlayManager::CreateOverlay**
+- GetDeviceQueue
+	- GetDeviceTable(device)->GetDeviceQueue
+- DestroySwapchainKHR
+	- **OverlayManager::DestoryOverlay**
+	- HookManager::OnDestroySwapChain
+	- GetDeviceTable(device)->DestroySwapchainKHR
+	- DestroyWrappedHandle\<SwapchainKHRWrapper\>(swapchain);
+- QueuePresentKHR
+	- HookManager::PrePresent
+	- **ProfilerOverlayOutput::Present**
+	- GetDeviceTable(queue)->QueuePresentKHR
+	- HookManager::PostPresent
+- DestroyDevice
+	- HookManager::OnDestroyDevice
+	- GetDeviceTable(device)->DestroyDevice
+	- DestroyWrappedHandle\<DeviceWrapper\>(device);
+- CreateGraphicsPipelines
+	- GetDeviceTable(device)->CreateGraphicsPipelines
+	- **PipelineWrapper::Init**
+	- HookManager::OnCreatePipeline
+- CreateComputePipelines
+	- GetDeviceTable(device)->CreateComputePipelines
+	- **PipelineWrapper::Init**
+	- HookManager::OnCreatePipeline
+- DestroyPipeline
+	- HookManager::OnDestroyPipeline
+	- PipelineWrapper::Destroy
+	- GetDeviceTable(device)->DestroyPipeline
+	- DestroyWrappedHandle\<PipelineWrapper\>(pipeline);
+- CreateRenderPass
+	- GetDeviceTable(device)->CreateRenderPass
+	- **RenderPassWrapper::Init**
+	- HookManager::OnCreateRenderPass
+- DestroyRenderPass
+	- HookManager::OnDestroyRenderPass
+	- RenderPassWrapper::Destroy
+	- GetDeviceTable(device)->DestroyRenderPass
+	- DestroyWrappedHandle\<RenderPassWrapper\>(renderPass);
+- CreateCommandPool
+	- GetDeviceTable(device)->CreateCommandPool
+- DestroyCommandPool
+	- GetDeviceTable(device)->DestroyCommandPool
+	- DestroyWrappedHandle\<CommandPoolWrapper\>(commandPool);
+- AllocateCommandBuffers
+	- GetDeviceTable(device)->AllocateCommandBuffers
+	- HookManager::OnAllocateCommandBuffers
+- FreeCommandBuffers
+	- HookManager::OnFreeCommandBuffers
+	- GetDeviceTable(device)->FreeCommandBuffers
+	- DestroyWrappedHandles\<CommandBufferWrapper\>(pCommandBuffers, commandBufferCount);
+- AllocateMemory
+	- GetDeviceTable(device)->AllocateMemory
+	- **HookManager::OnAllocateMemory**
+- FreeMemory
+	- HookManager::OnFreeMemory
+	- GetDeviceTable(device)->FreeMemory
+	- DestroyWrappedHandle\<DeviceMemoryWrapper\>(memory);
+- MapMemory
+	- GetDeviceTable(device)->MapMemory
+- UnmapMemory
+	- GetDeviceTable(device)->UnmapMemory
+- QueueSubmit
+	- GetDeviceTable(queue)->QueueSubmit
+	- HookManager::OnPostQueueSubmit
+- SetDeviceLoaderData
+- CmdDraw
+	- GetDeviceTable(commandBuffer)->CmdDraw
+	- **HookManager::OnAddDrawcall**
+- CmdDrawIndexed
+	- GetDeviceTable(commandBuffer)->CmdDrawIndexed
+	- **HookManager::OnAddDrawcall**
+- CmdDrawIndirect
+	- GetDeviceTable(commandBuffer)->CmdDrawIndirect
+	- HookManager::OnAddDrawcall
+- CmdDrawIndexedIndirect
+	- GetDeviceTable(commandBuffer)->CmdDrawIndexedIndirect
+	- HookManager::OnAddDrawcall
+- CreateImage
+	- GetDeviceTable(device)->CreateImage
+	- ImageWrapper->Init
+	- HookManager::OnCreateImage
+- DestroyImage
+	- HookManager::OnDestroyImage
+	- ImageWrapper::Destroy
+	- GetDeviceTable(device)->DestroyImage
+	- DestroyWrappedHandle\<ImageWrapper\>(image);
+- CreateBuffer
+	- GetDeviceTable(device)->CreateBuffer
+	- HookManager::OnCreateBuffer
+- DestroyBuffer
+	- HookManager::OnDestroyBuffer
+	- GetDeviceTable(device)->DestroyBuffer
+	- DestroyWrappedHandle\<BufferWrapper\>(buffer);

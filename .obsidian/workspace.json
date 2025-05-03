@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Home"
             }
+          },
+          {
+            "id": "7da1a92bc3330170",
+            "type": "leaf",
+            "state": {
+              "type": "mindmapView",
+              "state": {
+                "file": "ProfilerLayer/DebugLayer Hook Functions.md"
+              },
+              "icon": "blocks",
+              "title": "DebugLayer Hook Functions"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,9 +220,15 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "343c44fa17c7decc",
+  "active": "7da1a92bc3330170",
   "lastOpenFiles": [
+    "Ubuntu添加程序启动图标和其它配置修改.md",
+    "2025-04-08.md",
+    "conflict-files-obsidian-git.md",
     "Home.md",
+    "ProfilerLayer/DebugLayer Hook Functions.md",
+    "OS/Ubuntu添加程序启动图标和其它配置修改.md",
+    "OS",
     "未命名看板.md",
     "网址收藏.md",
     "备忘.md",
@@ -232,14 +250,12 @@
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "C++/标签分派.md",
     "ProfilerLayer/ProfilerLayer方案.md",
-    "2025-04-08.md",
     "渲染/未命名.md",
     "渲染/attachments",
     "VIM/attachments",
     "VIM/VIM命令.md",
     "VIM/Lvim配置文件.md",
     "VIM",
-    "Ubuntu添加程序启动图标和其它配置修改.md",
     "Android系统/图形Graphics/最简单的SurfaceFlinger应用程序.md",
     "Android系统/图形Graphics/attachments",
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
@@ -250,12 +266,8 @@
     "渲染/引擎/filament/未命名.md",
     "渲染/引擎/filament/test-quad例程.pdf",
     "渲染/引擎/filament/test-monkey例程.pdf",
-    "渲染/引擎/filament/Material编译过程及目标文件格式.pdf",
     "Android系统/未命名/未命名.md",
     "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
-    "Android系统/Input/Input事件处理2.md",
-    "Android系统/Input/Input事件处理.md",
-    "ProfilerLayer/未命名.md",
     "First/未命名.canvas"
   ]
 }
