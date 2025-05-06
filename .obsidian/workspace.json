@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "15be47ad18ac38bf",
+        "id": "7ccbf1aa0690edff",
         "type": "tabs",
         "children": [
           {
-            "id": "9b78c03e49be75d8",
+            "id": "e879237bd8f5a346",
             "type": "leaf",
             "state": {
               "type": "mindmapView",
               "state": {
-                "file": "渲染/vulkan/未命名.md"
+                "file": "渲染/vulkan/Vulkan.md"
               },
               "icon": "blocks",
-              "title": "未命名"
+              "title": "Vulkan"
             }
           }
         ]
@@ -191,10 +191,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "9b78c03e49be75d8",
+  "active": "e879237bd8f5a346",
   "lastOpenFiles": [
     "ProfilerLayer/DebugLayer Hook Functions.md",
-    "渲染/vulkan/未命名.md",
+    "渲染/vulkan/Vulkan.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘.md",
     "网址收藏.md",
