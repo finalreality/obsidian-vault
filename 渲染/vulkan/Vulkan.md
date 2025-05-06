@@ -9,9 +9,13 @@ mindmap-plugin: basic
 	- setPApplicationInfo
 		- vk::ApplicationInfo
 			- sType
+				- vk::StructureType::eApplicationInfo
 			- setApiVersion
 				- VK_API_VERSION_1_0
 			- setPApplicationName
+	- setPEnabledExtensionNames
+	- setPpEnabledLayerNames
+		- std::vector<const char*> layers
 
 ## vk::Instance
 - enumeratePhysicalDevices
