@@ -83,3 +83,12 @@ mindmap-plugin: basic
 		- setComponents
 			- vk::ComponentMapping{}
 - destroyImageView
+- createShaderModule
+	- vk::ShaderModuleCreateInfo
+		- codeSize
+		- pCode
+- destroyShaderModule
+
+## vk::ShaderModule
+
+## vk::Pipeline
