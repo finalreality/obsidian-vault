@@ -11,7 +11,7 @@ mindmap-plugin: basic
 			- sType
 				- vk::StructureType::eApplicationInfo
 			- setApiVersion
-				- VK_API_VERSION_1_0
+				- VK_API_VERSION_1_3
 			- setPApplicationName
 	- setPEnabledExtensionNames
 	- setPpEnabledLayerNames
@@ -32,3 +32,7 @@ mindmap-plugin: basic
 - getQueueFamilyProperties
 
 ## vk::Device
+
+## vk::SwapchainKHR
+
+## vk::SurfaceKHR
