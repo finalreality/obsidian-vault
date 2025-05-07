@@ -33,24 +33,27 @@ mindmap-plugin: basic
 - getSurfaceCapabilitiesKHR
 
 ## vk::Device
+- createSwapchainKHR
+	- vk::SwapchainCreateInfoKHR
+		- setClipped
+		- setCompositeAlpha
+			- vk::CompositeAlphaFlagBitsKHR::eOpaque
+		- setImageExtent
+		- setImageColorSpace
+			- vk::ColorSpaceKHR::eSrgbNonlinear
+		- setImageFormat
+			- vk::Format::eR8G8B8A8Srgb
+		- setImageUsage
+			- vk::ImageUsageFlagBits::eColorAttachment
+		- setMinImageCount
+		- setImageArrayLayers
+		- setPresentMode
+			- vk::PresentModeKHR::eFifo
+		- setPreTransform
+		- setSurface
+			- vk::SurfaceKHR
+		- setImageSharingMode
+			- vk::SharingMode::eExclusive
+			- vk::SharingMode::eConcurrent
 
 ## vk::SwapchainKHR
-
-## vk::SurfaceKHR
-- vk::SwapchainCreateInfoKHR
-	- setClipped
-	- setCompositeAlpha
-		- vk::CompositeAlphaFlagBitsKHR::eOpaque
-	- setImageExtent
-	- setImageColorSpace
-		- vk::ColorSpaceKHR::eSrgbNonlinear
-	- setImageFormat
-		- vk::Format::eR8G8B8A8Srgb
-	- setImageUsage
-		- vk::ImageUsageFlagBits::eColorAttachment
-	- setMinImageCount
-	- setImageArrayLayers
-	- setPresentMode
-		- vk::PresentModeKHR::eFifo
-	- setPreTransform
-	- setSurface
