@@ -32,6 +32,8 @@ mindmap-plugin: basic
 - getQueueFamilyProperties
 - getSurfaceCapabilitiesKHR
 	- vk::SurfaceTransformFlagBitsKHR
+		- vk::SurfaceFormatKHR
+			- vk::Format::eR8G8B8A8Srgb
 
 ## vk::Device
 - getSwapchainImagesKHR
@@ -41,6 +43,7 @@ mindmap-plugin: basic
 		- setCompositeAlpha
 			- vk::CompositeAlphaFlagBitsKHR::eOpaque
 		- setImageExtent
+			- vk::Extent2D
 		- setImageColorSpace
 			- vk::ColorSpaceKHR::eSrgbNonlinear
 		- setImageFormat
@@ -52,6 +55,7 @@ mindmap-plugin: basic
 		- setPresentMode
 			- vk::PresentModeKHR::eFifo
 		- setPreTransform
+			- vk::SurfaceTransformFlagBitsKHR
 		- setSurface
 			- vk::SurfaceKHR
 		- setImageSharingMode
