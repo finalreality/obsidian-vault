@@ -103,8 +103,24 @@ mindmap-plugin: basic
 		- setPVertexInputState
 			- vk::PipelineVertexInputStateCreateInfo
 				- setVertexAttributeDescriptions
+					- vk::VertexInputAttributeDescription
+						- setBinding
+						- setFormat
+							- vk::Format::eR32G32Sfloat
+						- setLocation
+						- setOffset
 				- setVertexBindingDescriptions
+					- vk::VertexInputBindingDescription
+						- setBinding
+						- setStride
+						- setInputRate
+							- vk::VertexInputRate::eVertex
 		- setPInputAssemblyState
+			- setPrimitiveRestartEnable
+			- setTopology
+				- vk::PrimitiveTopology
+					- vk::PrimitiveTopology::eTriangleList
+					- vk::PrimitiveTopology::eLineList
 		- setPViewportState
 		- setPRasterizationState
 		- setPMultisampleState
