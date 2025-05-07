@@ -82,3 +82,4 @@ mindmap-plugin: basic
 					- vk::ImageAspectFlagBits::eColor
 		- setComponents
 			- vk::ComponentMapping{}
+- destroyImageView
