@@ -30,9 +30,27 @@ mindmap-plugin: basic
 		- setQueueFamilyIndex
 - getProperties
 - getQueueFamilyProperties
+- getSurfaceCapabilitiesKHR
 
 ## vk::Device
 
 ## vk::SwapchainKHR
 
 ## vk::SurfaceKHR
+- vk::SwapchainCreateInfoKHR
+	- setClipped
+	- setCompositeAlpha
+		- vk::CompositeAlphaFlagBitsKHR::eOpaque
+	- setImageExtent
+	- setImageColorSpace
+		- vk::ColorSpaceKHR::eSrgbNonlinear
+	- setImageFormat
+		- vk::Format::eR8G8B8A8Srgb
+	- setImageUsage
+		- vk::ImageUsageFlagBits::eColorAttachment
+	- setMinImageCount
+	- setImageArrayLayers
+	- setPresentMode
+		- vk::PresentModeKHR::eFifo
+	- setPreTransform
+	- setSurface
