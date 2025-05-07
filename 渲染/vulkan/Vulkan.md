@@ -31,8 +31,10 @@ mindmap-plugin: basic
 - getProperties
 - getQueueFamilyProperties
 - getSurfaceCapabilitiesKHR
+	- vk::SurfaceTransformFlagBitsKHR
 
 ## vk::Device
+- getSwapchainImagesKHR
 - createSwapchainKHR
 	- vk::SwapchainCreateInfoKHR
 		- setClipped
@@ -55,5 +57,6 @@ mindmap-plugin: basic
 		- setImageSharingMode
 			- vk::SharingMode::eExclusive
 			- vk::SharingMode::eConcurrent
+		- setQueueFamilyIndices
 
 ## vk::SwapchainKHR
