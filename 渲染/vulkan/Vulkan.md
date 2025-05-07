@@ -66,3 +66,16 @@ mindmap-plugin: basic
 	- vk::SwapchainKHR
 - createImageView
 	- vk::ImageViewCreateInfo
+		- setImage
+			- vk::Image
+		- setFormat
+		- setViewType
+			- vk::ImageViewType::e2D
+		- setSubresourceRange
+			- vk::ImageSubresourceRange
+				- setBaseArrayLayer
+				- setBaseMipLevel
+				- setLayerCount
+				- setLevelCount
+				- setAspectMask
+					- vk::ImageAspectFlagBits::eColor
