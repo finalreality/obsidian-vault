@@ -88,6 +88,29 @@ mindmap-plugin: basic
 		- codeSize
 		- pCode
 - destroyShaderModule
+- createGraphicsPipeline
+	- vk::PipelineLayoutCreateInfo
+		- setStages
+			- vk::PipelineShaderStageCreateInfo
+				- setModule
+					- vk::ShaderModule
+				- setPName
+				- setStage
+					- vk::ShaderStageFlagBits::eVertex
+					- vk::ShaderStageFlagBits::eFragment
+		- setLayout
+			- vk::PipelineLayout
+		- setPVertexInputState
+		- setPInputAssemblyState
+		- setPViewportState
+		- setPRasterizationState
+		- setPMultisampleState
+		- setPColorBlendState
+		- setRenderPass
+- createPipelineLayout
+	- vk::PipelineLayoutCreateInfo
+		- setSetLayouts
+		- setPushConstantRanges
 
 ## vk::ShaderModule
 
