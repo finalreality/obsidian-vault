@@ -101,6 +101,9 @@ mindmap-plugin: basic
 		- setLayout
 			- vk::PipelineLayout
 		- setPVertexInputState
+			- vk::PipelineVertexInputStateCreateInfo
+				- setVertexAttributeDescriptions
+				- setVertexBindingDescriptions
 		- setPInputAssemblyState
 		- setPViewportState
 		- setPRasterizationState
