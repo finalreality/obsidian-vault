@@ -37,6 +37,7 @@ mindmap-plugin: basic
 
 ## vk::Device
 - getSwapchainImagesKHR
+- vk::SwapchainKHR
 - createSwapchainKHR
 	- vk::SwapchainCreateInfoKHR
 		- setClipped
@@ -62,5 +63,6 @@ mindmap-plugin: basic
 			- vk::SharingMode::eExclusive
 			- vk::SharingMode::eConcurrent
 		- setQueueFamilyIndices
-
-## vk::SwapchainKHR
+	- vk::SwapchainKHR
+- createImageView
+	- vk::ImageViewCreateInfo
