@@ -69,6 +69,7 @@ mindmap-plugin: basic
 		- setImage
 			- vk::Image
 		- setFormat
+			- vk::SurfaceFormatKHR
 		- setViewType
 			- vk::ImageViewType::e2D
 		- setSubresourceRange
@@ -79,3 +80,5 @@ mindmap-plugin: basic
 				- setLevelCount
 				- setAspectMask
 					- vk::ImageAspectFlagBits::eColor
+		- setComponents
+			- vk::ComponentMapping{}
