@@ -11,12 +11,14 @@
             "id": "e879237bd8f5a346",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "渲染/vulkan/Vulkan.md"
+                "file": "渲染/vulkan/图形API基础.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Vulkan"
+              "icon": "lucide-file",
+              "title": "图形API基础"
             }
           }
         ]
@@ -193,8 +195,9 @@
   },
   "active": "e879237bd8f5a346",
   "lastOpenFiles": [
-    "ProfilerLayer/DebugLayer Hook Functions.md",
+    "渲染/vulkan/Vulkan学习笔记.md",
     "渲染/vulkan/Vulkan.md",
+    "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘.md",
     "网址收藏.md",
@@ -224,7 +227,6 @@
     "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
     "VIM/VIM命令.md",
     "C++/标签分派.md",
-    "渲染/vulkan/Vulkan学习笔记.md",
     "渲染/QCom GPU Arch.md",
     "conflict-files-obsidian-git.md",
     "Android系统/图形Graphics/SurfaceFlinger.md",
