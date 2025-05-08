@@ -11,28 +11,17 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "备忘.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "ef65ec2b0689ecd6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "备忘"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,8 +193,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "ef65ec2b0689ecd6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "网址收藏.md",
     "Home.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
     "备忘.md",
@@ -214,7 +204,6 @@
     "渲染/vulkan/Vulkan学习笔记.md",
     "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-    "网址收藏.md",
     "VIM/Lvim配置文件.md",
     "2025-04-08.md",
     "OS",
