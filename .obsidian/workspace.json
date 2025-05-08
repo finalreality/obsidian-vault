@@ -11,12 +11,14 @@
             "id": "e879237bd8f5a346",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "渲染/vulkan/Vulkan.md"
+                "file": "OS/Ubuntu添加程序启动图标和其它配置修改.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Vulkan"
+              "icon": "lucide-file",
+              "title": "Ubuntu添加程序启动图标和其它配置修改"
             }
           }
         ]
@@ -193,12 +195,12 @@
   },
   "active": "e879237bd8f5a346",
   "lastOpenFiles": [
+    "备忘.md",
+    "渲染/vulkan/Vulkan.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/vulkan/Vulkan学习笔记.md",
-    "渲染/vulkan/Vulkan.md",
     "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-    "备忘.md",
     "网址收藏.md",
     "Home.md",
     "VIM/Lvim配置文件.md",
