@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f1999c0ae8888260",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "a705e6f727e03d4d",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "mindmapView",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -189,7 +191,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "a705e6f727e03d4d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "备忘-1.canvas",
     "备忘.md",
