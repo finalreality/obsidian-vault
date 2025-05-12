@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "备忘.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "备忘"
             }
           }
         ]
@@ -193,10 +195,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "备忘-1.canvas",
-    "备忘.md",
     "网址收藏.md",
     "Home.md",
+    "备忘-1.canvas",
+    "备忘.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
     "渲染/vulkan/Vulkan.md",
     "渲染/vulkan/图形API基础.md",
