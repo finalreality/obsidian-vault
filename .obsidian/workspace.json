@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/WSL（Windows Subsystem for Linux）入门.md",
+                "file": "备忘.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WSL（Windows Subsystem for Linux）入门"
+              "title": "备忘"
             }
           }
         ]
@@ -193,7 +193,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7e47e6e8b5812e2c",
+  "active": "7119c1aeb6ec9dab",
   "lastOpenFiles": [
     "OS/WSL（Windows Subsystem for Linux）入门.md",
     "备忘.md",
