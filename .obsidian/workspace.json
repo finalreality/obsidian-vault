@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "abeaa9d068ce6cd7",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "7119c1aeb6ec9dab",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "mindmapView",
               "state": {
-                "file": "渲染/vulkan/Vulkan.md"
+                "file": "Home.md"
               },
               "icon": "blocks",
-              "title": "Vulkan"
+              "title": "Home"
             }
           }
         ]
@@ -191,8 +191,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7119c1aeb6ec9dab",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "渲染/vulkan/Vulkan.md",
     "渲染/vulkan/Vulkan学习笔记.md",
     "备忘.md",
     "OS/WSL（Windows Subsystem for Linux）入门.md",
@@ -200,7 +201,6 @@
     "Home.md",
     "备忘-1.canvas",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
-    "渲染/vulkan/Vulkan.md",
     "渲染/vulkan/图形API基础.md",
     "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
