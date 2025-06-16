@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网址收藏.md",
+                "file": "ProfilerLayer/ProfilerLayer方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "网址收藏"
+              "title": "ProfilerLayer方案"
             }
           }
         ]
@@ -195,16 +195,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "ProfilerLayer/DebugLayer Hook Functions.md",
+    "ProfilerLayer/图形汇总.md",
+    "网址收藏.md",
     "Home.md",
     "渲染/vulkan/Vulkan.md",
     "渲染/vulkan/Vulkan学习笔记.md",
     "备忘.md",
     "OS/WSL（Windows Subsystem for Linux）入门.md",
-    "网址收藏.md",
     "备忘-1.canvas",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
     "渲染/vulkan/图形API基础.md",
-    "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "VIM/Lvim配置文件.md",
     "2025-04-08.md",
@@ -233,7 +234,6 @@
     "渲染/QCom GPU Arch.md",
     "conflict-files-obsidian-git.md",
     "Android系统/图形Graphics/SurfaceFlinger.md",
-    "渲染/引擎/filament/未命名.md",
     "Android系统/图形Graphics/attachments",
     "渲染/attachments",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
