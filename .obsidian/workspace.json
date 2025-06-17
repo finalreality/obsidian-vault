@@ -13,10 +13,10 @@
             "state": {
               "type": "mindmapView",
               "state": {
-                "file": "ProfilerLayer/DebugLayer Hook Functions.md"
+                "file": "渲染/vulkan/Vulkan.md"
               },
               "icon": "blocks",
-              "title": "DebugLayer Hook Functions"
+              "title": "Vulkan"
             }
           }
         ]
@@ -193,14 +193,14 @@
   },
   "active": "6044dad1e6460c24",
   "lastOpenFiles": [
+    "渲染/vulkan/Vulkan学习笔记.md",
+    "渲染/渲染.md",
+    "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/图形汇总.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘.md",
     "网址收藏.md",
     "ProfilerLayer/ProfilerLayer方案.md",
-    "ProfilerLayer/DebugLayer Hook Functions.md",
-    "渲染/渲染.md",
-    "渲染/vulkan/Vulkan学习笔记.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/vulkan/Vulkan.md",
     "Home.md",
