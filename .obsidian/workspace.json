@@ -11,11 +11,13 @@
             "id": "6044dad1e6460c24",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "渲染/vulkan/Vulkan.md"
+                "file": "渲染/vulkan/Vulkan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
+              "icon": "lucide-file",
               "title": "Vulkan"
             }
           }
