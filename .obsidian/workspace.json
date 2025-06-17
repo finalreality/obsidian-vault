@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "9141c2f597d3310a",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "6044dad1e6460c24",
             "type": "leaf",
             "state": {
               "type": "mindmapView",
@@ -72,8 +72,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,21 +191,22 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6044dad1e6460c24",
   "lastOpenFiles": [
+    "ProfilerLayer/图形汇总.md",
+    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+    "备忘.md",
+    "网址收藏.md",
     "ProfilerLayer/ProfilerLayer方案.md",
     "ProfilerLayer/DebugLayer Hook Functions.md",
-    "ProfilerLayer/图形汇总.md",
-    "网址收藏.md",
-    "Home.md",
-    "渲染/vulkan/Vulkan.md",
+    "渲染/渲染.md",
     "渲染/vulkan/Vulkan学习笔记.md",
-    "备忘.md",
+    "渲染/vulkan/图形API基础.md",
+    "渲染/vulkan/Vulkan.md",
+    "Home.md",
     "OS/WSL（Windows Subsystem for Linux）入门.md",
     "备忘-1.canvas",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
-    "渲染/vulkan/图形API基础.md",
-    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "VIM/Lvim配置文件.md",
     "2025-04-08.md",
     "OS",
@@ -232,7 +232,6 @@
     "VIM/VIM命令.md",
     "C++/标签分派.md",
     "渲染/QCom GPU Arch.md",
-    "conflict-files-obsidian-git.md",
     "Android系统/图形Graphics/attachments",
     "渲染/attachments",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
