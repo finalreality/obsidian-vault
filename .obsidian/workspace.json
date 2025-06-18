@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9141c2f597d3310a",
+        "id": "a54fec4491b7da0e",
         "type": "tabs",
         "children": [
           {
-            "id": "6044dad1e6460c24",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
-                "bFile": "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Drawing 2025-06-18 14.42.50.excalidraw"
-            }
-          },
-          {
-            "id": "aa48438821814c9d",
+            "id": "58986f0edcc34c77",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-06-18 14.49.13.excalidraw.md"
+                "file": "Excalidraw/TestClassDiagram.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-06-18 14.49.13.excalidraw"
+              "title": "TestClassDiagram"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,11 +191,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "aa48438821814c9d",
+  "active": "58986f0edcc34c77",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-06-18 14.49.13.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
+    "Excalidraw/TestClassDiagram.md",
     "ProfilerLayer/ProfilerLayer方案.md",
+    "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
     "Home.md",
     "网址收藏.md",
     "未命名.md",
