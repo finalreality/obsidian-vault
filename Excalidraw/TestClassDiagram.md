@@ -7,6 +7,31 @@ tags: [excalidraw]
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
 
+
+# aaa
+
+```.obsidian/workspace.json
+A       Android系统/图形Graphics/SurfaceFlinger.md
+A       ProfilerLayer/.obsidian/app.json
+A       ProfilerLayer/.obsidian/appearance.json
+A       ProfilerLayer/.obsidian/community-plugins.json
+A       ProfilerLayer/.obsidian/core-plugins.json
+A       ProfilerLayer/.obsidian/graph.json
+A       ProfilerLayer/.obsidian/themes/Blue Topaz/manifest.json
+A       ProfilerLayer/.obsidian/themes/Blue Topaz/theme.css
+A       ProfilerLayer/.obsidia
+.obsidian/workspace.json
+A       Android系统/图形Graphics/SurfaceFlinger.md
+A       ProfilerLayer/.obsidian/app.json
+A       ProfilerLayer/.obsidian/appearance.json
+A       ProfilerLayer/.obsidian/community-plugins.json
+A       ProfilerLayer/.obsidian/core-plugins.json
+A       ProfilerLayer/.obsidian/graph.json
+A       ProfilerLayer/.obsidian/themes/Blue Topaz/manifest.json
+A       ProfilerLayer/.obsidian/themes/Blue Topaz/theme.css
+A       ProfilerLayer/.obsidia
+```
+
 # Excalidraw Data
 
 ## Text Elements
@@ -154,14 +179,14 @@ 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
 
-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
+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
 
-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
+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
 
-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
+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
 
-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
+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
 
-h4wFYfupikBNhsQOqHhEH9yGEIAA
+m8w7sDyd5gzAcUL/TgDgPIHv9ZK7VOQjzAOdCAJkgSGvsxbtyYQYIDo9cvAkoDX1ye8iF4u1SwyBgcUOkDMfmy1BfU/oDo8YD6P3UxSZWw2OFvhAiD+5DCEAA===
 ```
 %%
