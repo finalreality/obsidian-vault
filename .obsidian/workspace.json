@@ -11,12 +11,14 @@
             "id": "6044dad1e6460c24",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "渲染/vulkan/Vulkan.md"
+                "file": "ProfilerLayer/ProfilerLayer方案.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Vulkan"
+              "icon": "lucide-file",
+              "title": "ProfilerLayer方案"
             }
           }
         ]
@@ -193,16 +195,16 @@
   },
   "active": "6044dad1e6460c24",
   "lastOpenFiles": [
-    "渲染/vulkan/Vulkan学习笔记.md",
-    "渲染/vulkan/Vulkan.md",
-    "渲染/渲染.md",
-    "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/图形汇总.md",
+    "ProfilerLayer/ProfilerLayer方案.md",
+    "ProfilerLayer/DebugLayer Hook Functions.md",
+    "渲染/vulkan/Vulkan.md",
+    "渲染/vulkan/图形API基础.md",
+    "渲染/vulkan/Vulkan学习笔记.md",
+    "渲染/渲染.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘.md",
     "网址收藏.md",
-    "ProfilerLayer/ProfilerLayer方案.md",
-    "渲染/vulkan/图形API基础.md",
     "Home.md",
     "OS/WSL（Windows Subsystem for Linux）入门.md",
     "备忘-1.canvas",
