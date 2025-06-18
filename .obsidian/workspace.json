@@ -11,17 +11,30 @@
             "id": "6044dad1e6460c24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "ProfilerLayer/ProfilerLayer方案.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
+                "bFile": "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "ProfilerLayer方案"
+              "icon": "diff",
+              "title": "Diff: Drawing 2025-06-18 14.42.50.excalidraw"
+            }
+          },
+          {
+            "id": "aa48438821814c9d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-06-18 14.49.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-06-18 14.49.13.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,10 +206,18 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "6044dad1e6460c24",
+  "active": "aa48438821814c9d",
   "lastOpenFiles": [
-    "ProfilerLayer/图形汇总.md",
+    "Excalidraw/Drawing 2025-06-18 14.49.13.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
     "ProfilerLayer/ProfilerLayer方案.md",
+    "Home.md",
+    "网址收藏.md",
+    "未命名.md",
+    "Excalidraw/Drawing 2025-06-18 14.40.28.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-18 14.41.28.excalidraw.md",
+    "Excalidraw",
+    "ProfilerLayer/图形汇总.md",
     "ProfilerLayer/DebugLayer Hook Functions.md",
     "渲染/vulkan/Vulkan.md",
     "渲染/vulkan/图形API基础.md",
@@ -204,8 +225,6 @@
     "渲染/渲染.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘.md",
-    "网址收藏.md",
-    "Home.md",
     "OS/WSL（Windows Subsystem for Linux）入门.md",
     "备忘-1.canvas",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
@@ -218,7 +237,6 @@
     "Android系统/Android的UI显示原理之Surface的创建.md",
     "Android系统/Input/十分钟了解Android触摸事件原理（InputManagerService）.md",
     "Android系统/Input/Input事件处理.md",
-    "Android系统/Input/如何使用Linux系统下的输入设备进行应用编程.md",
     "Android系统/Input/attachments/未命名-1.webp",
     "Android系统/Input/attachments/十分钟了解Android触摸事件原理（InputManagerService）-1.webp",
     "Android系统/Input/attachments/未命名-12.webp",
@@ -230,10 +248,6 @@
     "Android系统/Input/attachments/未命名-6.webp",
     "Android系统/Input/attachments/未命名-5.webp",
     "Android系统/Input/attachments",
-    "Android系统/图形Graphics/Android图形-合成与显示-SurfaceTestDemo.md",
-    "VIM/VIM命令.md",
-    "C++/标签分派.md",
-    "渲染/QCom GPU Arch.md",
     "Android系统/图形Graphics/attachments",
     "渲染/attachments",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
@@ -241,7 +255,6 @@
     "Android系统/未命名/attachments/VIM命令-8.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-7.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-6.gif.crdownload",
-    "Android系统/未命名/attachments/VIM命令-5.gif.crdownload",
     "First/未命名.canvas"
   ]
 }
