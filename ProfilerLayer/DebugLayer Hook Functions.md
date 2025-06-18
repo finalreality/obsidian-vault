@@ -2,7 +2,11 @@
 mindmap-plugin: basic
 ---
 
+<<<<<<< HEAD
 # Validation Layer
+=======
+# a
+>>>>>>> origin/master
 
 ## Instance
 - CreateInstance
