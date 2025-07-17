@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "d727c908268e9292",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "e0680f0dc897daef",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "excalidraw",
               "state": {
-                "file": "Home.md"
+                "file": "Excalidraw/TestClassDiagram.md"
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "excalidraw-icon",
+              "title": "TestClassDiagram"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First/Home.md",
+                "file": "渲染/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -174,16 +174,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:打开命令面板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
@@ -191,54 +191,55 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1e04809209be0b0c",
+  "active": "e0680f0dc897daef",
   "lastOpenFiles": [
-    "ProfilerLayer/未命名.md",
-    "VIM/VIM命令.md",
-    "VIM/attachments/VIM命令-1.gif",
-    "VIM/Lvim配置文件.md",
-    "渲染/引擎/Overload/代码分析.md",
-    "2025-06-18.md",
-    "渲染/引擎/Overload/ClassDiagram.excalidraw.md",
-    "Excalidraw/TestClassDiagram.md",
-    "ProfilerLayer/DebugLayer Hook Functions.md",
-    "conflict-files-obsidian-git.md",
-    "Home.md",
-    "渲染/引擎/Overload",
-    "渲染/vulkan/Vulkan.md",
-    "OS/WSL（Windows Subsystem for Linux）入门.md",
-    "Excalidraw",
-    "Ubuntu添加程序启动图标和其它配置修改.md",
-    "2025-04-08.md",
-    "OS/Ubuntu添加程序启动图标和其它配置修改.md",
-    "OS",
-    "未命名看板.md",
     "网址收藏.md",
     "备忘.md",
-    "Android系统/Input/十分钟了解Android触摸事件原理（InputManagerService）.md",
+    "VIM/VIM命令.md",
+    "VIM/Lvim配置文件.md",
+    "渲染/GPU/移动端GPU的TB(D)R架构.md",
+    "渲染/vulkan/Vulkan学习笔记.md",
+    "渲染/vulkan/Vulkan.md",
+    "渲染/vulkan/图形API基础.md",
+    "ProfilerLayer/ProfilerLayer方案.md",
+    "ProfilerLayer/DebugLayer Hook Functions.md",
+    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
+    "ProfilerLayer/图形汇总.md",
+    "ProfilerLayer/未命名.md",
+    "渲染/引擎/Overload/代码分析.md",
+    "OS/WSL（Windows Subsystem for Linux）入门.md",
+    "OS/Ubuntu添加程序启动图标和其它配置修改.md",
+    "Excalidraw/TestClassDiagram.md",
+    "渲染/QCom GPU Arch.md",
+    "渲染/引擎/Overload/ClassDiagram.excalidraw.md",
+    "渲染/引擎/Overload",
+    "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
+    "Home.md",
+    "未命名.md",
+    "Excalidraw/Drawing 2025-06-18 14.40.28.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-18 14.41.28.excalidraw.md",
+    "Excalidraw",
+    "渲染/渲染.md",
+    "备忘-1.canvas",
+    "2025-04-08.md",
+    "OS",
+    "Android系统/Input/attachments/未命名-1.webp",
+    "Android系统/Input/attachments/十分钟了解Android触摸事件原理（InputManagerService）-1.webp",
+    "Android系统/Input/attachments/未命名-12.webp",
+    "Android系统/Input/attachments/未命名-11.webp",
+    "Android系统/Input/attachments/未命名-10.webp",
     "Android系统/Input/attachments/未命名-9.webp",
     "Android系统/Input/attachments/未命名-8.webp",
     "Android系统/Input/attachments/未命名-7.webp",
     "Android系统/Input/attachments/未命名-6.webp",
     "Android系统/Input/attachments/未命名-5.webp",
-    "Android系统/Input/attachments/未命名-4.webp",
-    "Android系统/Input/attachments/未命名-3.webp",
-    "Android系统/Input/attachments/未命名-2.webp",
-    "Android系统/Input/attachments/未命名-12.webp",
     "Android系统/Input/attachments",
-    "渲染/QCom GPU Arch.md",
-    "渲染/vulkan/Vulkan学习笔记.md",
-    "ProfilerLayer/图形汇总.md",
-    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-    "C++/标签分派.md",
-    "ProfilerLayer/ProfilerLayer方案.md",
-    "渲染/未命名.md",
-    "渲染/attachments",
-    "VIM/attachments",
-    "VIM",
     "Android系统/图形Graphics/attachments",
-    "C++",
-    "attachments",
+    "渲染/attachments",
+    "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
+    "Android系统/未命名/attachments/VIM命令-9.gif.crdownload",
+    "Android系统/未命名/attachments/VIM命令-8.gif.crdownload",
+    "Android系统/未命名/attachments/VIM命令-7.gif.crdownload",
     "First/未命名.canvas"
   ]
 }
