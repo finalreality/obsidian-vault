@@ -11,12 +11,14 @@
             "id": "e0680f0dc897daef",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/TestClassDiagram.md"
+                "file": "备忘.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "TestClassDiagram"
+              "icon": "lucide-file",
+              "title": "备忘"
             }
           }
         ]
@@ -193,6 +195,7 @@
   },
   "active": "e0680f0dc897daef",
   "lastOpenFiles": [
+    "Excalidraw/TestClassDiagram.md",
     "网址收藏.md",
     "备忘.md",
     "VIM/VIM命令.md",
@@ -209,7 +212,6 @@
     "渲染/引擎/Overload/代码分析.md",
     "OS/WSL（Windows Subsystem for Linux）入门.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
-    "Excalidraw/TestClassDiagram.md",
     "渲染/QCom GPU Arch.md",
     "渲染/引擎/Overload/ClassDiagram.excalidraw.md",
     "渲染/引擎/Overload",
