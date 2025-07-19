@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d727c908268e9292",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e0680f0dc897daef",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "ProfilerLayer/读取节点数据并生成TouchEvent.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md"
               },
-              "icon": "lucide-file",
-              "title": "读取节点数据并生成TouchEvent"
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -193,8 +191,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e0680f0dc897daef",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘.md",
     "Excalidraw/TestClassDiagram.md",
     "网址收藏.md",
@@ -206,7 +205,6 @@
     "渲染/vulkan/图形API基础.md",
     "ProfilerLayer/ProfilerLayer方案.md",
     "ProfilerLayer/DebugLayer Hook Functions.md",
-    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "ProfilerLayer/图形汇总.md",
     "ProfilerLayer/未命名.md",
     "渲染/引擎/Overload/代码分析.md",
