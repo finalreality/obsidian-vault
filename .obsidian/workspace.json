@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "d727c908268e9292",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "e0680f0dc897daef",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "备忘.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "备忘"
             }
           }
         ]
@@ -191,12 +193,12 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e0680f0dc897daef",
   "lastOpenFiles": [
+    "网址收藏.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘.md",
     "Excalidraw/TestClassDiagram.md",
-    "网址收藏.md",
     "VIM/VIM命令.md",
     "VIM/Lvim配置文件.md",
     "渲染/GPU/移动端GPU的TB(D)R架构.md",
