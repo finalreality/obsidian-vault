@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "李紫畅/**初中数学——绝对值与数轴专题测试卷**.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "**初中数学——绝对值与数轴专题测试卷**"
             }
           }
         ]
@@ -193,6 +195,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
+    "李紫畅/**初中数学——绝对值与数轴专题测试卷**.md",
+    "李紫畅",
     "备忘.md",
     "网址收藏.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
@@ -214,14 +219,12 @@
     "渲染/引擎/Overload/ClassDiagram.excalidraw.md",
     "渲染/引擎/Overload",
     "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
-    "Home.md",
     "未命名.md",
     "Excalidraw/Drawing 2025-06-18 14.40.28.excalidraw.md",
     "Excalidraw/Drawing 2025-06-18 14.41.28.excalidraw.md",
     "Excalidraw",
     "渲染/渲染.md",
     "备忘-1.canvas",
-    "2025-04-08.md",
     "OS",
     "Android系统/Input/attachments/未命名-1.webp",
     "Android系统/Input/attachments/十分钟了解Android触摸事件原理（InputManagerService）-1.webp",
@@ -239,7 +242,6 @@
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-9.gif.crdownload",
     "Android系统/未命名/attachments/VIM命令-8.gif.crdownload",
-    "Android系统/未命名/attachments/VIM命令-7.gif.crdownload",
     "First/未命名.canvas"
   ]
 }
