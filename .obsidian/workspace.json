@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "网址收藏.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "网址收藏"
             }
           }
         ]
@@ -194,8 +196,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Nvidia/环境构建.md",
     "Home.md",
+    "Nvidia/环境构建.md",
     "C++/标签分派.md",
     "Nvidia",
     "Excalidraw/TestClassDiagram.md",
