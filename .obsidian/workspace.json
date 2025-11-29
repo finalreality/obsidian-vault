@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "Clippings/Mac 合盖掉电（休眠掉电）解决方法.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "Mac 合盖掉电（休眠掉电）解决方法"
             }
           }
         ]
@@ -194,8 +196,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "网址收藏.md",
+    "attachments/Pasted image 20250301002926.png",
+    "Clippings/Mac 合盖掉电（休眠掉电）解决方法.md",
+    "Clippings",
     "Home.md",
+    "网址收藏.md",
     "Nvidia/环境构建.md",
     "C++/标签分派.md",
     "Nvidia",
@@ -221,8 +226,6 @@
     "渲染/QCom GPU Arch.md",
     "渲染/引擎/Overload/ClassDiagram.excalidraw.md",
     "渲染/引擎/Overload",
-    "Excalidraw/Drawing 2025-06-18 14.42.50.excalidraw.md",
-    "未命名.md",
     "Excalidraw",
     "备忘-1.canvas",
     "OS",
@@ -240,7 +243,6 @@
     "Android系统/图形Graphics/attachments",
     "渲染/attachments",
     "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
-    "Android系统/未命名/attachments/VIM命令-9.gif.crdownload",
     "First/未命名.canvas"
   ]
 }
