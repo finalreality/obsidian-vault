@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "a16e09b29ae3d4e1",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "b005233f34807450",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,10 +194,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "b005233f34807450",
   "lastOpenFiles": [
-    "attachments/Pasted image 20250301002926.png",
     "Clippings/Mac 合盖掉电（休眠掉电）解决方法.md",
+    "attachments/Pasted image 20250301002926.png",
     "Clippings",
     "Home.md",
     "网址收藏.md",
@@ -238,7 +238,6 @@
     "Android系统/Input/attachments/未命名-8.webp",
     "Android系统/Input/attachments/未命名-7.webp",
     "Android系统/Input/attachments/未命名-6.webp",
-    "Android系统/Input/attachments/未命名-5.webp",
     "Android系统/Input/attachments",
     "Android系统/图形Graphics/attachments",
     "渲染/attachments",
