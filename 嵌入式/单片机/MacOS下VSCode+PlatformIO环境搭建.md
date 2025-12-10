@@ -25,6 +25,58 @@ brew install sdcc
 pio init --board STC89C52RC
 ```
 然后再在vscode中重新打开工程即可。
+# 编写代码
+```C
+#include <8052.h>
+
+#define speaker P1_5
+
+void main(void)
+
+{ unsigned char p,m;
+
+unsigned char i=0;
+
+TMOD&=0x0f;
+
+TMOD|=0x01;
+
+TH0=0xd8;TL0=0xef;
+
+IE=0x82;
+
+play:
+
+while(1)
+
+{
+
+a: p=music_tab[i];
+
+if(p==0x00) { i=0, delayms(1000); goto play;}
+
+else
+
+{m=music_tab[i++], n=music_tab[i++];}
+
+TR0=1;
+
+while(n!=0) {
+
+Beep = !Beep;
+
+delay(m);
+
+}
+
+  
+
+TR0=0;
+
+}
+
+}
+```
 # 代码下载
 在使用stcgal下载hex过程中，始终会卡死在Wait cpu之前，通过手动命令来进行是可以的：
 ```
