@@ -235,4 +235,49 @@ upload_port = /dev/tty.usbserial-144120
 
 upload_flags = -b 115200 -m 8n1
 ```
-在单片机
+在单片机准备工作中，参考开发板厂家给的指导，接好线：
+![[MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6-1.png]]
+主要包括：
+1. 底板和stm32cpu板上RTS、DTR两个连线
+2. 3.3V选择跳线
+3. 串口选择跳线
+4. stm32cpu板上的BOOT1跳线
+# 测试
+在PC上装stm32flash
+```bash
+brew install stm32flash
+```
+
+运行测试：
+```bash
+/usr/local/Cellar/stm32flash/0.7/bin/stm32flash  /dev/tty.usbserial-144120
+```
+结果：
+```
+stm32flash 0.7
+
+http://stm32flash.sourceforge.net/
+
+Using Parser : Raw BINARY
+Size         : 2804
+Interface serial_posix: 115200 8E1
+Failed to init device, timeout.
+```
+参考下载文档中手动方式：
+先按下ISPK不松手，再按下RSTK
+```
+stm32flash 0.7
+
+http://stm32flash.sourceforge.net/
+
+Interface serial_posix: 57600 8E1
+Version      : 0x22
+Option 1     : 0x00
+Option 2     : 0x00
+Device ID    : 0x0410 (STM32F10xxx Medium-density)
+- RAM        : Up to 20KiB  (512b reserved by bootloader)
+- Flash      : Up to 128KiB (size first sector: 4x1024)
+- Option RAM : 16b
+- System RAM : 2KiB
+
+```
