@@ -397,3 +397,5 @@ upload_protocol = custom
 # 自定义烧录命令
 upload_command = /usr/local/bin/stcgal -P stc89 -p /dev/tty.usbserial-144120 -b 9600 -D .pio/build/STC89C52RC/firmware.hex
 ```
+# 参考
+https://blog.51cto.com/u_16213672/11472041
