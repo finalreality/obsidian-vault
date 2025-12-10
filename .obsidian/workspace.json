@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ffe069286d55c302",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e1c45ea639c17b0f",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md"
               },
-              "icon": "lucide-file",
-              "title": "MacOS下VSCode+PlatformIO环境搭建"
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -194,15 +192,15 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e1c45ea639c17b0f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-4.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-3.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-2.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-1.png",
     "嵌入式/单片机/attachments",
     "渲染/vulkan/图形API基础.md",
-    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建-1.base",
     "未命名看板 1.md",
     "Home.md",
@@ -242,7 +240,6 @@
     "Android系统/Input/attachments/未命名-12.webp",
     "Android系统/Input/attachments/未命名-11.webp",
     "Android系统/Input/attachments/未命名-10.webp",
-    "Android系统/Input/attachments/未命名-9.webp",
     "First/未命名.canvas"
   ]
 }

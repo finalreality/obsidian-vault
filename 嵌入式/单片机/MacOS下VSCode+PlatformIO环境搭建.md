@@ -18,4 +18,4 @@ brew install platformio
 ![[MacOS下VSCode+PlatformIO环境搭建-3.png]]
 我们Board选择和自己匹配的，我们这里选择STC89C52RC,点击Finish后，会进行相关配置，配置完成后：
 ![[MacOS下VSCode+PlatformIO环境搭建-4.png]]
-wo
+我们可以看到工作区中已经有了我们新建的工程，已经有了源文件目录，但里面没有任何文件，需要我们自己添加所需代码。
