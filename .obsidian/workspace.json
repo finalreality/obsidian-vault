@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "ffe069286d55c302",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "e1c45ea639c17b0f",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "MacOS下VSCode+PlatformIO环境搭建"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 475.5
   },
   "right": {
     "id": "7783969f6871f549",
@@ -192,12 +194,23 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e1c45ea639c17b0f",
   "lastOpenFiles": [
+    "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-1.png",
+    "嵌入式/单片机/attachments",
+    "渲染/vulkan/图形API基础.md",
+    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
+    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建-1.base",
+    "未命名看板 1.md",
+    "Home.md",
+    "2025-12-10.md",
+    "未命名看板.md",
+    "OS/Ubuntu添加程序启动图标和其它配置修改.md",
+    "嵌入式/单片机",
+    "嵌入式",
     "Clippings/Mac 合盖掉电（休眠掉电）解决方法.md",
     "attachments/Pasted image 20250301002926.png",
     "Clippings",
-    "Home.md",
     "网址收藏.md",
     "Nvidia/环境构建.md",
     "C++/标签分派.md",
@@ -213,16 +226,10 @@
     "渲染/GPU/移动端GPU的TB(D)R架构.md",
     "渲染/vulkan/Vulkan学习笔记.md",
     "渲染/vulkan/Vulkan.md",
-    "渲染/vulkan/图形API基础.md",
     "ProfilerLayer/ProfilerLayer方案.md",
     "ProfilerLayer/DebugLayer Hook Functions.md",
     "ProfilerLayer/图形汇总.md",
     "ProfilerLayer/未命名.md",
-    "渲染/引擎/Overload/代码分析.md",
-    "OS/WSL（Windows Subsystem for Linux）入门.md",
-    "OS/Ubuntu添加程序启动图标和其它配置修改.md",
-    "渲染/QCom GPU Arch.md",
-    "渲染/引擎/Overload/ClassDiagram.excalidraw.md",
     "渲染/引擎/Overload",
     "Excalidraw",
     "备忘-1.canvas",
@@ -236,10 +243,6 @@
     "Android系统/Input/attachments/未命名-8.webp",
     "Android系统/Input/attachments/未命名-7.webp",
     "Android系统/Input/attachments/未命名-6.webp",
-    "Android系统/Input/attachments",
-    "Android系统/图形Graphics/attachments",
-    "渲染/attachments",
-    "Android系统/未命名/attachments/VIM命令-10.gif.crdownload",
     "First/未命名.canvas"
   ]
 }
