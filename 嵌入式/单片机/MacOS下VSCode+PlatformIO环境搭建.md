@@ -5,9 +5,10 @@ https://code.visualstudio.com/Download
 ```
 ## 添加插件
 ![[MacOS下VSCode+PlatformIO环境搭建-1.png]]
-## 安装platformio core
+## 安装platformio core和sdcc
 ```
 brew install platformio
+brew install sdcc
 ```
 
 重新启动vscode后：
@@ -25,7 +26,11 @@ pio init --board STC89C52RC
 ```
 然后再在vscode中重新打开工程即可。
 # 代码下载
-在使用stcgal过程中
+在使用stcgal下载hex过程中，始终会卡死在Wait cpu之前，通过手动命令来进行是可以的：
+```
+stcgal -P stc89 -p /dev/tty.usbserial-144120 -b 9600 -D .pio/build/STC89C52RC/firmware.hex
+```
+于是重新设置预定义指令来实现：
 ```
 [env:STC89C52RC]
 
