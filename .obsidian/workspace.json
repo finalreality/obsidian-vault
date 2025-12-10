@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "MacOS下VSCode+PlatformIO环境搭建"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#代码下载",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,8 +195,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "fad8ea2326ba204c",
   "lastOpenFiles": [
+    "Home.md",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-4.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-3.png",
@@ -203,7 +207,6 @@
     "渲染/vulkan/图形API基础.md",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建-1.base",
     "未命名看板 1.md",
-    "Home.md",
     "2025-12-10.md",
     "未命名看板.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
