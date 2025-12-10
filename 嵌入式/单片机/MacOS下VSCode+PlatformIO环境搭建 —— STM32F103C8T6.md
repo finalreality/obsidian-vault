@@ -198,6 +198,7 @@ while (1)
 ```
 代码中将PB口全部输出低电平。
 # 代码下载
+## 工程配置
 ```bash
 ; PlatformIO Project Configuration File
 
@@ -235,6 +236,8 @@ upload_port = /dev/tty.usbserial-144120
 
 upload_flags = -b 115200 -m 8n1
 ```
+
+## 注意事项
 在单片机准备工作中，参考开发板厂家给的指导，接好线：
 ![[MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6-1.png]]
 主要包括：
@@ -253,7 +256,7 @@ brew install stm32flash
 /usr/local/Cellar/stm32flash/0.7/bin/stm32flash  /dev/tty.usbserial-144120
 ```
 结果：
-```
+```bash
 stm32flash 0.7
 
 http://stm32flash.sourceforge.net/
@@ -264,8 +267,9 @@ Interface serial_posix: 115200 8E1
 Failed to init device, timeout.
 ```
 参考下载文档中手动方式：
-先按下ISPK不松手，再按下RSTK
-```
+先按下ISPK不松手，再按下RSTK，然后再依次松开RSTK，松开ISPK，然后再运行指令，结果：
+```bash
+/usr/local/Cellar/stm32flash/0.7/bin/stm32flash  /dev/tty.usbserial-144120
 stm32flash 0.7
 
 http://stm32flash.sourceforge.net/
@@ -281,3 +285,32 @@ Device ID    : 0x0410 (STM32F10xxx Medium-density)
 - System RAM : 2KiB
 
 ```
+我们可以发现能够识别芯片，我们进入到工程目录手动下载：
+
+```bash
+$ cd ~/Documents/PlatformIO/Projects/STM32F103/.pio/build/genericSTM32F103C8
+$ stm32flash -b 115200 -w firmware.bin -v -g 0x0 /dev/tty.usbserial-144120
+
+stm32flash 0.7
+
+http://stm32flash.sourceforge.net/
+
+Using Parser : Raw BINARY
+Size         : 2804
+Interface serial_posix: 115200 8E1
+Version      : 0x22
+Option 1     : 0x00
+Option 2     : 0x00
+Device ID    : 0x0410 (STM32F10xxx Medium-density)
+- RAM        : Up to 20KiB  (512b reserved by bootloader)
+- Flash      : Up to 128KiB (size first sector: 4x1024)
+- Option RAM : 16b
+- System RAM : 2KiB
+Write to memory
+Erasing memory
+Wrote and verified address 0x08000af4 (100.00%) Done.
+
+Starting execution at address 0x08000000... done.
+```
+我们看到，下载成功，回到VSCode，手动复位板子后，可以直接点击按钮下载成功：
+![[MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6-2.png]]
