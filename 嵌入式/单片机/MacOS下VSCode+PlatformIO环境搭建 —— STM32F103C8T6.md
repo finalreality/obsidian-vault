@@ -314,3 +314,5 @@ Starting execution at address 0x08000000... done.
 ```
 我们看到，下载成功，回到VSCode，手动复位板子后，可以直接点击按钮下载成功：
 ![[MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6-2.png]]
+# 参考：
+https://www.bilibili.com/video/BV1dw411t7wx/?spm_id_from=333.337.search-card.all.click
