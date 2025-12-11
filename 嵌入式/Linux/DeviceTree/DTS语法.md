@@ -27,29 +27,50 @@ reg = <0x02200000 0x4000
 如：
 ```bash
 node {
-	#address-cells = <1>; //只有一个地址
-	size-cells = <0>;
+	#address-cells = <1>; //只有一个地址字段
+	#size-cells = <0>; //没有长度字段
 	
 	node-child {
-		reg = <0>;
+		reg = <0>; //寄存器地址为0
 	};
 };
 
 node1 {
-	#address-cells = <1>;
-	#size-cells = <1>;
+	#address-cells = <1>; //一个地址字段
+	#size-cells = <1>; //一个长度字段
 	node1-child {
-		reg = <0x02200000 0x4000>;
+		reg = <0x02200000 0x4000>; //寄存器地址0x02200000 寄存器长度0x4000
 	};
 };
 
 node2 {
-	#address-cells = <2>;
-	#size-cells = <0>;
+	#address-cells = <2>; //2个地址字段
+	#size-cells = <0>; //没有长度字段
 	
 	node2-child {
-		reg = <0x00 0x01>;
+		reg = <0x00 0x01>; //两个都是地址信息
 	};
 };
 ```
 
+## model属性
+用来描述信息，通常为一个字符串，如设备名称，名字等
+如：
+```
+model = "vm8960-audio"；
+或
+model = "This is linux board"；
+```
+
+## status属性
+status属性与设备状态有关，是一个字符串值，有如下几个状态：
+
+---
+属性值 | 描述
+-------
+okay | 设备为可用状态
+
+
+```
+
+```
