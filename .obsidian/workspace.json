@@ -15,7 +15,8 @@
               "state": {
                 "file": "嵌入式/Linux/DeviceTree/DTS语法.md",
                 "mode": "source",
-                "source": false
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "DTS语法"
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#代码下载",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +75,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
