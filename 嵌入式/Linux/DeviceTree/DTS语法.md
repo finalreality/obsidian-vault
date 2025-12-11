@@ -1,4 +1,4 @@
-
+## 
 ```
 格式： [标签]:<名称>[@<设备地址>]
 ```
@@ -6,3 +6,20 @@
 ```
 uart: serial@02288000
 ```
+
+reg属性
+用来描述地址信息，如寄存器地址等
+```
+格式： reg = <address1 length1 address2 length2 address3 length3 ... ...>
+```
+
+如：
+```
+reg = <0x02200000 0x4000>
+或
+reg = <0x02200000 0x4000
+		0x02205000 0x4000
+		>;
+```
+
+address-cell和size-cells属性
