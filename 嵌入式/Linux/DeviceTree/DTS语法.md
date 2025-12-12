@@ -77,7 +77,7 @@ status属性与设备状态有关，是一个字符串值，有如下几个状�
 /{
 	model = "This is my device";
 	
-	led: gpio@0x022010100 {
+	led: gpio@0x02201010 {
 		status = "okay";
 	};
 };
@@ -101,14 +101,30 @@ aliases {
 	serial0 = "/sample@fe000000/serial@11c500"
 };
 ```
+## 特殊节点chosen
+用来从uboot传递参数给内核，重点是bootagrs参数，必须为根节点的子节点
+```bash
+chosen {
+	bootargs = "root=/dev/nfs rw nfsroot=192.168.1.1 console=ttyUSB0,115200";
+};
+```
 完整例子：
 ```bash
 /dts-v1/;
 /{
 	model = "This is my device";
 	
+	chosen {
+		bootargs = "root=/dev/nfs rw nfsroot=192.168.1.1 console=ttyUSB0,115200";
+	};
+
+	//别名
 	aliases {
-		led0 = &led; //反编译后，会被替换为：
+		led0 = &led; //反编译后，会被替换为：led0 = "gpio@0x02201010"
+		
+		nd1 = "/node1";
+		nd11 = "/node1/node1"; //根节点下的node1下的node1节点
+		nd2 = "/node2";
 	};
 	
 	//下面两个属性影响子节点led的reg属性
@@ -131,7 +147,7 @@ aliases {
 		};
 	};
 	
-	led: gpio@0x022010100 {
+	led: gpio@0x02201010 {
 		compatible = "led-myboard";
 		reg = <0x22000000 0x40>;
 		status = "okay";
