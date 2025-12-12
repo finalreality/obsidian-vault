@@ -91,12 +91,25 @@ compatible = "xunwei", "xunwei-board";
 ```
 
 ## 特殊节点aliases
-用来定义别名，以方面引用节点，也可以对节点添加特殊标签来命名别名（之前的**led:**）。
+用来定义别名，以方面引用节点，也可以对节点添加特殊标签来命名别名（例如之前的**led:**）。如：
+```bash
+aliases {
+	mmc0 = &sdmmc0;
+	mmc1 = &sdmmc1;
+	mmc2 = &sdhci;
+	
+	serial0 = "/sample@fe000000/serial@11c500"
+};
+```
 完整例子：
 ```bash
 /dts-v1/;
 /{
 	model = "This is my device";
+	
+	aliases {
+		led0 = &led; //反编译后，会被替换为：
+	};
 	
 	//下面两个属性影响子节点led的reg属性
 	#address-cells = <1>;
