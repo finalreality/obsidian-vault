@@ -11,14 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "嵌入式/Linux/DeviceTree/DTS语法-1.base",
-                "bFile": "嵌入式/Linux/DeviceTree/DTS语法-1.base",
-                "aRef": ""
+                "file": "嵌入式/Linux/DeviceTree/DTS语法.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: DTS语法-1.base"
+              "icon": "lucide-file",
+              "title": "DTS语法"
             }
           }
         ]

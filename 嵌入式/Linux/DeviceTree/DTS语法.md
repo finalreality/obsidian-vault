@@ -77,6 +77,26 @@ status属性与设备状态有关，是一个字符串值，有如下几个状�
 /{
 	model = "This is my device";
 	
+	led: gpio@0x022010100 {
+		status = "okay";
+	};
+};
+```
+
+## compatible属性
+用来和驱动匹配的字段，非常重要，匹配成功后，会调用驱动的probe函数。匹配过程中使用第一个先匹配，没有匹配成功，则使用第二个。
+
+```
+compatible = "xunwei", "xunwei-board";
+```
+
+完整例子：
+```
+/dts-v1/;
+/{
+	model = "This is my device";
+	#address-cells = <1>;
+	#size-ce
 	node1 {
 		node1 {
 		
@@ -90,14 +110,7 @@ status属性与设备状态有关，是一个字符串值，有如下几个状�
 	};
 	
 	led: gpio@0x022010100 {
-	
+		status = "okay";
 	};
 };
-```
-
-## compatible属性
-用来和驱动匹配的字段，非常重要，匹配成功后，会调用驱动的probe函数。匹配过程中使用第一个先匹配，没有匹配成功，则使用第二个。
-
-```
-compatible = "xunwei", "xunwei-board";
 ```
