@@ -188,4 +188,4 @@ pinnum = <0 1 2 3 4 5>;
 ```
 
 ## 参考资料
-DeviceTree-Specification.pdf
+DeviceTree-Specification-v0.4.pdf

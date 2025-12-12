@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "嵌入式/Linux/DeviceTree/DTS语法.md",
-                "mode": "source",
-                "source": false
+                "file": "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf"
               },
-              "icon": "lucide-file",
-              "title": "DTS语法"
+              "icon": "lucide-file-text",
+              "title": "Devicetree-Specification-v0.4.pdf"
             }
           }
         ]
@@ -197,11 +195,12 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "嵌入式/Linux/DeviceTree/DTS语法.md",
+    "嵌入式/Linux/DeviceTree/DTS基础.md",
+    "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
+    "嵌入式/Linux/DeviceTree/attachments/DTS基础-1.png",
     "嵌入式/Linux/DeviceTree/DTS语法-1.base",
     "C++/标签分派.md",
     "ProfilerLayer/图形汇总.md",
-    "嵌入式/Linux/DeviceTree/DTS基础.md",
-    "嵌入式/Linux/DeviceTree/attachments/DTS基础-1.png",
     "嵌入式/Linux/DeviceTree/attachments",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6.md",
     "嵌入式/Linux/DeviceTree",
@@ -229,7 +228,6 @@
     "嵌入式",
     "Clippings/Mac 合盖掉电（休眠掉电）解决方法.md",
     "attachments/Pasted image 20250301002926.png",
-    "Clippings",
     "网址收藏.md",
     "Nvidia/环境构建.md",
     "Excalidraw/TestClassDiagram.md",
