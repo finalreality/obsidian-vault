@@ -1,4 +1,4 @@
-DTS在Arm中
+DTS在Arm中基于Platform总线来实现对PlatformDevice部分描述，并初始化设备，匹配驱动后进行驱动初始化。
 # 基本概念
 ```mermaid
 flowchart LR

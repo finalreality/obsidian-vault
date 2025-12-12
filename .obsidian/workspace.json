@@ -11,14 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "嵌入式/Linux/DeviceTree/DTS基础.md",
-                "mode": "source",
-                "source": false
+                "aFile": "嵌入式/Linux/DeviceTree/DTS语法-1.base",
+                "bFile": "嵌入式/Linux/DeviceTree/DTS语法-1.base",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "DTS基础"
+              "icon": "diff",
+              "title": "Diff: DTS语法-1.base"
             }
           }
         ]
@@ -196,8 +196,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "嵌入式/Linux/DeviceTree/DTS语法-1.base",
     "嵌入式/Linux/DeviceTree/DTS语法.md",
+    "嵌入式/Linux/DeviceTree/DTS语法-1.base",
+    "C++/标签分派.md",
+    "ProfilerLayer/图形汇总.md",
     "嵌入式/Linux/DeviceTree/DTS基础.md",
     "嵌入式/Linux/DeviceTree/attachments/DTS基础-1.png",
     "嵌入式/Linux/DeviceTree/attachments",
@@ -230,7 +232,6 @@
     "Clippings",
     "网址收藏.md",
     "Nvidia/环境构建.md",
-    "C++/标签分派.md",
     "Excalidraw/TestClassDiagram.md",
     "李紫畅/初中数学——绝对值与数轴进阶测试卷（B卷）.md",
     "李紫畅/初中数学——绝对值与数轴专题测试卷.md",
@@ -238,7 +239,6 @@
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "VIM/VIM命令.md",
     "VIM/Lvim配置文件.md",
-    "渲染/GPU/移动端GPU的TB(D)R架构.md",
     "备忘-1.canvas",
     "Android系统/Input/attachments/未命名-1.webp",
     "Android系统/Input/attachments/十分钟了解Android触摸事件原理（InputManagerService）-1.webp",
