@@ -90,16 +90,25 @@ status属性与设备状态有关，是一个字符串值，有如下几个状�
 compatible = "xunwei", "xunwei-board";
 ```
 
+## 特殊节点aliases
+用来定义别名，以方面引用节点，也可以对节点添加特殊标签来命名别名（之前的**led:**）。
 完整例子：
-```
+```bash
 /dts-v1/;
 /{
 	model = "This is my device";
+	
+	//下面两个属性影响子节点led的reg属性
 	#address-cells = <1>;
-	#size-ce
+	#size-cells = <1>;
+	
 	node1 {
+		//下面两个属性影响子节点node1的reg属性
+		#address-cells = <1>;
+		#size-cells = <0>;
+			
 		node1 {
-		
+			reg = <0x22006000>;
 		};
 	};
 	
@@ -110,6 +119,8 @@ compatible = "xunwei", "xunwei-board";
 	};
 	
 	led: gpio@0x022010100 {
+		compatible = "led-myboard";
+		reg = <0x22000000 0x40>;
 		status = "okay";
 	};
 };
