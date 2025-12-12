@@ -108,6 +108,26 @@ chosen {
 	bootargs = "root=/dev/nfs rw nfsroot=192.168.1.1 console=ttyUSB0,115200";
 };
 ```
+## device_type属性
+字符串值，只用来描述cpu节点和memory节点。
+```
+memory@30000000 {
+	device_type = "memory";
+	reg = <0x30000000 0x4000000>;
+};
+
+cpu0: cpu@0 {
+	device_type = "cpu";
+	compatible = "arm,cortex-a35", "arm,armv8";
+	reg = <0x0 0x1>;
+};
+```
+## 自定义属性
+设备树预定义属性不能满足要求时候，可以自定义属性。
+```
+pinnum = <0 1 2 3 4 5>;
+```
+## 总结
 完整例子：
 ```bash
 /dts-v1/;
@@ -143,7 +163,7 @@ chosen {
 	
 	node2 {
 		node-child {
-		
+			pinnum = <0 1 2 3 4 5>;
 		};
 	};
 	
@@ -152,5 +172,20 @@ chosen {
 		reg = <0x22000000 0x40>;
 		status = "okay";
 	};
+	
+	
+	memory@30000000 {
+		device_type = "memory";
+		reg = <0x30000000 0x4000000>;
+	};
+	
+	cpu0: cpu@0 {
+		device_type = "cpu";
+		compatible = "arm,cortex-a35", "arm,armv8";
+		reg = <0x0 0x1>;
+	};
 };
 ```
+
+## 参考资料
+DeviceTree-Specification.pdf
