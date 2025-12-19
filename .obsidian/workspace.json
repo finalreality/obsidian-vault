@@ -11,12 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "mindmapView",
               "state": {
-                "file": "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf"
+                "file": "Home.md"
               },
-              "icon": "lucide-file-text",
-              "title": "Devicetree-Specification-v0.4.pdf"
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -194,9 +194,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
     "嵌入式/Linux/DeviceTree/DTS语法.md",
     "嵌入式/Linux/DeviceTree/DTS基础.md",
-    "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
     "嵌入式/Linux/DeviceTree/attachments/DTS基础-1.png",
     "嵌入式/Linux/DeviceTree/DTS语法-1.base",
     "C++/标签分派.md",
