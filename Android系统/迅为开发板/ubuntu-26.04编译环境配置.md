@@ -44,5 +44,4 @@ cd /build/rk3576_android14/
 source build/envsetup.sh 
 lunch
 ./build.sh -UACKu && echo "编译完成时间: $(date '+%Y-%m-%d %H:%M:%S')"
-
 ```
