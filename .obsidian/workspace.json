@@ -15,7 +15,7 @@
               "state": {
                 "file": "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "ubuntu-26.04编译环境配置"
