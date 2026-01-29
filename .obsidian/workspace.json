@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "36ad7c0487b08c0f",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "cffc72d320937f0d",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
-              "state": {
-                "file": "Home.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "mindmapView"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -76,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5
+    "width": 200
   },
   "right": {
     "id": "7783969f6871f549",
@@ -165,8 +163,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -184,12 +182,22 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "7e47e6e8b5812e2c",
   "lastOpenFiles": [
+    "李紫畅/初中数学——绝对值与数轴专题测试卷.md",
+    "未命名.base",
+    "未命名看板 1.md",
     "Home.md",
+    "李紫畅/初中数学——绝对值与数轴进阶测试卷（B卷）.md",
+    "未命名看板.md",
     "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
     "嵌入式/Linux/DeviceTree/DTS语法.md",
     "嵌入式/Linux/DeviceTree/DTS基础.md",
@@ -208,16 +216,13 @@
     "Android系统/Android的UI显示原理之Surface的创建.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/vulkan/Vulkan.md",
-    "未命名.base",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-4.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-3.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-2.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-1.png",
     "嵌入式/单片机/attachments",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建-1.base",
-    "未命名看板 1.md",
     "2025-12-10.md",
-    "未命名看板.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
     "嵌入式/单片机",
     "嵌入式",
@@ -226,8 +231,6 @@
     "网址收藏.md",
     "Nvidia/环境构建.md",
     "Excalidraw/TestClassDiagram.md",
-    "李紫畅/初中数学——绝对值与数轴进阶测试卷（B卷）.md",
-    "李紫畅/初中数学——绝对值与数轴专题测试卷.md",
     "备忘.md",
     "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "VIM/VIM命令.md",
