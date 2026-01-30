@@ -12,7 +12,7 @@ sudo swapon /swap.img
 ```
 安装依赖：
 ```bash
-sudo apt install -y build-essential openjdk-8-jdk git-core gnupg flex bison gperf libxml2-utils   xz-utils zip curl zlib1g-dev g++-multilib lib32z-dev libsdl1.2-dev libncurses5-dev libssl-dev bc tofrodos python3 python3-pip python3-pexpect python3-git python3-subunit mesa-common-dev libxml2-dev   libxml2-utils bzip2 libbz2-dev squashfs-tools pngcrush lz4 liblz4-dev liblz4-1 protobuf-compiler libprotoc-dev libprotobuf-dev samba autoconf bison flex gcc g++ git libprotobuf-dev libnl-route-3-dev libtool make pkg-config protobuf-compiler 
+sudo apt install -y build-essential openjdk-8-jdk git-core gnupg flex bison gperf libxml2-utils   xz-utils zip curl zlib1g-dev g++-multilib lib32z-dev libsdl1.2-dev libncurses5-dev libssl-dev bc tofrodos python3 python3-pip python3-pexpect python3-git python3-subunit mesa-common-dev libxml2-dev   libxml2-utils bzip2 libbz2-dev squashfs-tools pngcrush lz4 liblz4-dev liblz4-1 protobuf-compiler libprotoc-dev libprotobuf-dev samba autoconf bison flex gcc g++ git libprotobuf-dev libnl-route-3-dev libtool make pkg-config protobuf-compiler minicom google-android-platform-tools-installer
 ```
 Build sandboxing disabled due to nsjail error错误：
 ```

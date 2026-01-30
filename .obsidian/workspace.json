@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "ubuntu-26.04编译环境配置"
             }
           }
         ]
@@ -194,12 +196,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
     "Android系统/迅为开发板",
     "李紫畅/初中数学——绝对值与数轴专题测试卷.md",
     "未命名.base",
     "未命名看板 1.md",
-    "Home.md",
     "李紫畅/初中数学——绝对值与数轴进阶测试卷（B卷）.md",
     "未命名看板.md",
     "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
