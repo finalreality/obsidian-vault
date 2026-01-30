@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "dfb26c97a4f4294f",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "cc440160e83ac949",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "mindmapView",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -190,7 +192,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "cc440160e83ac949",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
     "Android系统/迅为开发板",
