@@ -11,17 +11,28 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md"
               },
-              "icon": "lucide-file",
-              "title": "ubuntu-26.04编译环境配置"
+              "icon": "blocks",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "5f9fcc26039e78f2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +191,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "command-palette:打开命令面板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -194,12 +205,12 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5f9fcc26039e78f2",
   "lastOpenFiles": [
-    "嵌入式/AltiumDesigner/Altium Designer 25 下载安装教程 + 激活教程 + 中文设置教程 + PCB 入门.md",
-    "嵌入式/AltiumDesigner",
     "Home.md",
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
+    "嵌入式/AltiumDesigner/Altium Designer 25 下载安装教程 + 激活教程 + 中文设置教程 + PCB 入门.md",
+    "嵌入式/AltiumDesigner",
     "Android系统/迅为开发板",
     "未命名看板.md",
     "未命名看板 1.md",
