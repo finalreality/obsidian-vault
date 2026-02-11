@@ -18,21 +18,8 @@
               "icon": "blocks",
               "title": "Home"
             }
-          },
-          {
-            "id": "5f9fcc26039e78f2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.5"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,7 +192,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "5f9fcc26039e78f2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Home.md",
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
