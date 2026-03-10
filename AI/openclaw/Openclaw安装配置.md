@@ -21,10 +21,12 @@ nvm alias default 24
 ```
 
 验证
+```
 node -v
 npm -v
 ```
-nvm install 24.14.0
+安装openclaw
+```
 npm install -g openclaw
 
 openclaw onboard --install-daemon
