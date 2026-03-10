@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "44d33efdc2531333",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "edc2f361c6b09360",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,10 +194,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "edc2f361c6b09360",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "AI/openclaw/Openclaw安装配置.md",
+    "conflict-files-obsidian-git.md",
     "AI/openclaw",
     "Home.md",
     "AI",
