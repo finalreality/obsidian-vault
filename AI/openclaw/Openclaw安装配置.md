@@ -43,3 +43,72 @@ Error: Rate limit exceeded
 ```bash
 clawhub login --token clh_0tH9uB7DXvSK008hMbQ6TUgDTa0UBimnBoyH9yv6nbQ
 ```
+
+安装tavily-search
+```
+clawhub install tavily-search
+```
+修改~/.openclaw/skills/tavily-search/SKILL.md,替换如下内容：
+```markdown
+---
+name: tavily-search
+description: Search the web in real-time using Tavily Search API, optimized for LLM consumption.
+requires:
+  env:
+    - TAVILY_API_KEY
+  bins:
+    - curl
+    - jq
+---
+
+# Tavily Web Search Skill
+
+When the user asks to search the web, find current information, or look up recent events, use the Tavily Search API.
+
+## Basic Search
+
+Write the request JSON to a temp file, then execute with curl:
+
+\`\`\`bash
+cat > /tmp/tavily_request.json << 'REQEOF'
+{
+  "query": "$QUERY",
+  "search_depth": "basic",
+  "max_results": 5,
+  "include_answer": true
+}
+REQEOF
+
+bash -c 'curl -s -X POST "https://api.tavily.com/search" \
+  --header "Content-Type: application/json" \
+  --header "Authorization: Bearer ${TAVILY_API_KEY}" \
+  -d @/tmp/tavily_request.json' | jq '.answer, .results[] | {title, url, content}'
+\`\`\`
+
+## Advanced Search (for deep research questions)
+
+Set `"search_depth": "advanced"` for comprehensive results. Note: advanced search uses 2 API credits per request.
+
+## Parameters Guide
+
+- **search_depth**: "basic" (fast, 1 credit) or "advanced" (thorough, 2 credits)
+- **max_results**: Number of results (default 5, max 20)
+- **include_answer**: Get an AI-generated summary answer
+- **include_domains**: Restrict to specific domains, e.g. ["arxiv.org"]
+- **exclude_domains**: Exclude specific domains
+- **topic**: "general" (default) or "news"
+- **days**: For news topic, limit to recent N days
+
+## Response Format
+
+The API returns JSON with:
+- `answer`: AI-generated summary answer to the query
+- `results`: Array of search results with `title`, `url`, `content`, `score`
+
+Always present the results clearly with source URLs for attribution.
+
+```
+重启
+```
+openclaw gateway restart
+```
