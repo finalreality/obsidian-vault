@@ -153,7 +153,20 @@ $ python3 install.py
 ![[Openclaw安装配置-4.png]]
 ![[Openclaw安装配置-5.png]]
  填入名称描述和选择图标后创建即可创建我们的应用：
- ![[Openclaw安装配置-6.png]]点击进入TestMyOpenclawBot,
+ ![[Openclaw安装配置-6.png]]点击进入TestMyOpenclawBot，然后就能找到我们的应用凭证的App ID和App Secret:
+ ![[Openclaw安装配置-7.png]]
+ Openclaw端配置：
+ ```
+ openclaw plugins install @openclaw/feishu
+ ```
+ 添加通道：
+```
+openclaw channels add
+```
+ 我们选中飞书:
+ ![[Openclaw安装配置-9.png]]
+ 输入我们刚刚的应用凭证的App Secret和App ID：
+ ![[Openclaw安装配置-12.png]]
  
  飞书端直接输入对话会出现：
  ![[Openclaw安装配置-1.png]]
