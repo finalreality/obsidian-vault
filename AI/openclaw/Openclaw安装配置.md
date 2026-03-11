@@ -144,3 +144,7 @@ if __name__ == "__main__":
 $ python3 install.py
 
 ```
+
+```
+openclaw pairing approve feishu T9ZJTQSM
+```
