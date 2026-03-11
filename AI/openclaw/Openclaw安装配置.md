@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install git curl build-essential -y
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 sudo apt-get install python3-pip
-sudo apt-get install nodejs
+sudo apt-get install nodejs jq curl
 ```
  安装 nvm
 ```bash
