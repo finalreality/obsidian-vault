@@ -140,7 +140,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-启动长链接：
+启动长链接（在配置完Openclaw端feishu后即可Ctrl+C结束掉）：
 ```
 $ python3 install.py
 ```
@@ -152,25 +152,61 @@ $ python3 install.py
 创建企业自建应用：
 ![[Openclaw安装配置-4.png]]
 ![[Openclaw安装配置-5.png]]
- 填入名称描述和选择图标后创建即可创建我们的应用：
- ![[Openclaw安装配置-6.png]]点击进入TestMyOpenclawBot，然后就能找到我们的应用凭证的App ID和App Secret:
+填入名称描述和选择图标后创建即可创建我们的应用：
+ ![[Openclaw安装配置-6.png]
+ 点击进入TestMyOpenclawBot，然后就能找到我们的应用凭证的App ID和App Secret:
  ![[Openclaw安装配置-7.png]]
- Openclaw端配置：
+Openclaw端配置：
  ```
  openclaw plugins install @openclaw/feishu
  ```
- 添加通道：
+添加通道：
 ```
 openclaw channels add
 ```
- 我们选中飞书:
+我们选中飞书:
  ![[Openclaw安装配置-9.png]]
- 输入我们刚刚的应用凭证的App Secret和App ID：
+输入我们刚刚的应用凭证的App Secret和App ID：
  ![[Openclaw安装配置-12.png]]
- 
- 飞书端直接输入对话会出现：
+一路下一步，再到Select a channel时直接退出即可：
+ ![[Openclaw安装配置-13.png]]
+最后，修改配置文件 ~/.openclaw/openclaw.json，加入如下配置：
+![[Openclaw安装配置-14.png]]
+```json
+"plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "feishu": {
+        "source": "npm",
+        "spec": "@openclaw/feishu",
+        "installPath": "/home/finalreality/.openclaw/extensions/feishu",
+        "version": "2026.3.7",
+        "resolvedName": "@openclaw/feishu",
+        "resolvedVersion": "2026.3.7",
+        "resolvedSpec": "@openclaw/feishu@2026.3.7",
+        "integrity": "sha512-CHPcL+WHYKYR2HJKRYsRtlXx/wbQRy5axltjjH9qXkR8ghxygDmOHZREjxyFEbjFJ3wnIuvgjLE7JYTg3nPpDA==",
+        "shasum": "c4b31dbe2ff0bc7034334873482ad18ac60a0767",
+        "resolvedAt": "2026-03-11T01:51:53.935Z",
+        "installedAt": "2026-03-11T01:51:56.824Z"
+      }
+    }
+  }
+```
+重启
+```
+openclaw gateway restart
+```
+这时，我们就可以结束长连接。
+登录飞书，在飞书端直接输入对话会出现：
  ![[Openclaw安装配置-1.png]]
- 我们在openclaw端审批下：
+我们在openclaw端审批下：
 ```
 openclaw pairing approve feishu T9ZJTQSM
 ```
