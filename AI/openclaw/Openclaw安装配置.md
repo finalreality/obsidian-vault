@@ -143,10 +143,19 @@ if __name__ == "__main__":
 启动长链接：
 ```
 $ python3 install.py
-
 ```
+配置飞书：
+登录[飞书开放平台](https://open.feishu.cn/?lang=zh-CN)
+进入开发者后台：
+![[Openclaw安装配置-3.png]]
 ![[Openclaw安装配置-2.png]]
-飞书端直接输入对话会出现：
+创建企业自建应用：
+![[Openclaw安装配置-4.png]]
+![[Openclaw安装配置-5.png]]
+ 填入名称描述和选择图标后创建即可创建我们的应用：
+ ![[Openclaw安装配置-6.png]]点击进入TestMyOpenclawBot,
+ 
+ 飞书端直接输入对话会出现：
  ![[Openclaw安装配置-1.png]]
  我们在openclaw端审批下：
 ```
