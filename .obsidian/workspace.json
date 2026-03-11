@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "44d33efdc2531333",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "edc2f361c6b09360",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "AI/openclaw/Openclaw安装配置.md",
-                "mode": "source",
-                "source": false
+                "file": "Home.md"
               },
-              "icon": "lucide-file",
-              "title": "Openclaw安装配置"
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 475.5
   },
   "right": {
     "id": "7783969f6871f549",
@@ -157,8 +155,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -176,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,22 +192,18 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "edc2f361c6b09360",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "AI/openclaw/Openclaw安装配置.md",
-    "conflict-files-obsidian-git.md",
     "AI/openclaw",
-    "Home.md",
     "AI",
-    "嵌入式/AltiumDesigner/Altium Designer 25 下载安装教程 + 激活教程 + 中文设置教程 + PCB 入门.md",
+    "Home.md",
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
+    "嵌入式/AltiumDesigner/Altium Designer 25 下载安装教程 + 激活教程 + 中文设置教程 + PCB 入门.md",
     "嵌入式/AltiumDesigner",
     "Android系统/迅为开发板",
-    "李紫畅/初中数学——绝对值与数轴专题测试卷.md",
-    "未命名.base",
-    "未命名看板 1.md",
-    "李紫畅/初中数学——绝对值与数轴进阶测试卷（B卷）.md",
     "未命名看板.md",
+    "未命名看板 1.md",
     "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
     "嵌入式/Linux/DeviceTree/DTS语法.md",
     "嵌入式/Linux/DeviceTree/DTS基础.md",
@@ -228,6 +222,7 @@
     "Android系统/Android的UI显示原理之Surface的创建.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/vulkan/Vulkan.md",
+    "未命名.base",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-4.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-3.png",
     "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-2.png",
@@ -239,7 +234,10 @@
     "网址收藏.md",
     "Nvidia/环境构建.md",
     "Excalidraw/TestClassDiagram.md",
+    "李紫畅/初中数学——绝对值与数轴进阶测试卷（B卷）.md",
+    "李紫畅/初中数学——绝对值与数轴专题测试卷.md",
     "备忘.md",
+    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘-1.canvas",
     "Android系统/Input/attachments/未命名-1.webp",
     "Android系统/Input/attachments/十分钟了解Android触摸事件原理（InputManagerService）-1.webp",
