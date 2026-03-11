@@ -152,3 +152,8 @@ $ python3 install.py
 ```
 openclaw pairing approve feishu T9ZJTQSM
 ```
+tavily-search找不到API_KEY问题：
+编辑.openclaw/workspace/.env文件，写入如下配置：
+```
+TAVILY_API_KEY=tvly-dev-XXXXXX-XXXzqLBbZdjWwyCMiI6qbtjkzwrsvKsXgGbopvpXXX
+```
