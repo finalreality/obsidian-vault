@@ -144,7 +144,10 @@ if __name__ == "__main__":
 $ python3 install.py
 
 ```
-
+![[Openclaw安装配置-2.png]]
+飞书端直接输入对话会出现：
+ ![[Openclaw安装配置-1.png]]
+ 我们在openclaw端审批下：
 ```
 openclaw pairing approve feishu T9ZJTQSM
 ```
