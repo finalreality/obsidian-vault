@@ -1,4 +1,4 @@
-安装
+## 安装依赖
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install git curl build-essential -y
@@ -27,7 +27,7 @@ nvm alias default 24
 node -v
 npm -v
 ```
-安装openclaw
+## 安装openclaw
 ```
 npm install -g openclaw
 
@@ -41,12 +41,12 @@ $ clawhub install weather
 ✖ Rate limit exceeded
 Error: Rate limit exceeded
 ```
-
+需要登录clawhub：
 ```bash
 clawhub login --token clh_0tH9uB7DXvSK008hMbQ6TUgDTa0UBimnBoyH9yv6nbQ
 ```
 
-安装tavily-search
+## 安装tavily-search
 ```
 clawhub install tavily-search
 ```
@@ -114,7 +114,7 @@ Always present the results clearly with source URLs for attribution.
 ```
 openclaw gateway restart
 ```
-安装飞书
+## 安装飞书
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -156,7 +156,8 @@ $ python3 install.py
  ![[Openclaw安装配置-6.png]
  点击进入TestMyOpenclawBot，然后就能找到我们的应用凭证的App ID和App Secret:
  ![[Openclaw安装配置-7.png]]
-Openclaw端配置：
+
+## Openclaw端配置：
  ```
  openclaw plugins install @openclaw/feishu
  ```
@@ -214,4 +215,15 @@ tavily-search找不到API_KEY问题：
 编辑.openclaw/workspace/.env文件，写入如下配置：
 ```
 TAVILY_API_KEY=tvly-dev-XXXXXX-XXXzqLBbZdjWwyCMiI6qbtjkzwrsvKsXgGbopvpXXX
+```
+
+## 解决无法执行命令与操作问题
+要恢复OpenClaw的全部功能，需通过终端命令修改配置参数，将权限配置文件（.openclaw/openclaw.json）中的相关设置调整为完全开放模式。请依次执行以下命令：
+```bash
+#1. 设置工具配置文件为全权模式：  
+openclaw config set tools.profile full
+#2. 设置会话可见性为全部：  
+openclaw config set tools.sessions.visibility all
+#3. 重启网关以使配置生效：  
+openclaw gateway restart
 ```

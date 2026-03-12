@@ -4,24 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "892a7b93b6992cb8",
+        "id": "83bd6e93509b2bf6",
         "type": "tabs",
         "children": [
           {
-            "id": "8572f686c271fa6d",
+            "id": "6e6fc3ca26e11357",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "54094d9aba02133f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "AI/openclaw/Openclaw安装配置.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Openclaw安装配置"
+            }
+          },
+          {
+            "id": "7abcc8bdd0408e37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/openclaw/Openclaw安装配置.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Openclaw安装配置"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,10 +224,11 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "8572f686c271fa6d",
+  "active": "7abcc8bdd0408e37",
   "lastOpenFiles": [
-    "AI/openclaw/attachments/Openclaw安装配置-9.png",
     "conflict-files-obsidian-git.md",
+    "AI/openclaw/Openclaw安装配置.md",
+    "AI/openclaw/attachments/Openclaw安装配置-9.png",
     "AI/openclaw/attachments/Openclaw安装配置-1.png",
     "Home.md",
     "AI/openclaw/attachments/Openclaw安装配置-7.png",
@@ -209,7 +240,6 @@
     "AI/openclaw/attachments/Openclaw安装配置-14.png",
     "AI/openclaw/attachments/Openclaw安装配置-13.png",
     "AI/openclaw/attachments",
-    "AI/openclaw/Openclaw安装配置.md",
     "AI/openclaw",
     "AI",
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
