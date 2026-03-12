@@ -4,54 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "83bd6e93509b2bf6",
+        "id": "ef5b1c7cade8e608",
         "type": "tabs",
         "children": [
           {
-            "id": "6e6fc3ca26e11357",
+            "id": "fcf4a3775f62aaa5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "54094d9aba02133f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/openclaw/Openclaw安装配置.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Openclaw安装配置"
-            }
-          },
-          {
-            "id": "7abcc8bdd0408e37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/openclaw/Openclaw安装配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Openclaw安装配置"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,7 +190,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7abcc8bdd0408e37",
+  "active": "7e47e6e8b5812e2c",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "AI/openclaw/Openclaw安装配置.md",
