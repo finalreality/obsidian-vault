@@ -215,3 +215,13 @@ tavily-search找不到API_KEY问题：
 ```
 TAVILY_API_KEY=tvly-dev-XXXXXX-XXXzqLBbZdjWwyCMiI6qbtjkzwrsvKsXgGbopvpXXX
 ```
+## 解决无法执行命令与操作问题
+要恢复OpenClaw的全部功能，需通过终端命令修改配置参数，将权限配置文件（.openclaw/openclaw.json）中的相关设置调整为完全开放模式。请依次执行以下命令：
+```bash
+#1. 设置工具配置文件为全权模式：  
+openclaw config set tools.profile full
+#2. 设置会话可见性为全部：  
+openclaw config set tools.sessions.visibility all
+#3. 重启网关以使配置生效：  
+openclaw gateway restart
+```
