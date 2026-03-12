@@ -3,6 +3,8 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt install git curl build-essential -y
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+sudo apt-get install python3-pip
+sudo apt-get install nodejs jq curl
 ```
  安装 nvm
 ```bash
@@ -111,4 +113,105 @@ Always present the results clearly with source URLs for attribution.
 重启
 ```
 openclaw gateway restart
+```
+安装飞书
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install lark-oapi -U
+```
+install.py:
+```python
+import lark_oapi as lark
+## P2ImMessageReceiveV1 为接收消息 v2.0；CustomizedEvent 内的 message 为接收消息 v1.0。
+def do_p2_im_message_receive_v1(data: lark.im.v1.P2ImMessageReceiveV1) -> None:
+    print(f'[ do_p2_im_message_receive_v1 access ], data: {lark.JSON.marshal(data, indent=4)}')
+def do_message_event(data: lark.CustomizedEvent) -> None:
+    print(f'[ do_customized_event access ], type: message, data: {lark.JSON.marshal(data, indent=4)}')
+event_handler = lark.EventDispatcherHandler.builder("", "") \
+    .register_p2_im_message_receive_v1(do_p2_im_message_receive_v1) \
+    .register_p1_customized_event("out_approval", do_message_event) \
+    .build()
+def main():
+    cli = lark.ws.Client("cli_a93a79ce2af8dccb", "OLlSphUKOgwuuyHZtlaNjhi80m3hSjKK",
+                         event_handler=event_handler,
+                         log_level=lark.LogLevel.DEBUG)
+    cli.start()
+if __name__ == "__main__":
+    main()
+```
+启动长链接（在配置完Openclaw端feishu后即可Ctrl+C结束掉）：
+```
+$ python3 install.py
+```
+配置飞书：
+登录[飞书开放平台](https://open.feishu.cn/?lang=zh-CN)
+进入开发者后台：
+![[Openclaw安装配置-3.png]]
+![[Openclaw安装配置-2.png]]
+创建企业自建应用：
+![[Openclaw安装配置-4.png]]
+![[Openclaw安装配置-5.png]]
+填入名称描述和选择图标后创建即可创建我们的应用：
+ ![[Openclaw安装配置-6.png]
+ 点击进入TestMyOpenclawBot，然后就能找到我们的应用凭证的App ID和App Secret:
+ ![[Openclaw安装配置-7.png]]
+Openclaw端配置：
+ ```
+ openclaw plugins install @openclaw/feishu
+ ```
+添加通道：
+```
+openclaw channels add
+```
+我们选中飞书:
+ ![[Openclaw安装配置-9.png]]
+输入我们刚刚的应用凭证的App Secret和App ID：
+ ![[Openclaw安装配置-12.png]]
+一路下一步，再到Select a channel时直接退出即可：
+ ![[Openclaw安装配置-13.png]]
+最后，修改配置文件 ~/.openclaw/openclaw.json，加入如下配置：
+![[Openclaw安装配置-14.png]]
+```json
+"plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "feishu": {
+        "source": "npm",
+        "spec": "@openclaw/feishu",
+        "installPath": "/home/finalreality/.openclaw/extensions/feishu",
+        "version": "2026.3.7",
+        "resolvedName": "@openclaw/feishu",
+        "resolvedVersion": "2026.3.7",
+        "resolvedSpec": "@openclaw/feishu@2026.3.7",
+        "integrity": "sha512-CHPcL+WHYKYR2HJKRYsRtlXx/wbQRy5axltjjH9qXkR8ghxygDmOHZREjxyFEbjFJ3wnIuvgjLE7JYTg3nPpDA==",
+        "shasum": "c4b31dbe2ff0bc7034334873482ad18ac60a0767",
+        "resolvedAt": "2026-03-11T01:51:53.935Z",
+        "installedAt": "2026-03-11T01:51:56.824Z"
+      }
+    }
+  }
+```
+重启
+```
+openclaw gateway restart
+```
+这时，我们就可以结束长连接。
+登录飞书，在飞书端直接输入对话会出现：
+ ![[Openclaw安装配置-1.png]]
+我们在openclaw端审批下：
+```
+openclaw pairing approve feishu T9ZJTQSM
+```
+tavily-search找不到API_KEY问题：
+编辑.openclaw/workspace/.env文件，写入如下配置：
+```
+TAVILY_API_KEY=tvly-dev-XXXXXX-XXXzqLBbZdjWwyCMiI6qbtjkzwrsvKsXgGbopvpXXX
 ```

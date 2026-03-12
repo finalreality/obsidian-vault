@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "892a7b93b6992cb8",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "8572f686c271fa6d",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "AI/openclaw/Openclaw安装配置.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "Openclaw安装配置"
             }
           }
         ]
@@ -192,12 +194,24 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "8572f686c271fa6d",
   "lastOpenFiles": [
+    "AI/openclaw/attachments/Openclaw安装配置-9.png",
+    "conflict-files-obsidian-git.md",
+    "AI/openclaw/attachments/Openclaw安装配置-1.png",
+    "Home.md",
+    "AI/openclaw/attachments/Openclaw安装配置-7.png",
+    "AI/openclaw/attachments/Openclaw安装配置-6.png",
+    "AI/openclaw/attachments/Openclaw安装配置-5.png",
+    "AI/openclaw/attachments/Openclaw安装配置-4.png",
+    "AI/openclaw/attachments/Openclaw安装配置-3.png",
+    "AI/openclaw/attachments/Openclaw安装配置-2.png",
+    "AI/openclaw/attachments/Openclaw安装配置-14.png",
+    "AI/openclaw/attachments/Openclaw安装配置-13.png",
+    "AI/openclaw/attachments",
     "AI/openclaw/Openclaw安装配置.md",
     "AI/openclaw",
     "AI",
-    "Home.md",
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
     "嵌入式/AltiumDesigner/Altium Designer 25 下载安装教程 + 激活教程 + 中文设置教程 + PCB 入门.md",
     "嵌入式/AltiumDesigner",
@@ -207,7 +221,6 @@
     "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
     "嵌入式/Linux/DeviceTree/DTS语法.md",
     "嵌入式/Linux/DeviceTree/DTS基础.md",
-    "嵌入式/Linux/DeviceTree/attachments/DTS基础-1.png",
     "嵌入式/Linux/DeviceTree/DTS语法-1.base",
     "C++/标签分派.md",
     "ProfilerLayer/图形汇总.md",
@@ -215,32 +228,20 @@
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6.md",
     "嵌入式/Linux/DeviceTree",
     "嵌入式/Linux",
-    "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6-2.png",
-    "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6-1.png",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STC89C52RC.md",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
     "Android系统/Android的UI显示原理之Surface的创建.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/vulkan/Vulkan.md",
-    "未命名.base",
-    "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-4.png",
-    "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-3.png",
-    "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-2.png",
-    "嵌入式/单片机/attachments/MacOS下VSCode+PlatformIO环境搭建-1.png",
     "2025-12-10.md",
     "OS/Ubuntu添加程序启动图标和其它配置修改.md",
     "Clippings/Mac 合盖掉电（休眠掉电）解决方法.md",
-    "attachments/Pasted image 20250301002926.png",
     "网址收藏.md",
     "Nvidia/环境构建.md",
     "Excalidraw/TestClassDiagram.md",
     "李紫畅/初中数学——绝对值与数轴进阶测试卷（B卷）.md",
     "李紫畅/初中数学——绝对值与数轴专题测试卷.md",
-    "备忘.md",
-    "ProfilerLayer/读取节点数据并生成TouchEvent.md",
     "备忘-1.canvas",
-    "Android系统/Input/attachments/未命名-1.webp",
-    "Android系统/Input/attachments/十分钟了解Android触摸事件原理（InputManagerService）-1.webp",
     "First/未命名.canvas"
   ]
 }
