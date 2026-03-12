@@ -363,4 +363,4 @@ Overload编辑器的架构设计为现代游戏引擎编辑器提供了优秀的
 
 ---
 
-*下一篇预告：《Overload渲染管线技术详解》- 深入剖析Overload引擎的现代渲染架构和图形管线实现*
+*下一篇预告：[《Overload渲染管线技术详解》](obsidian://open?vault=obsidian-vault&file=AI%2Fblog%2FOverload%E6%B8%B2%E6%9F%93%E7%AE%A1%E7%BA%BF%E6%8A%80%E6%9C%AF%E8%AF%A6%E8%A7%A3)- 深入剖析Overload引擎的现代渲染架构和图形管线实现*

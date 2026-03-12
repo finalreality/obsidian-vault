@@ -11,10 +11,14 @@
             "id": "7a0409afb14ab5b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI/blog/Overload跨平台构建系统剖析.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Overload跨平台构建系统剖析"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 339.5
   },
   "right": {
     "id": "7783969f6871f549",
@@ -190,15 +194,16 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "1e04809209be0b0c",
+  "active": "7a0409afb14ab5b2",
   "lastOpenFiles": [
-    "AI/blog/未命名.base",
-    "Home.md",
-    "AI/blog/Overload编辑器架构设计深度解析-1.base",
-    "AI/blog/Overload编辑器架构设计深度解析.md",
-    "AI/blog/Overload ECS架构实现原理.md",
     "AI/blog/Overload渲染管线技术详解.md",
+    "AI/blog/Overload ECS架构实现原理.md",
+    "AI/blog/Overload跨平台构建系统剖析.md",
+    "AI/blog/Overload编辑器架构设计深度解析.md",
     "AI/blog/Overload引擎Core模块深度解析.md",
+    "AI/blog/未命名.base",
+    "AI/blog/Overload编辑器架构设计深度解析-1.base",
+    "Home.md",
     "AI/openclaw/Openclaw安装配置.md",
     "AI/blog",
     "AI/openclaw/attachments/Openclaw安装配置-14.png",
