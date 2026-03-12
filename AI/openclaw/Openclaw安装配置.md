@@ -1,4 +1,4 @@
-安装
+## 安装依赖
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install git curl build-essential -y
@@ -27,7 +27,7 @@ nvm alias default 24
 node -v
 npm -v
 ```
-安装openclaw
+## 安装openclaw
 ```
 npm install -g openclaw
 
@@ -41,12 +41,12 @@ $ clawhub install weather
 ✖ Rate limit exceeded
 Error: Rate limit exceeded
 ```
-
+需要登录clawhub：
 ```bash
 clawhub login --token clh_0tH9uB7DXvSK008hMbQ6TUgDTa0UBimnBoyH9yv6nbQ
 ```
 
-安装tavily-search
+## 安装tavily-search
 ```
 clawhub install tavily-search
 ```
@@ -114,7 +114,7 @@ Always present the results clearly with source URLs for attribution.
 ```
 openclaw gateway restart
 ```
-安装飞书
+## 安装飞书
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -156,7 +156,7 @@ $ python3 install.py
  ![[Openclaw安装配置-6.png]
  点击进入TestMyOpenclawBot，然后就能找到我们的应用凭证的App ID和App Secret:
  ![[Openclaw安装配置-7.png]]
-Openclaw端配置：
+## Openclaw端配置：
  ```
  openclaw plugins install @openclaw/feishu
  ```
