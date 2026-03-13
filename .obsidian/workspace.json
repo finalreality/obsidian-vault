@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "479f58812ddac3e6",
+        "id": "0b304ba42b26fc2e",
         "type": "tabs",
         "children": [
           {
-            "id": "8a36ba67a9fe175f",
+            "id": "f5125e67ddc667cf",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
