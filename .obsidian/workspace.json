@@ -11,10 +11,14 @@
             "id": "f5125e67ddc667cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式/单片机/蓝牙音箱方案.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "蓝牙音箱方案"
             }
           }
         ]
@@ -190,8 +194,9 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7e47e6e8b5812e2c",
+  "active": "f5125e67ddc667cf",
   "lastOpenFiles": [
+    "嵌入式/单片机/蓝牙音箱方案.md",
     "AI/blog/Overload跨平台构建系统剖析.md",
     "AI/blog/Overload渲染管线技术详解.md",
     "AI/blog/Overload引擎Core模块深度解析.md",
