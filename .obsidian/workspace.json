@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/openclaw/Openclaw安装配置.md",
-                "mode": "preview",
+                "file": "AI/openclaw/Openclaw设置.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Openclaw安装配置"
+              "title": "Openclaw设置"
             }
           }
         ]
@@ -194,8 +194,10 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7a0409afb14ab5b2",
+  "active": "1e04809209be0b0c",
   "lastOpenFiles": [
+    "AI/openclaw/Openclaw安装配置.md",
+    "AI/openclaw/Openclaw设置.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
     "AI/blog/Overload跨平台构建系统剖析.md",
     "AI/blog/Overload渲染管线技术详解.md",
@@ -205,7 +207,6 @@
     "AI/blog/未命名.base",
     "AI/blog/Overload编辑器架构设计深度解析-1.base",
     "Home.md",
-    "AI/openclaw/Openclaw安装配置.md",
     "AI/blog",
     "AI/openclaw/attachments/Openclaw安装配置-14.png",
     "AI/openclaw/attachments/Openclaw安装配置-13.png",
@@ -241,7 +242,6 @@
     "Android系统/Android的UI显示原理之Surface的创建.md",
     "渲染/vulkan/图形API基础.md",
     "渲染/vulkan/Vulkan.md",
-    "2025-12-10.md",
     "备忘-1.canvas",
     "First/未命名.canvas"
   ]
