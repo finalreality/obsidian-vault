@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0b304ba42b26fc2e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "f5125e67ddc667cf",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "HLD-600蓝牙音箱方案"
+              "title": "新标签页"
             }
           }
         ]
@@ -194,7 +190,7 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "f5125e67ddc667cf",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "AI/openclaw/Openclaw设置.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
