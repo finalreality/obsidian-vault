@@ -11,10 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "mindmapView",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "blocks",
+              "title": "Home"
             }
           }
         ]
@@ -192,8 +194,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "AI/openclaw/Openclaw安装配置.md",
     "Home.md",
+    "AI/openclaw/Openclaw安装配置.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
     "AI/openclaw/Openclaw设置.md",
     "AI/blog/Overload跨平台构建系统剖析.md",
