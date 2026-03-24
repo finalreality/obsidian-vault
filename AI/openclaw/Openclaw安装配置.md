@@ -45,7 +45,10 @@ Error: Rate limit exceeded
 ```bash
 clawhub login --token clh_0tH9uB7DXvSK008hMbQ6TUgDTa0UBimnBoyH9yv6nbQ
 ```
-
+##安装clawdhub
+```
+npx clawhub@latest install sonoscli
+```
 ## 安装tavily-search
 ```
 clawhub install tavily-search
