@@ -35,6 +35,10 @@ openclaw onboard --install-daemon
 echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
 openclaw gateway restart
 ```
+## 安装clawdhub
+```
+npm i -g clawhub
+```
 clawhub安装skills问题：
 ```bash
 $ clawhub install weather
@@ -44,10 +48,6 @@ Error: Rate limit exceeded
 需要登录clawhub：
 ```bash
 clawhub login --token clh_0tH9uB7DXvSK008hMbQ6TUgDTa0UBimnBoyH9yv6nbQ
-```
-##安装clawdhub
-```
-npx clawhub@latest install sonoscli
 ```
 ## 安装tavily-search
 ```
