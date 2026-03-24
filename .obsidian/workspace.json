@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/未命名.md",
+                "file": "AI/openclaw/Openclaw安装配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Openclaw安装配置"
             }
           }
         ]
@@ -196,10 +196,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "AI/未命名.md",
     "AI/attachments/Pasted image 20260324144611.png",
     "AI/attachments",
     "Home.md",
-    "AI/未命名.md",
     "AI/openclaw/Openclaw安装配置.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
     "AI/openclaw/Openclaw设置.md",
@@ -222,7 +222,6 @@
     "AI/openclaw/attachments/Openclaw安装配置-3.png",
     "AI/openclaw/attachments/Openclaw安装配置-2.png",
     "AI/openclaw/attachments/Openclaw安装配置-14.png",
-    "AI/openclaw/attachments/Openclaw安装配置-13.png",
     "AI/openclaw/attachments",
     "AI/openclaw",
     "AI",
