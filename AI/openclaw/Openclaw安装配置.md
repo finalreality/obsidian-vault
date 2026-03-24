@@ -230,6 +230,8 @@ openclaw config set tools.sessions.visibility all
 #3. 重启网关以使配置生效：  
 openclaw gateway restart
 ```
+## 安装Star-Office-UI
+
 ## 安装Flask
 ```bash
 sudo apt install python3-venv # 安装 venv 模块
