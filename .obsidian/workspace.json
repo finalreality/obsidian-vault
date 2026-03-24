@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "split-diff-view",
               "state": {
-                "file": "Home.md"
+                "aFile": "AI/未命名.md",
+                "bFile": "AI/未命名.md",
+                "aRef": ""
               },
-              "icon": "blocks",
-              "title": "Home"
+              "icon": "diff",
+              "title": "Diff: 未命名"
             }
           }
         ]
@@ -194,7 +196,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "AI/attachments/Pasted image 20260324144611.png",
     "Home.md",
+    "conflict-files-obsidian-git.md",
+    "嵌入式/Linux/Spi/spi-flow-diagram.md",
+    "嵌入式/Linux/Spi/spi-class-diagram.md",
+    "嵌入式/Linux/Spi/spi-architecture-diagram.md",
+    "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
+    "AI/未命名.md",
+    "嵌入式/Linux/Spi",
+    "AI/attachments",
     "AI/openclaw/Openclaw安装配置.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
     "AI/openclaw/Openclaw设置.md",
@@ -204,7 +215,6 @@
     "AI/blog/Overload ECS架构实现原理.md",
     "AI/blog/未命名.base",
     "网址收藏.md",
-    "conflict-files-obsidian-git.md",
     "AI/blog/Overload编辑器架构设计深度解析-2.base",
     "AI/blog/Overload编辑器架构设计深度解析.md",
     "AI/blog",
@@ -217,7 +227,6 @@
     "AI/openclaw/attachments/Openclaw安装配置-3.png",
     "AI/openclaw/attachments/Openclaw安装配置-2.png",
     "AI/openclaw/attachments/Openclaw安装配置-14.png",
-    "AI/openclaw/attachments/Openclaw安装配置-13.png",
     "AI/openclaw/attachments",
     "AI/openclaw",
     "AI",
@@ -227,19 +236,11 @@
     "Android系统/迅为开发板",
     "未命名看板.md",
     "未命名看板 1.md",
-    "嵌入式/Linux/DeviceTree/Devicetree-Specification-v0.4.pdf.pdf",
     "嵌入式/Linux/DeviceTree/DTS语法.md",
     "嵌入式/Linux/DeviceTree/DTS基础.md",
-    "嵌入式/Linux/DeviceTree/DTS语法-1.base",
     "C++/标签分派.md",
     "ProfilerLayer/图形汇总.md",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6.md",
-    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STC89C52RC.md",
-    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建.md",
-    "Android系统/Android的UI显示原理之Surface的创建.md",
-    "渲染/vulkan/图形API基础.md",
-    "渲染/vulkan/Vulkan.md",
-    "2025-12-10.md",
     "备忘-1.canvas",
     "First/未命名.canvas"
   ]

@@ -35,6 +35,10 @@ openclaw onboard --install-daemon
 echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
 openclaw gateway restart
 ```
+## 安装clawdhub
+```
+npm i -g clawhub
+```
 clawhub安装skills问题：
 ```bash
 $ clawhub install weather
@@ -45,7 +49,6 @@ Error: Rate limit exceeded
 ```bash
 clawhub login --token clh_0tH9uB7DXvSK008hMbQ6TUgDTa0UBimnBoyH9yv6nbQ
 ```
-
 ## 安装tavily-search
 ```
 clawhub install tavily-search
@@ -226,4 +229,14 @@ openclaw config set tools.profile full
 openclaw config set tools.sessions.visibility all
 #3. 重启网关以使配置生效：  
 openclaw gateway restart
+```
+## 安装Star-Office-UI
+
+## 安装Flask
+```bash
+sudo apt install python3-venv # 安装 venv 模块
+mkdir flask_project && cd flask_project
+python3 -m venv venv # 创建虚拟环境
+source venv/bin/activate # 激活虚拟环境
+pip install Flask
 ```
