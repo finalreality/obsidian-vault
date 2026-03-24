@@ -230,3 +230,11 @@ openclaw config set tools.sessions.visibility all
 #3. 重启网关以使配置生效：  
 openclaw gateway restart
 ```
+## 安装Flask
+```bash
+sudo apt install python3-venv # 安装 venv 模块
+mkdir flask_project && cd flask_project
+python3 -m venv venv # 创建虚拟环境
+source venv/bin/activate # 激活虚拟环境
+pip install Flask
+```
