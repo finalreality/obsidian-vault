@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
+                "file": "嵌入式/Linux/Spi/01-architecture-overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux-spi-driver-framework"
+              "title": "01-architecture-overview"
             }
           }
         ]
@@ -196,13 +196,13 @@
   },
   "active": "af3707edf33c586d",
   "lastOpenFiles": [
+    "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi/01-architecture-overview.md",
+    "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
     "AI/openclaw/Openclaw安装配置.md",
     "AI/openclaw/Openclaw设置.md",
-    "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
     "嵌入式/Linux/Spi/spi-flow-diagram.md",
     "嵌入式/Linux/Spi/spi-class-diagram.md",
-    "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi",
     "AI/未命名.md",
     "AI/attachments/Pasted image 20260324144611.png",
