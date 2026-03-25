@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "285cb86c9fbd8ea3",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "af3707edf33c586d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "AI/未命名.md",
-                "bFile": "AI/未命名.md",
-                "aRef": ""
+                "file": "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 未命名"
+              "icon": "lucide-file",
+              "title": "linux-spi-driver-framework"
             }
           }
         ]
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,27 +194,28 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "af3707edf33c586d",
   "lastOpenFiles": [
-    "AI/attachments/Pasted image 20260324144611.png",
-    "Home.md",
-    "conflict-files-obsidian-git.md",
+    "嵌入式/Linux/Spi/01-architecture-overview.md",
+    "AI/openclaw/Openclaw安装配置.md",
+    "AI/openclaw/Openclaw设置.md",
+    "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
     "嵌入式/Linux/Spi/spi-flow-diagram.md",
     "嵌入式/Linux/Spi/spi-class-diagram.md",
     "嵌入式/Linux/Spi/spi-architecture-diagram.md",
-    "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
-    "AI/未命名.md",
     "嵌入式/Linux/Spi",
+    "AI/未命名.md",
+    "AI/attachments/Pasted image 20260324144611.png",
     "AI/attachments",
-    "AI/openclaw/Openclaw安装配置.md",
+    "Home.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
-    "AI/openclaw/Openclaw设置.md",
     "AI/blog/Overload跨平台构建系统剖析.md",
     "AI/blog/Overload渲染管线技术详解.md",
     "AI/blog/Overload引擎Core模块深度解析.md",
     "AI/blog/Overload ECS架构实现原理.md",
     "AI/blog/未命名.base",
     "网址收藏.md",
+    "conflict-files-obsidian-git.md",
     "AI/blog/Overload编辑器架构设计深度解析-2.base",
     "AI/blog/Overload编辑器架构设计深度解析.md",
     "AI/blog",
