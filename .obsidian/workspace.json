@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "285cb86c9fbd8ea3",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "af3707edf33c586d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "嵌入式/Linux/Spi/优化后/01-architecture-overview.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "icon": "lucide-file",
+              "title": "01-architecture-overview"
             }
           }
         ]
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,28 +194,31 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "af3707edf33c586d",
   "lastOpenFiles": [
+    "嵌入式/Linux/Spi/优化后/00-introduction.md",
+    "嵌入式/Linux/Spi/优化后/01-architecture-overview.md",
     "嵌入式/Linux/Spi/01-architecture-overview.md",
-    "AI/attachments/Pasted image 20260324144611.png",
-    "Home.md",
-    "conflict-files-obsidian-git.md",
-    "嵌入式/Linux/Spi/spi-flow-diagram.md",
-    "嵌入式/Linux/Spi/spi-class-diagram.md",
+    "嵌入式/Linux/Spi/优化后",
     "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
-    "AI/未命名.md",
-    "嵌入式/Linux/Spi",
-    "AI/attachments",
     "AI/openclaw/Openclaw安装配置.md",
-    "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
     "AI/openclaw/Openclaw设置.md",
+    "嵌入式/Linux/Spi/spi-flow-diagram.md",
+    "嵌入式/Linux/Spi/spi-class-diagram.md",
+    "嵌入式/Linux/Spi",
+    "AI/未命名.md",
+    "AI/attachments/Pasted image 20260324144611.png",
+    "AI/attachments",
+    "Home.md",
+    "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
     "AI/blog/Overload跨平台构建系统剖析.md",
     "AI/blog/Overload渲染管线技术详解.md",
     "AI/blog/Overload引擎Core模块深度解析.md",
     "AI/blog/Overload ECS架构实现原理.md",
     "AI/blog/未命名.base",
     "网址收藏.md",
+    "conflict-files-obsidian-git.md",
     "AI/blog/Overload编辑器架构设计深度解析-2.base",
     "AI/blog/Overload编辑器架构设计深度解析.md",
     "AI/blog",
@@ -234,14 +237,11 @@
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
     "嵌入式/AltiumDesigner/Altium Designer 25 下载安装教程 + 激活教程 + 中文设置教程 + PCB 入门.md",
     "嵌入式/AltiumDesigner",
-    "Android系统/迅为开发板",
     "未命名看板.md",
     "未命名看板 1.md",
     "嵌入式/Linux/DeviceTree/DTS语法.md",
     "嵌入式/Linux/DeviceTree/DTS基础.md",
     "C++/标签分派.md",
-    "ProfilerLayer/图形汇总.md",
-    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STM32F103C8T6.md",
     "备忘-1.canvas",
     "First/未命名.canvas"
   ]
