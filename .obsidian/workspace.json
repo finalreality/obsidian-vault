@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/Linux/Spi/优化后/01-architecture-overview.md",
-                "mode": "source",
+                "file": "嵌入式/Linux/Spi/优化后/03-data-structures.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-architecture-overview"
+              "title": "03-data-structures"
             }
           }
         ]
@@ -196,8 +196,11 @@
   },
   "active": "af3707edf33c586d",
   "lastOpenFiles": [
-    "嵌入式/Linux/Spi/优化后/00-introduction.md",
     "嵌入式/Linux/Spi/优化后/01-architecture-overview.md",
+    "嵌入式/Linux/Spi/优化后/03-data-structures.md",
+    "嵌入式/Linux/Spi/优化后/02-core-concepts.md",
+    "嵌入式/Linux/Spi/优化后/README.md",
+    "嵌入式/Linux/Spi/优化后/00-introduction.md",
     "嵌入式/Linux/Spi/01-architecture-overview.md",
     "嵌入式/Linux/Spi/优化后",
     "嵌入式/Linux/Spi/spi-architecture-diagram.md",
@@ -239,9 +242,6 @@
     "嵌入式/AltiumDesigner",
     "未命名看板.md",
     "未命名看板 1.md",
-    "嵌入式/Linux/DeviceTree/DTS语法.md",
-    "嵌入式/Linux/DeviceTree/DTS基础.md",
-    "C++/标签分派.md",
     "备忘-1.canvas",
     "First/未命名.canvas"
   ]
