@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "285cb86c9fbd8ea3",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "af3707edf33c586d",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "嵌入式/Linux/Spi/01-architecture-overview.md",
-                "mode": "source",
-                "source": false
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "01-architecture-overview"
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
             }
           }
         ]
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 250.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,28 +194,28 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "af3707edf33c586d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi/01-architecture-overview.md",
-    "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
-    "AI/openclaw/Openclaw安装配置.md",
-    "AI/openclaw/Openclaw设置.md",
+    "AI/attachments/Pasted image 20260324144611.png",
+    "Home.md",
+    "conflict-files-obsidian-git.md",
     "嵌入式/Linux/Spi/spi-flow-diagram.md",
     "嵌入式/Linux/Spi/spi-class-diagram.md",
-    "嵌入式/Linux/Spi",
+    "嵌入式/Linux/Spi/spi-architecture-diagram.md",
+    "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
     "AI/未命名.md",
-    "AI/attachments/Pasted image 20260324144611.png",
+    "嵌入式/Linux/Spi",
     "AI/attachments",
-    "Home.md",
+    "AI/openclaw/Openclaw安装配置.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
+    "AI/openclaw/Openclaw设置.md",
     "AI/blog/Overload跨平台构建系统剖析.md",
     "AI/blog/Overload渲染管线技术详解.md",
     "AI/blog/Overload引擎Core模块深度解析.md",
     "AI/blog/Overload ECS架构实现原理.md",
     "AI/blog/未命名.base",
     "网址收藏.md",
-    "conflict-files-obsidian-git.md",
     "AI/blog/Overload编辑器架构设计深度解析-2.base",
     "AI/blog/Overload编辑器架构设计深度解析.md",
     "AI/blog",
