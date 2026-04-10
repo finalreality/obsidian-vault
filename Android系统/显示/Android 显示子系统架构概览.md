@@ -12,7 +12,6 @@ Android 显示系统的本质是一个**生产者-消费者（Producer-Consumer�
 | **Application/Framework**            | `View`, `Surface`, `WindowManagerService` | 定义窗口、处理触摸事件、管理窗口布局。                             |
 | **Native Service**                   | `SurfaceFlinger`, `BufferQueue`           | **系统的核心**。负责合成所有图层（Layer），决定最终像素如何显示。           |
 | **HAL (Hardware Abstraction Layer)** | `HWC (Hardware Composer)`, `Gralloc`     | `HWC`负责硬件合成逻辑；`Gralloc` 负责内存分配（Graphic Buffer）。 |
-`Gralloc` 负责内存分配（Graphic Buffer）。|
 | **Kernel/Driver** | `DRM/KMS`, `Display Controller (DC)` | 驱动层，控制显示控制器，将合成后的像素流推向屏幕。|
 
 ## 2. 核心组件详解
