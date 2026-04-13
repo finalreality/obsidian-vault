@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "593cadeb98747195",
+        "id": "285cb86c9fbd8ea3",
         "type": "tabs",
         "children": [
           {
-            "id": "4e8de6190ff8ad1a",
+            "id": "af3707edf33c586d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Android系统/显示/核心机制模拟实现.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "核心机制模拟实现"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 200
   },
   "right": {
     "id": "7783969f6871f549",
@@ -172,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,39 +194,39 @@
       "obsidian-projects:打开项目": false
     }
   },
-  "active": "7e47e6e8b5812e2c",
+  "active": "af3707edf33c586d",
   "lastOpenFiles": [
-    "Android系统/显示/设计逻辑与 UML 建模.md",
-    "Android系统/显示/核心机制模拟实现.md",
     "Android系统/显示/Android 显示子系统架构概览.md",
+    "Android系统/显示/核心机制模拟实现.md",
+    "Android系统/显示/设计逻辑与 UML 建模.md",
+    "嵌入式/Linux/Spi/优化后/05-performance-optimization.md",
     "Android系统/显示",
+    "嵌入式/Linux/Spi/优化后/00-introduction.md",
     "嵌入式/Linux/Spi/优化后/README.md",
     "嵌入式/Linux/Spi/优化后/07-case-studies.md",
     "嵌入式/Linux/Spi/优化后/06-debugging-and-testing.md",
-    "嵌入式/Linux/Spi/优化后/05-performance-optimization.md",
     "嵌入式/Linux/Spi/优化后/04-driver-development.md",
     "嵌入式/Linux/Spi/优化后/03-data-structures.md",
     "嵌入式/Linux/Spi/优化后/02-core-concepts.md",
-    "conflict-files-obsidian-git.md",
     "嵌入式/Linux/Spi/优化后/01-architecture-overview.md",
-    "嵌入式/Linux/Spi/优化后/00-introduction.md",
-    "嵌入式/Linux/Spi/优化后",
+    "嵌入式/Linux/Spi/优化后/README 1.md",
+    "嵌入式/Linux/Spi/优化后/03-data-structures 1.md",
+    "嵌入式/Linux/Spi/优化后/02-core-concepts 1.md",
+    "嵌入式/Linux/Spi/优化后/01-architecture-overview 1.md",
+    "嵌入式/Linux/Spi/优化后/00-introduction 1.md",
     "嵌入式/Linux/Spi/01-architecture-overview.md",
-    "AI/attachments/Pasted image 20260324144611.png",
-    "Home.md",
-    "嵌入式/Linux/Spi/spi-flow-diagram.md",
-    "嵌入式/Linux/Spi/spi-class-diagram.md",
+    "嵌入式/Linux/Spi/优化后",
     "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
-    "AI/未命名.md",
-    "嵌入式/Linux/Spi",
-    "AI/attachments",
     "AI/openclaw/Openclaw安装配置.md",
-    "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
     "AI/openclaw/Openclaw设置.md",
-    "AI/blog/Overload跨平台构建系统剖析.md",
-    "AI/blog/Overload渲染管线技术详解.md",
-    "AI/blog/Overload引擎Core模块深度解析.md",
+    "嵌入式/Linux/Spi/spi-flow-diagram.md",
+    "嵌入式/Linux/Spi/spi-class-diagram.md",
+    "嵌入式/Linux/Spi",
+    "AI/未命名.md",
+    "AI/attachments/Pasted image 20260324144611.png",
+    "AI/attachments",
+    "Home.md",
     "AI/blog/未命名.base",
     "AI/blog/Overload编辑器架构设计深度解析-2.base",
     "AI/blog",
