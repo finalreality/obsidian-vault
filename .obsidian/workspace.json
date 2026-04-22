@@ -11,13 +11,11 @@
             "id": "5b3e88227381aa4d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "AI/crush/未命名思维导图.md",
-                "mode": "source",
-                "source": false
+                "file": "AI/crush/未命名思维导图.md"
               },
-              "icon": "lucide-file",
+              "icon": "blocks",
               "title": "未命名思维导图"
             }
           }
