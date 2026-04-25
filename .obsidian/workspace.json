@@ -13,10 +13,10 @@
             "state": {
               "type": "mindmapView",
               "state": {
-                "file": "Home.md"
+                "file": "AI/crush/心理测评系统开发.md"
               },
               "icon": "blocks",
-              "title": "Home"
+              "title": "心理测评系统开发"
             }
           }
         ]
@@ -194,9 +194,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
     "AI/crush/心理测评系统开发.md",
     "AI/crush/网站开发.md",
-    "Home.md",
     "AI/crush",
     "Android系统/显示/设计逻辑与 UML 建模.md",
     "Android系统/显示/核心机制模拟实现.md",
