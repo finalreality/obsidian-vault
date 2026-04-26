@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "AI/crush/心理测评系统开发.md"
+                "file": "AI/未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "心理测评系统开发"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ]
@@ -194,9 +196,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "AI/crush/心理测评系统开发.md",
     "Home.md",
     "AI/crush/网站开发.md",
-    "AI/crush/心理测评系统开发.md",
     "AI/crush",
     "VIM/Lvim配置文件.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
