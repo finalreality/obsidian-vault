@@ -1,4 +1,3 @@
-![[Pasted image 20260324144611.png]
 ## 安装crush
 ```
 npm install crush

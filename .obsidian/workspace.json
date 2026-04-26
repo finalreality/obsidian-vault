@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "AI/attachments/Pasted image 20260324144611.png"
+                "file": "AI/AI环境配置.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260324144611"
+              "icon": "lucide-file",
+              "title": "AI环境配置"
             }
           }
         ]
@@ -194,7 +196,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "AI/未命名.md",
+    "AI/attachments/Pasted image 20260324144611.png",
+    "AI/AI环境配置.md",
     "AI/crush/心理测评系统开发.md",
     "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
     "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STC89C52RC.md",
@@ -218,14 +221,12 @@
     "嵌入式/Linux/Spi/优化后/00-introduction.md",
     "嵌入式/Linux/Spi/优化后",
     "嵌入式/Linux/Spi/01-architecture-overview.md",
-    "AI/attachments/Pasted image 20260324144611.png",
     "嵌入式/Linux/Spi/spi-flow-diagram.md",
     "嵌入式/Linux/Spi/spi-class-diagram.md",
     "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
     "嵌入式/Linux/Spi",
     "AI/attachments",
-    "AI/openclaw/Openclaw安装配置.md",
     "AI/blog/未命名.base",
     "AI/blog/Overload编辑器架构设计深度解析-2.base",
     "AI/blog",
