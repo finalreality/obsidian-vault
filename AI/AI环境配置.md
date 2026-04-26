@@ -46,3 +46,4 @@ npm install crush
 ```bash
 npx chrome-devtools-mcp@latest
 ```
+
