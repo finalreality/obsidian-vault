@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "15ee75a822168f79",
+        "id": "76e1fb7b31442eb9",
         "type": "tabs",
         "children": [
           {
-            "id": "4e1a96bceca77709",
+            "id": "9d15cdae5c1964db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI/AI环境配置.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "AI环境配置"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 249.5
   },
   "right": {
     "id": "7783969f6871f549",
@@ -153,8 +157,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -172,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 250.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,19 +191,26 @@
       "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
       "obsidian-kanban:创建新看板": false,
-      "obsidian-projects:打开项目": false
+      "obsidian-projects:打开项目": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4e1a96bceca77709",
+  "active": "9d15cdae5c1964db",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "AI/AI环境配置.md",
-    "Home.md",
+    "AI/attachments/Pasted image 20260324144611.png",
     "AI/crush/心理测评系统开发.md",
-    "AI/未命名.md",
-    "AI/crush/网站开发.md",
-    "AI/crush",
-    "VIM/Lvim配置文件.md",
+    "Android系统/迅为开发板/ubuntu-26.04编译环境配置.md",
+    "嵌入式/单片机/MacOS下VSCode+PlatformIO环境搭建 —— STC89C52RC.md",
     "嵌入式/单片机/HLD-600蓝牙音箱方案.md",
+    "AI/crush/网站开发.md",
+    "Home.md",
+    "AI/crush",
+    "Android系统/显示/设计逻辑与 UML 建模.md",
+    "Android系统/显示/核心机制模拟实现.md",
+    "Android系统/显示/Android 显示子系统架构概览.md",
+    "Android系统/显示",
     "嵌入式/Linux/Spi/优化后/README.md",
     "嵌入式/Linux/Spi/优化后/07-case-studies.md",
     "嵌入式/Linux/Spi/优化后/06-debugging-and-testing.md",
@@ -210,19 +221,18 @@
     "嵌入式/Linux/Spi/优化后/01-architecture-overview.md",
     "嵌入式/Linux/Spi/优化后/00-introduction.md",
     "嵌入式/Linux/Spi/优化后",
+    "嵌入式/Linux/Spi/01-architecture-overview.md",
     "嵌入式/Linux/Spi/spi-flow-diagram.md",
     "嵌入式/Linux/Spi/spi-class-diagram.md",
     "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi/linux-spi-driver-framework.md",
-    "嵌入式/Linux/Spi/01-architecture-overview.md",
     "嵌入式/Linux/Spi",
-    "嵌入式/AltiumDesigner/Altium Designer 25 下载安装教程 + 激活教程 + 中文设置教程 + PCB 入门.md",
-    "嵌入式/AltiumDesigner",
-    "Android系统/显示/设计逻辑与 UML 建模.md",
-    "Android系统/显示/核心机制模拟实现.md",
-    "Android系统/显示/Android 显示子系统架构概览.md",
-    "Android系统/显示",
+    "AI/attachments",
+    "AI/blog/未命名.base",
+    "AI/blog/Overload编辑器架构设计深度解析-2.base",
+    "AI/blog",
     "AI/openclaw/attachments/Openclaw安装配置-9.png",
+    "AI/openclaw/attachments/Openclaw安装配置-1.png",
     "AI/openclaw/attachments/Openclaw安装配置-7.png",
     "AI/openclaw/attachments/Openclaw安装配置-6.png",
     "AI/openclaw/attachments/Openclaw安装配置-5.png",
@@ -230,14 +240,8 @@
     "AI/openclaw/attachments/Openclaw安装配置-3.png",
     "AI/openclaw/attachments/Openclaw安装配置-2.png",
     "AI/openclaw/attachments/Openclaw安装配置-14.png",
-    "AI/openclaw/attachments/Openclaw安装配置-13.png",
-    "AI/openclaw/attachments/Openclaw安装配置-12.png",
-    "AI/blog/Overload跨平台构建系统剖析.md",
     "AI/openclaw/attachments",
     "AI/openclaw",
-    "AI/blog",
-    "AI/attachments",
-    "AI",
     "备忘-1.canvas",
     "First/未命名.canvas"
   ]
