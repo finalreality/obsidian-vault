@@ -12,5 +12,7 @@
   "marker-api",
   "obsidian-paste-image-rename",
   "quickadd",
-  "mermaid-tools"
+  "mermaid-tools",
+  "agent-client",
+  "editing-toolbar"
 ]
