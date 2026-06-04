@@ -178,6 +178,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "agent-client:Open agent client": false,
       "bases:新建数据库": false,
       "command-palette:打开命令面板": false,
       "switcher:打开快速切换": false,
