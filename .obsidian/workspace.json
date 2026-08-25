@@ -170,6 +170,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "68b8082bc862bd85",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Agent client"
+            }
           }
         ],
         "currentTab": 5
@@ -196,7 +206,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "68b8082bc862bd85",
   "lastOpenFiles": [
     "Home.md",
     "AI/AI环境配置.md",
