@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "92ec33cb4e05ddfb",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "81e0869dbc28f576",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Home.md"
+                "file": "AI/使用 Git 工作树运行并行 Claude Code 会话.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "5c7ba638a2838d18",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.13.7"
+              "icon": "lucide-file",
+              "title": "使用 Git 工作树运行并行 Claude Code 会话"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,9 +208,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5c7ba638a2838d18",
+  "active": "7e47e6e8b5812e2c",
   "lastOpenFiles": [
     "Home.md",
+    "AI/使用 Git 工作树运行并行 Claude Code 会话.md",
+    "AI/未命名.md",
+    "未命名 1.md",
     "未命名.md",
     "AI/AI环境配置.md",
     "Clippings/微信小程序之 flex 布局最详细讲解 ！！！-腾讯云开发者社区-腾讯云.md",
@@ -248,9 +240,6 @@
     "嵌入式/Linux/Spi/优化后/00-introduction.md",
     "嵌入式/Linux/Spi/优化后",
     "嵌入式/Linux/Spi/01-architecture-overview.md",
-    "嵌入式/Linux/Spi/spi-flow-diagram.md",
-    "嵌入式/Linux/Spi/spi-class-diagram.md",
-    "嵌入式/Linux/Spi/spi-architecture-diagram.md",
     "嵌入式/Linux/Spi",
     "AI/attachments",
     "AI/blog/未命名.base",
